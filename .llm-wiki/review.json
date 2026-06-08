@@ -1,0 +1,661 @@
+[
+  {
+    "type": "missing-page",
+    "title": "美团技术团队实体页",
+    "description": "现有Wiki中索引了 `mei-tuan-ji-shu-tuan-dui`（美团技术团队），但未为其创建独立实体页。本次新来源确认其为文章发布公众号主体，与美团业务研发平台团队是不同实体。是否需要创建独立页面取决于该实体在Wiki中的重要性判断。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/entities/mei-tuan-ji-shu-tuan-dui.md"
+    ],
+    "searchQueries": [
+      "美团技术团队 公众号 AI实践",
+      "美团技术博客 agent评测系统",
+      "Meituan tech team AI coding practices"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-43",
+    "resolved": false,
+    "createdAt": 1780901484759
+  },
+  {
+    "type": "suggestion",
+    "title": "量化数据缺失与后续追踪",
+    "description": "文章未给出31万行重构的最终量化成果（缺陷率、交付速度、代码质量度量变化），这是显著的证据缺失。建议关注美团技术团队后续是否发布补充数据，或寻找其他团队的类似实践进行对比。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/queries/ai-coding-refactoring-metrics.md"
+    ],
+    "searchQueries": [
+      "AI coding大规模重构量化效果指标",
+      "31万行代码重构缺陷率交付速度",
+      "大模型辅助代码重构度量方法"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-44",
+    "resolved": false,
+    "createdAt": 1780901484759
+  },
+  {
+    "type": "suggestion",
+    "title": "AI Coding工具选型跨来源对比",
+    "description": "三篇来源分别涉及不同AI工具选型（OpenClaw使用Claude API、美团文章未明确工具、富城文章涉及企业级LLM），但均未深入讨论工具选型对方法论的影响。建议创建对比页分析不同AI Coding工具（Cursor/Copilot/Claude Code等）对约束策略的差异。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/comparisons/ai-coding-tool-selection.md"
+    ],
+    "searchQueries": [
+      "Cursor vs Copilot vs Claude Code企业级对比",
+      "AI coding工具选型约束策略",
+      "大模型代码生成工具企业落地对比2026"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-45",
+    "resolved": false,
+    "createdAt": 1780901484759
+  },
+  {
+    "type": "missing-page",
+    "title": "美团技术团队",
+    "description": "Wiki 索引中列有 `mei-tuan-ji-shu-tuan-dui` 实体，且多个新生成页面（来源页、美团业务研发平台团队页）均引用该实体，但本次未生成对应独立页面。作为文章发布公众号主体及美团内部技术布道渠道，值得记录其背景与发布历史。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/entities/mei-tuan-ji-shu-tuan-dui.md",
+      "wiki/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.md"
+    ],
+    "searchQueries": [
+      "美团技术团队 公众号 技术博客",
+      "美团技术团队 AI Coding 实践",
+      "Meituan tech blog AI engineering"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-46",
+    "resolved": true,
+    "createdAt": 1780901484759,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "duplicate",
+    "title": "渐进式重构 vs 零排期重构",
+    "description": "`jian-jin-shi-zhong-gou`（渐进式重构，Wiki已有）与 `ling-pai-qi-zhong-gou`（零排期重构，新生成）在源文中被明确描述为\"紧密关联\"，且核心内涵高度重叠——都是\"不申请专门重构时间，随业务迭代消化技术债\"。新生成的零排期重构页面甚至将\"与渐进式重构紧密关联\"写入标题关联。需用户判断是合并为同一页面（以副标题区分细微差异）还是保持独立但添加显式去重说明。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/concepts/jian-jin-shi-zhong-gou.md",
+      "wiki/concepts/ling-pai-qi-zhong-gou.md"
+    ],
+    "options": [
+      {
+        "label": "Merge Pages",
+        "action": "Merge Pages"
+      },
+      {
+        "label": "Keep Separate with Cross-Link",
+        "action": "Keep Separate with Cross-Link"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-47",
+    "resolved": true,
+    "createdAt": 1780901484759,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "OpenClaw与美团AI Coding工程实践对比",
+    "description": "Wiki 现有两篇重量级Agent工程实践来源：`从OpenClaw看Agent架构设计`（侧重Agent运行时架构的四大决策维度）和 `用Agent评测思路管理AI Coding`（侧重AI Coding场景下的约束方法论与重构SOP）。两者在多个概念上存在交叉引用（`always-ji-bie-ai-rule` ↔ `prompt-based-tool-injection`，`pre-pr-ji-zhi` ↔ `safety-iron-rule`，`bian-pai-lei-yu-neng-li-lei` ↔ `skill-as-knowledge-cache`），但缺乏系统性的横向对比页面。一篇对比页面可帮助读者理解不同场景下（Agent运行时 vs AI Coding工作流）的工程约束策略差异。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/comparisons/agent-architecture-vs-ai-coding-constraints.md",
+      "wiki/concepts/agent-architecture-design.md",
+      "wiki/concepts/ren-ren-dui-qi-ren-ji-dui-qi.md"
+    ],
+    "searchQueries": [
+      "OpenClaw agent architecture vs AI coding constraints comparison",
+      "Agent运行时架构 AI Coding工程约束 对比",
+      "vivo OpenClaw 美团 AI工程实践 异同"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-48",
+    "resolved": false,
+    "createdAt": 1780901484759
+  },
+  {
+    "type": "missing-page",
+    "title": "技术债",
+    "description": "`ji-shu-zhai`（技术债）在索引中列出，被 `zhuan-jia-jing-yan-ding-xiang-ai-fu-zhu-pai-cha`、`ai-you-hao-yan-fa-gui-fan`、`ling-pai-qi-zhong-gou`、`agent-ping-ce-xi-tong` 等多个页面频繁引用，但本次未生成独立页面。源文给出了具体分类（业务模型缺陷、DB查询性能隐患、状态管理债、索引债）和P0/P1分级体系，值得作为独立概念页面沉淀。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html",
+    "affectedPages": [
+      "wiki/concepts/ji-shu-zhai.md",
+      "wiki/concepts/zhuan-jia-jing-yan-ding-xiang-ai-fu-zhu-pai-cha.md",
+      "wiki/concepts/ai-you-hao-yan-fa-gui-fan.md"
+    ],
+    "searchQueries": [
+      "AI Coding 技术债 分类 P0 P1",
+      "技术债务 管理框架 渐进式重构",
+      "tech debt taxonomy AI-assisted triage"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-49",
+    "resolved": true,
+    "createdAt": 1780901484759,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "missing-page",
+    "title": "ReactAgent 与 perceive-think-act-loop 的关系澄清",
+    "description": "[[react-paradigm]] 中的 ReAct（Reasoning + Acting）循环与已有概念 [[perceive-think-act-loop|感知-思考-行动循环]] 在理念上高度相似，都强调持续推理而非单轮问答。但两者来源不同（前者来自 AgentScope 狼人杀，后者来自 OpenClaw 架构分析）。是否需要创建对比页面或统一页面？",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/什么我的狼人杀水平还不如AI.html",
+    "affectedPages": [
+      "wiki/concepts/react-paradigm.md",
+      "wiki/concepts/perceive-think-act-loop.md"
+    ],
+    "searchQueries": [
+      "ReAct agent paradigm vs perceive think act loop difference",
+      "reasoning acting agent loop comparison",
+      "multi-agent game loop design patterns"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-50",
+    "resolved": true,
+    "createdAt": 1780902364165,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "AgentScope 与 OpenClaw 架构横向对比",
+    "description": "AgentScope 的 MsgHub（频道隔离+广播控制）和 MultiAgentFormatter（消息标记+合并）可与 OpenClaw 的上下文管理策略（追加式/压缩/隔离）和工具加载策略（Prompt缓存/渐进式加载）进行深入对比。特别是两者在信息隔离、通信效率、缓存利用方面的不同选择值得系统化分析。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/什么我的狼人杀水平还不如AI.html",
+    "affectedPages": [
+      "wiki/concepts/msg-hub.md",
+      "wiki/concepts/append-only-context.md",
+      "wiki/concepts/prompt-cache-mechanism.md"
+    ],
+    "searchQueries": [
+      "AgentScope MsgHub vs OpenClaw context management multi-agent",
+      "multi-agent message broadcasting architecture comparison",
+      "agent framework information isolation patterns"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-51",
+    "resolved": false,
+    "createdAt": 1780902364165
+  },
+  {
+    "type": "suggestion",
+    "title": "多智能体博弈场景的 Prompt 工程深入研究",
+    "description": "文章中狼人的悍跳狼/深水狼双策略 Prompt 设计是一个有趣的切入点，涉及博弈论与 Prompt 工程的交叉。其他角色（预言家、女巫、猎人、村民）的 Prompt 策略细节未在文章中展开，值得进一步探索。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/什么我的狼人杀水平还不如AI.html",
+    "affectedPages": [
+      "wiki/concepts/role-specific-prompt-strategy.md"
+    ],
+    "searchQueries": [
+      "werewolf game AI agent prompt engineering strategy",
+      "multi-agent game theory prompt design LLM",
+      "social deduction game AI role playing prompt strategies"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-52",
+    "resolved": false,
+    "createdAt": 1780902364165
+  },
+  {
+    "type": "suggestion",
+    "title": "Specflow 与美团 AI Coding 治理方案的横向对比",
+    "description": "Specflow 的 Blocker Gate + 断点 Review 与美团的 always 级别 AI Rule + Pre-PR 预审 + 高阶模型审查低阶模型有着显著的方法论呼应。建议创建一个 Comparison 页面，系统对比两种 AI Coding 治理路径的异同：流程级门控 vs 代码级规则、单工具深度适配 vs 多工具通用方案、前端场景 vs 后端全栈场景等维度。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/concepts/blocker-gate.md",
+      "wiki/concepts/spec-driven-development.md"
+    ],
+    "searchQueries": [
+      "Specflow Cursor AI spec driven development",
+      "AI coding governance comparison Blocker Gate vs AI Rule",
+      "规格驱动开发 vs AI友好研发规范 对比"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-53",
+    "resolved": false,
+    "createdAt": 1780903191281
+  },
+  {
+    "type": "suggestion",
+    "title": "Specflow 缺乏量化数据",
+    "description": "Specflow 全文未提供任何量化提效数据（如开发效率提升百分比、返工率下降、Token 消耗变化等），仅在理念与方法论层面论证。建议关注爱奇艺技术产品团队的后续文章或社区讨论，寻找实际效果数据以验证其方法论的有效性。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/entities/specflow.md"
+    ],
+    "searchQueries": [
+      "Specflow 天玑前端团队 量化效果 提效数据",
+      "爱奇艺 AI coding 效率提升 实践效果",
+      "spec-driven development metrics ROI measurement"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-54",
+    "resolved": false,
+    "createdAt": 1780903191281
+  },
+  {
+    "type": "missing-page",
+    "title": "Specflow 2.0 Subagents 与 Agent Skills 概念页",
+    "description": "文章在\"未来规划\"章节提出了 Specflow 2.0 的两个核心演进方向——Subagents（角色原子化+上下文精准注入+自主验证闭环）和 Agent Skills（意图驱动流转+原子能力封装），但这些概念目前仅存在于 Specflow 实体页面中，缺乏独立的概念页面来与 OpenClaw 的 Skill 概念进行跨主题对比。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/entities/specflow.md"
+    ],
+    "searchQueries": [
+      "AI agent subagents role atomization",
+      "agent skills atomic capability encapsulation LLM",
+      "Specflow 2.0 subagents autonomous architecture"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-55",
+    "resolved": true,
+    "createdAt": 1780903191281,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "AI Coding 治理方案横向对比",
+    "description": "Wiki 现已积累三家独立企业的 AI Coding 治理实践：美团（AI Rule + always 级别 + Pre-PR）、马上消费（安全铁律 + 写操作强制授权）、爱奇艺天玑前端（Specflow + Blocker Gate + 断点 Review）。三者都在解决\"如何约束 AI 产出的确定性与安全性\"，但切入点不同（代码级规则 vs 流程级门控 vs 操作级授权）。建立一张横向对比页面，按\"约束层级\"\"阻断机制\"\"人机协同模式\"\"适用场景\"等维度结构化比较，将显著提升 Wiki 的综合分析深度。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/concepts/ai-you-hao-yan-fa-gui-fan.md",
+      "wiki/concepts/pre-pr-ji-zhi.md",
+      "wiki/concepts/blocker-gate.md",
+      "wiki/concepts/an-quan-tie-lv.md",
+      "wiki/concepts/yan-fa-fan-shi-qian-yi.md"
+    ],
+    "searchQueries": [
+      "AI Coding 治理方案对比 企业实践",
+      "Spec-Driven Development vs AI Rule 最佳实践",
+      "Cursor Rules spec-driven development gate mechanism comparison"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-56",
+    "resolved": false,
+    "createdAt": 1780903191281
+  },
+  {
+    "type": "missing-page",
+    "title": "Cursor Rules",
+    "description": "Specflow 文章明确将 Cursor Rules 定位为与 Specflow 互补的质量约束层（Specflow 管\"如何做\"，Cursor Rules 管\"做得好不好\"），且美团文章中的 always 级别 AI Rule 本质上是同类机制。作为 Wiki 中多次引用的关键概念，Cursor Rules 缺乏独立页面来阐释其机制（`.cursorrules` 文件格式、规则优先级、always/agent-requested/auto 分级等）及与其他治理方案的关联。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/entities/cursor.md",
+      "wiki/concepts/always-ji-bie-ai-rule.md",
+      "wiki/concepts/ai-you-hao-yan-fa-gui-fan.md"
+    ],
+    "searchQueries": [
+      "Cursor Rules .cursorrules 配置机制",
+      "Cursor IDE rules priority always auto agent",
+      "AI coding rules best practices cursor"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-57",
+    "resolved": true,
+    "createdAt": 1780903191281,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "社区 SDD 方案独立验证",
+    "description": "OpenSpec、GitHub Spec Kit、BMAD-METHOD 三个社区方案目前仅通过爱奇艺文章的批判性视角被引入 Wiki（该文章的目的是论证自研 Specflow 的必要性）。页面描述可能存在选择性呈现。建议对这三个方案进行独立调研，补充其完整设计理念、社区活跃度、实际用户反馈，以建立更客观的知识基础。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/entities/openspec.md",
+      "wiki/entities/github-spec-kit.md",
+      "wiki/entities/bmad-method.md"
+    ],
+    "searchQueries": [
+      "OpenSpec spec-driven development AI coding",
+      "GitHub Spec Kit constitution gating",
+      "BMAD-METHOD multi-agent framework AI development"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-58",
+    "resolved": false,
+    "createdAt": 1780903191281
+  },
+  {
+    "type": "suggestion",
+    "title": "AI Coding 量化效能研究",
+    "description": "当前 Wiki 中四篇企业实践文章均以方法论和架构设计为主，缺乏量化效能数据（开发效率提升百分比、返工率变化、AI 生成代码采纳率等）。这是一个系统性知识空白。建议调研行业公开的 AI Coding 效能度量框架和基准数据，为 Wiki 中的各家方案提供评估锚点。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/治愈CursorAI编程的幻觉用它就够了.html",
+    "affectedPages": [
+      "wiki/sources/治愈CursorAI编程的幻觉用它就够了.md",
+      "wiki/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.md"
+    ],
+    "searchQueries": [
+      "AI coding productivity metrics benchmark 2024 2025",
+      "LLM assisted development efficiency quantitative study",
+      "AI coding adoption rate developer productivity measurement"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-59",
+    "resolved": false,
+    "createdAt": 1780903191281
+  },
+  {
+    "type": "confirm",
+    "title": "Harness Engineering vs Specflow：同组织不同团队的AI编程方法论对比",
+    "description": "两个方法论同属爱奇艺技术产品团队公众号，分别由数据库团队（后端/全栈）和天玑前端团队（前端）提出。分析发现两者在plan.md/PLANS.md、Blocker Gate/review gate、SSOT单文档/多文件结构等维度存在高度重叠和互补关系，值得建立专门的对比页面。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/entities/harness-engineering.md",
+      "wiki/entities/specflow.md",
+      "wiki/concepts/cong-prompt-dao-harness.md"
+    ],
+    "searchQueries": [
+      "Harness Engineering vs Specflow AI coding methodology comparison",
+      "爱奇艺 数据库团队 天玑前端团队 方法论对比",
+      "AGENTS.md plan.md agent engineering framework"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-60",
+    "resolved": false,
+    "createdAt": 1780905058389
+  },
+  {
+    "type": "missing-page",
+    "title": "Prompt口头传统陷阱与Prompt脱离项目陷阱",
+    "description": "分析中反复引用了[[prompt-kou-tou-chuan-tong-xian-jie]]和[[prompt-tuo-li-xiang-mu-xian-jing]]两个概念，它们在现有Wiki索引中已被列出但尚未拥有独立概念页面。这两个概念是Harness Engineering理论论证的重要基础，与[[always-ji-bie-ai-rule]]和[[gui-fan-luo-di-ai-gong-ju-lian]]形成跨来源呼应。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/concepts/cong-prompt-dao-harness.md",
+      "wiki/concepts/ai-bian-cheng-huan-jue.md"
+    ],
+    "searchQueries": [
+      "prompt engineering limitations AI coding rework",
+      "AI编程 prompt 口头传统 知识集中化",
+      "prompt脱离项目 经验丢失 AI协作"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-61",
+    "resolved": true,
+    "createdAt": 1780905058389,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "missing-page",
+    "title": "OpenAI Harness Engineering 原始框架",
+    "description": "文章明确引用 OpenAI Harness Engineering 框架图作为方法论源头，且 Agent 三原则也源自 OpenAI（\"agent能看到什么、能调用什么，决定了它实际能完成什么\"）。当前 Wiki 缺少对 OpenAI 原始框架的独立记录，无法区分爱奇艺数据库团队的原创增量与 OpenAI 原始贡献，影响方法论溯源的完整性。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/entities/harness-engineering.md",
+      "wiki/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.md"
+    ],
+    "searchQueries": [
+      "OpenAI Harness Engineering framework official documentation",
+      "OpenAI harness engineering agent best practices",
+      "OpenAI codex harness template github"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-62",
+    "resolved": true,
+    "createdAt": 1780905058389,
+    "resolvedAction": "auto-resolved"
+  },
+  {
+    "type": "suggestion",
+    "title": "爱奇艺三套AI编程方法论对比（Harness Engineering vs Specflow vs AI友好研发规范）",
+    "description": "Wiki 已收录同一组织[[ai-qi-yi-ji-shu-chan-pin-tuan-dui]]下三个不同团队/维度的AI编程方法论：数据库团队的 Harness Engineering、天玑前端团队的 Specflow、以及[[ai-you-hao-yan-fa-gui-fan]]/[[ren-ren-dui-qi-ren-ji-dui-qi]]体系。当前各页面仅做双向关联，缺少系统化三方对比（覆盖层、重叠区、冲突点、融合路径），而 Wiki 索引中\"对比\"分类目前为空。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/entities/harness-engineering.md",
+      "wiki/entities/specflow.md",
+      "wiki/concepts/ai-you-hao-yan-fa-gui-fan.md",
+      "wiki/concepts/ren-ren-dui-qi-ren-ji-dui-qi.md"
+    ],
+    "searchQueries": [
+      "爱奇艺 AI编程 工程化方法 对比",
+      "Specflow vs Harness Engineering 差异",
+      "爱奇艺技术产品团队 AI协作规范汇总"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-63",
+    "resolved": false,
+    "createdAt": 1780905058389
+  },
+  {
+    "type": "suggestion",
+    "title": "AGENTS.md 与 plan.md 协议的跨方案一致性分析",
+    "description": "Harness Engineering 的 `AGENTS.md`（入口地图）和 `.agent/PLANS.md`（计划协议）与 Specflow 的 `plan.md`（SSOT单文档策略）在功能定位上高度重叠：都承担入口发现、结构冻结、边界定义、验证协议的职责。建议深入研究两套文件协议的字段级对齐情况，判断是否存在可统一为行业标准协议的可能性。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/concepts/ssot-dan-wen-dang-ce-lue.md",
+      "wiki/entities/harness-template.md",
+      "wiki/concepts/harness-san-jie-duan-luo-di-lu-jing.md"
+    ],
+    "searchQueries": [
+      "AGENTS.md specification AI agent project entry point",
+      "plan.md vs AGENTS.md AI coding protocol comparison",
+      "AI agent project file convention standard"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-64",
+    "resolved": false,
+    "createdAt": 1780905058389
+  },
+  {
+    "type": "contradiction",
+    "title": "\"Prompt 不够了\" 与 Wiki 已有 Prompt 工程化实践的张力",
+    "description": "文章核心论证路径是\"Prompt 局限性 → Harness 替代\"，但 Wiki 已收录的[[always-ji-bie-ai-rule]]（规则升级为强制约束）、[[prompt-based-tool-injection]]（工具描述注入 messages）、[[prompt-cache-mechanism]]（Prompt 缓存机制）等概念都是对 Prompt 能力边界的有效工程化扩展。需用户判断：Harness Engineering 是否应被视为对 Prompt 方法的**否定替代**，还是**上层封装**——这影响 Wiki 中两批概念页面的关系定位。",
+    "sourcePath": "/Users/kangjinghang/workspace/github/ai-llm-wiki/raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html",
+    "affectedPages": [
+      "wiki/concepts/cong-prompt-dao-harness.md",
+      "wiki/concepts/always-ji-bie-ai-rule.md",
+      "wiki/concepts/prompt-based-tool-injection.md",
+      "wiki/concepts/prompt-cache-mechanism.md"
+    ],
+    "searchQueries": [
+      "prompt engineering vs harness engineering comparison",
+      "AI coding prompt limitations engineering solutions",
+      "prompt engineering scaling limitations enterprise"
+    ],
+    "options": [
+      {
+        "label": "Create Page",
+        "action": "Create Page"
+      },
+      {
+        "label": "Skip",
+        "action": "Skip"
+      }
+    ],
+    "id": "review-65",
+    "resolved": false,
+    "createdAt": 1780905058389
+  }
+]

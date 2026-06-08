@@ -1,0 +1,621 @@
+{
+  "version": 1,
+  "updatedAt": 1780905059134,
+  "files": {
+    "purpose.md": {
+      "hash": "77546dadbea32fdcf671400051e18f56",
+      "size": 324,
+      "mtimeMs": 1780885158748
+    },
+    "raw/sources/NanobotOpenClaw轻量实现的底层原理解析.html": {
+      "hash": "5b10d6c7f3a8334fa025a56d8c58ae4c",
+      "size": 486847,
+      "mtimeMs": 1780889886573
+    },
+    "raw/sources/OpenClaw落地到生产实际应用的一种可能的路径.html": {
+      "hash": "bce5cdc7e65cf526274f541b926a6a61",
+      "size": 330342,
+      "mtimeMs": 1780897700967
+    },
+    "raw/sources/什么我的狼人杀水平还不如AI.html": {
+      "hash": "93701eac9bda35b83c198d148de19059",
+      "size": 471541,
+      "mtimeMs": 1780900875978
+    },
+    "raw/sources/从OpenClaw看Agent架构设计.html": {
+      "hash": "4dbfe83f725eb90af4d7f1d5e28a7074",
+      "size": 401161,
+      "mtimeMs": 1780897090267
+    },
+    "raw/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.html": {
+      "hash": "a7d0e6f26522c9e51b37eb922f8ed6f0",
+      "size": 1176495,
+      "mtimeMs": 1780900995838
+    },
+    "raw/sources/治愈CursorAI编程的幻觉用它就够了.html": {
+      "hash": "679edd6b73f050c62a61a205fcb73faf",
+      "size": 435935,
+      "mtimeMs": 1780900926539
+    },
+    "raw/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.html": {
+      "hash": "1ee2ef2f9233063e9585fcedaa4d24d6",
+      "size": 307397,
+      "mtimeMs": 1780900764102
+    },
+    "raw/sources/颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.html": {
+      "hash": "256da3cbbcd46b1af1e50cb5cce121f0",
+      "size": 366164,
+      "mtimeMs": 1780898946833
+    },
+    "schema.md": {
+      "hash": "74be8ad21cdd66495b0e39508ee783b9",
+      "size": 2078,
+      "mtimeMs": 1780885158748
+    },
+    "wiki/concepts/agent-architecture-design.md": {
+      "hash": "4ec2e12fd2998a3cd3b0adbaab4f4f30",
+      "size": 1831,
+      "mtimeMs": 1780898070366
+    },
+    "wiki/concepts/agent-collaboration-delivery.md": {
+      "hash": "478716e2c833d62431c3e371ef07166c",
+      "size": 1674,
+      "mtimeMs": 1780899553593
+    },
+    "wiki/concepts/agent-interface-polymorphism.md": {
+      "hash": "37e1d37f0320172043791b3711b007b1",
+      "size": 1069,
+      "mtimeMs": 1780902364135
+    },
+    "wiki/concepts/agent-san-yuan-ze.md": {
+      "hash": "6dcda60bb841a3385e580077b56fdff9",
+      "size": 1659,
+      "mtimeMs": 1780905058380
+    },
+    "wiki/concepts/ai-bian-cheng-huan-jue.md": {
+      "hash": "5333fcbd4abb7826095d692e09e22f8e",
+      "size": 1710,
+      "mtimeMs": 1780903191266
+    },
+    "wiki/concepts/ai-werewolf-game.md": {
+      "hash": "99493c04bbf269b8a6e3133d623b7d37",
+      "size": 1426,
+      "mtimeMs": 1780902364126
+    },
+    "wiki/concepts/ai-you-hao-yan-fa-gui-fan.md": {
+      "hash": "0322e6009617667879a30a9bb0dc0e36",
+      "size": 1514,
+      "mtimeMs": 1780901484736
+    },
+    "wiki/concepts/always-ji-bie-ai-rule.md": {
+      "hash": "1e00322ca36fe5f94fca60f921aecd20",
+      "size": 1309,
+      "mtimeMs": 1780901484738
+    },
+    "wiki/concepts/append-only-context.md": {
+      "hash": "98ae1a4ca48a0369c29f6d21732cda30",
+      "size": 1331,
+      "mtimeMs": 1780898070367
+    },
+    "wiki/concepts/architectural-decision-interdependence.md": {
+      "hash": "23e061c5323b970a4fbd3c74e79b32db",
+      "size": 1595,
+      "mtimeMs": 1780898070377
+    },
+    "wiki/concepts/bian-pai-lei-yu-neng-li-lei.md": {
+      "hash": "87336a30dc4c6756d6899a3fae366cd4",
+      "size": 1084,
+      "mtimeMs": 1780901484750
+    },
+    "wiki/concepts/blocker-gate.md": {
+      "hash": "94300007669c75730cdfe2341eb38817",
+      "size": 1870,
+      "mtimeMs": 1780903191268
+    },
+    "wiki/concepts/call-and-observe-pattern.md": {
+      "hash": "480c96019b4f40d71d1b16ef124e8017",
+      "size": 853,
+      "mtimeMs": 1780902364131
+    },
+    "wiki/concepts/compression-strategy.md": {
+      "hash": "28d559a6d5b49a5b1f1f91f80eb26f00",
+      "size": 1069,
+      "mtimeMs": 1780898070367
+    },
+    "wiki/concepts/conflict-resolution-four-principles.md": {
+      "hash": "1fd76d36f634b29329dd72f135c15faf",
+      "size": 1127,
+      "mtimeMs": 1780899553594
+    },
+    "wiki/concepts/cong-prompt-dao-harness.md": {
+      "hash": "51348c8701c65d38f3ff715ba6f5ffdb",
+      "size": 2071,
+      "mtimeMs": 1780905058376
+    },
+    "wiki/concepts/console-vs-mcp-strategy.md": {
+      "hash": "16f40d4de179257c7cd0ecb6f6c4af75",
+      "size": 1067,
+      "mtimeMs": 1780898070370
+    },
+    "wiki/concepts/context-engineering.md": {
+      "hash": "1053908d43e6c8e3e62cc9d11a6f64ee",
+      "size": 1828,
+      "mtimeMs": 1780899553579
+    },
+    "wiki/concepts/conversation-driven-vs-task-driven.md": {
+      "hash": "249c1c998660e5949d1e4e6a4eac6799",
+      "size": 1484,
+      "mtimeMs": 1780898070374
+    },
+    "wiki/concepts/dan-zhi-ling-zhuang-tai-ji.md": {
+      "hash": "a808bff0cf9ebf71b6f0a7fa77e0c9d2",
+      "size": 1555,
+      "mtimeMs": 1780903191269
+    },
+    "wiki/concepts/data-self-iteration.md": {
+      "hash": "57d7463b90494e98407333731b2c0609",
+      "size": 1409,
+      "mtimeMs": 1780899553580
+    },
+    "wiki/concepts/dual-perspective-architecture.md": {
+      "hash": "3d8724d229e98e2963679a70caa0ea17",
+      "size": 1411,
+      "mtimeMs": 1780902364137
+    },
+    "wiki/concepts/entity-merge-wide-table.md": {
+      "hash": "7a813e48d7f0e14ca99ff94b5512f332",
+      "size": 1255,
+      "mtimeMs": 1780899553582
+    },
+    "wiki/concepts/faq-conversion.md": {
+      "hash": "589e89f6f2e8cc42d9644e0235343ef1",
+      "size": 1282,
+      "mtimeMs": 1780899553583
+    },
+    "wiki/concepts/function-calling-structured-output.md": {
+      "hash": "fe01eb55efd2af9fe19e06e5ff03e50f",
+      "size": 1292,
+      "mtimeMs": 1780902364134
+    },
+    "wiki/concepts/gao-jie-mo-xing-shen-cha-di-jie-mo-xing.md": {
+      "hash": "2981f1dd022c0e9d4e643af5afc1f173",
+      "size": 1033,
+      "mtimeMs": 1780901484741
+    },
+    "wiki/concepts/gui-fan-luo-di-ai-gong-ju-lian.md": {
+      "hash": "364da76ef8818f7666110139b68ec5b1",
+      "size": 1088,
+      "mtimeMs": 1780901484751
+    },
+    "wiki/concepts/harness-san-jie-duan-luo-di-lu-jing.md": {
+      "hash": "06a97536f8d2a5b6c892e6566f9f788b",
+      "size": 2011,
+      "mtimeMs": 1780905058380
+    },
+    "wiki/concepts/harness-wu-ceng-zhi-ze-mo-xing.md": {
+      "hash": "9c3eeac706c330804f1b3ea64970b4e0",
+      "size": 2028,
+      "mtimeMs": 1780905058375
+    },
+    "wiki/concepts/harness-wu-yao-su.md": {
+      "hash": "19aa1ca1f8e998e9b9a6c4f3151f0304",
+      "size": 1871,
+      "mtimeMs": 1780905058374
+    },
+    "wiki/concepts/intent-planning.md": {
+      "hash": "b0f77a77f20d5eb1dea506b953b7b009",
+      "size": 1669,
+      "mtimeMs": 1780899553578
+    },
+    "wiki/concepts/jing-yan-jia-zhi-zhuang-yi.md": {
+      "hash": "0448a3d2b31182197026e2d0d90c6d2c",
+      "size": 955,
+      "mtimeMs": 1780901484747
+    },
+    "wiki/concepts/kua-chang-shang-mo-xing-dui-kang.md": {
+      "hash": "df11eff863b8abca5c2b1d3177c5f8e1",
+      "size": 1009,
+      "mtimeMs": 1780901484742
+    },
+    "wiki/concepts/ling-pai-qi-zhong-gou.md": {
+      "hash": "b81a0e0b23ca0541e7d1c85c81b347d3",
+      "size": 1401,
+      "mtimeMs": 1780901484739
+    },
+    "wiki/concepts/liu-cheng-que-ding-xing.md": {
+      "hash": "274b1f639e68ea202c5e23b9a615070b",
+      "size": 1454,
+      "mtimeMs": 1780903191274
+    },
+    "wiki/concepts/model-training-bias.md": {
+      "hash": "727ea70b601e91f6fa166f403135298f",
+      "size": 1107,
+      "mtimeMs": 1780898070377
+    },
+    "wiki/concepts/msg-hub.md": {
+      "hash": "433f0afdfea9b57a9679a4f6840217b9",
+      "size": 1235,
+      "mtimeMs": 1780902364130
+    },
+    "wiki/concepts/multi-agent-formatter.md": {
+      "hash": "afe12332276c3c51d5a7cc6aeefe9296",
+      "size": 1234,
+      "mtimeMs": 1780902364132
+    },
+    "wiki/concepts/nlp2sql-limitation.md": {
+      "hash": "19cb6dcf23b39741333d0057597d259a",
+      "size": 1108,
+      "mtimeMs": 1780899553592
+    },
+    "wiki/concepts/perceive-think-act-loop.md": {
+      "hash": "f39a8f1a08c41197b355634ec8097ca7",
+      "size": 1162,
+      "mtimeMs": 1780898070375
+    },
+    "wiki/concepts/po-quan-lu-lou-lu-zhi-li.md": {
+      "hash": "4c2d252b1bc8430fafd1b9a0fd46f523",
+      "size": 875,
+      "mtimeMs": 1780901484749
+    },
+    "wiki/concepts/pre-pr-ji-zhi.md": {
+      "hash": "a6a4a400f25e6efa491d4241d202e5d7",
+      "size": 1659,
+      "mtimeMs": 1780901484737
+    },
+    "wiki/concepts/progressive-tool-loading.md": {
+      "hash": "a6921f8abda3ab41c0a5a2ce222b319b",
+      "size": 1004,
+      "mtimeMs": 1780898070371
+    },
+    "wiki/concepts/prompt-based-tool-injection.md": {
+      "hash": "1c698d80dbe42c60d351773b854bef6b",
+      "size": 1116,
+      "mtimeMs": 1780898070370
+    },
+    "wiki/concepts/prompt-cache-mechanism.md": {
+      "hash": "0121be4d1d4712a93497a0c99e0d2f9f",
+      "size": 1340,
+      "mtimeMs": 1780898070369
+    },
+    "wiki/concepts/qian-hou-duan-san-ceng-jia-gou.md": {
+      "hash": "7689fbe85307d36e772eaddb9d6606ec",
+      "size": 2051,
+      "mtimeMs": 1780905058379
+    },
+    "wiki/concepts/query-rewriting.md": {
+      "hash": "b549afd524d7b954906c116502b8990c",
+      "size": 1130,
+      "mtimeMs": 1780899553580
+    },
+    "wiki/concepts/react-paradigm.md": {
+      "hash": "adaeebd118df78af659a553cf5ce01d0",
+      "size": 1154,
+      "mtimeMs": 1780902364128
+    },
+    "wiki/concepts/ren-ji-xie-zuo-ce-shi-sop.md": {
+      "hash": "501ff40629dc41237a5b7987bc61e477",
+      "size": 1484,
+      "mtimeMs": 1780901484740
+    },
+    "wiki/concepts/ren-ren-dui-qi-ren-ji-dui-qi.md": {
+      "hash": "b1518600d3a1c4d1d3d53d63207913a7",
+      "size": 2161,
+      "mtimeMs": 1780901484732
+    },
+    "wiki/concepts/role-specific-prompt-strategy.md": {
+      "hash": "ad701ad8b98d821b09bd6f3e74b4f727",
+      "size": 967,
+      "mtimeMs": 1780902364133
+    },
+    "wiki/concepts/safety-iron-rule.md": {
+      "hash": "5e1385fca4b7189534e7ef5070c8e597",
+      "size": 1249,
+      "mtimeMs": 1780899553594
+    },
+    "wiki/concepts/san-chong-cai-ce-wen-ti.md": {
+      "hash": "69a63bc293bf35cadb5a67764a943d4d",
+      "size": 1776,
+      "mtimeMs": 1780905058377
+    },
+    "wiki/concepts/si-ceng-jia-gou.md": {
+      "hash": "213a93cebf41515cffe6379dbc258315",
+      "size": 1212,
+      "mtimeMs": 1780901484743
+    },
+    "wiki/concepts/sinks-one-async-pattern.md": {
+      "hash": "c73d2cd69766e379c58b5ad3bd71fe7a",
+      "size": 1153,
+      "mtimeMs": 1780902364136
+    },
+    "wiki/concepts/skill-as-knowledge-cache.md": {
+      "hash": "bc50ad332f205137ebd059c86ad4b02f",
+      "size": 1144,
+      "mtimeMs": 1780898070373
+    },
+    "wiki/concepts/skill-based-organization.md": {
+      "hash": "3e3650548b530052b6c8ff302182902e",
+      "size": 946,
+      "mtimeMs": 1780898070372
+    },
+    "wiki/concepts/small-model-beats-llm-in-classification.md": {
+      "hash": "4a44780635ede4df1558828d1f6e610a",
+      "size": 1382,
+      "mtimeMs": 1780899553581
+    },
+    "wiki/concepts/spec-driven-development.md": {
+      "hash": "d9c5f11d5a722c3a4bcc82471cef63cb",
+      "size": 2284,
+      "mtimeMs": 1780903191265
+    },
+    "wiki/concepts/ssot-dan-wen-dang-ce-lue.md": {
+      "hash": "4f6e68833a23bc3bf36f70abd2f91528",
+      "size": 1808,
+      "mtimeMs": 1780903191271
+    },
+    "wiki/concepts/task-isolation.md": {
+      "hash": "71b65774d760f56ba025f78d33b805f9",
+      "size": 1125,
+      "mtimeMs": 1780898070368
+    },
+    "wiki/concepts/thought-process-as-first-class-citizen.md": {
+      "hash": "9ddedd33479ae5acb56854d000059a7a",
+      "size": 969,
+      "mtimeMs": 1780898070376
+    },
+    "wiki/concepts/werewolf-game-loop.md": {
+      "hash": "a24589a34649f9d7b98ffeb42aa0d53e",
+      "size": 1320,
+      "mtimeMs": 1780902364139
+    },
+    "wiki/concepts/wu-ceng-yan-zheng-ti-xi.md": {
+      "hash": "9eaaf7889033eebb971933ecd6ff414d",
+      "size": 1699,
+      "mtimeMs": 1780905058378
+    },
+    "wiki/concepts/yan-fa-fan-shi-qian-yi.md": {
+      "hash": "38bdf8577ed3d95a18fa9349794a1e29",
+      "size": 1732,
+      "mtimeMs": 1780903191272
+    },
+    "wiki/concepts/zhu-r-da-yang-sop-fen-fa.md": {
+      "hash": "b009610c2e1c36775d27915d88ec2c5b",
+      "size": 1095,
+      "mtimeMs": 1780901484744
+    },
+    "wiki/concepts/zhuan-jia-jing-yan-ding-xiang-ai-fu-zhu-pai-cha.md": {
+      "hash": "17a8305adbcc40a11a0f8d03d3ec7394",
+      "size": 1087,
+      "mtimeMs": 1780901484746
+    },
+    "wiki/entities/agent-ping-ce-xi-tong.md": {
+      "hash": "9aaa2db51f32f70f24aa8f9cd65bcee3",
+      "size": 1448,
+      "mtimeMs": 1780901484728
+    },
+    "wiki/entities/agentscope-java.md": {
+      "hash": "b264a543405eb8dd8694ab024db710f4",
+      "size": 1382,
+      "mtimeMs": 1780902364107
+    },
+    "wiki/entities/agentscope.md": {
+      "hash": "77982f715ef6ff60afc3ce657437f104",
+      "size": 1774,
+      "mtimeMs": 1780902364106
+    },
+    "wiki/entities/ai-qi-yi-ji-shu-chan-pin-tuan-dui.md": {
+      "hash": "e9161086ae83898a9d52eaf00bb1d6a8",
+      "size": 853,
+      "mtimeMs": 1780903191207
+    },
+    "wiki/entities/alibaba-zhong-jian-jian.md": {
+      "hash": "02a1e8ca63e981cd53de4d7788d9c5aa",
+      "size": 457,
+      "mtimeMs": 1780902364111
+    },
+    "wiki/entities/anthropic.md": {
+      "hash": "4e22bca0203ec5a2c3b378f84c21ccbd",
+      "size": 1101,
+      "mtimeMs": 1780898070359
+    },
+    "wiki/entities/bailian.md": {
+      "hash": "312714dc39d5b8df578ab90fa7334379",
+      "size": 759,
+      "mtimeMs": 1780902364108
+    },
+    "wiki/entities/bmad-method.md": {
+      "hash": "02ca9cb1238c341cbf40c5c987e54b6a",
+      "size": 1200,
+      "mtimeMs": 1780903191227
+    },
+    "wiki/entities/claude-code.md": {
+      "hash": "74cc6012f56ce81ab8656c1e24b5e767",
+      "size": 1278,
+      "mtimeMs": 1780898070358
+    },
+    "wiki/entities/cursor.md": {
+      "hash": "72abe0c89232295a4c420cf81b3abacb",
+      "size": 1524,
+      "mtimeMs": 1780903191206
+    },
+    "wiki/entities/dashscope-multi-agent-formatter.md": {
+      "hash": "5172f872319ec8b4c93fdeeeeef48ee9",
+      "size": 932,
+      "mtimeMs": 1780902364124
+    },
+    "wiki/entities/digital-employee.md": {
+      "hash": "2b85a7931f9f895da565cbafb2d2a8b0",
+      "size": 908,
+      "mtimeMs": 1780899553576
+    },
+    "wiki/entities/enterprise-intelligent-assistant.md": {
+      "hash": "b45163a15c15dfe0c768c30f2631e3b6",
+      "size": 1535,
+      "mtimeMs": 1780899553573
+    },
+    "wiki/entities/execute.md": {
+      "hash": "42685651e8da101984fa81431024129f",
+      "size": 1005,
+      "mtimeMs": 1780898070363
+    },
+    "wiki/entities/fucheng.md": {
+      "hash": "3e1b6290ba4b6446105d1516334de7d3",
+      "size": 1254,
+      "mtimeMs": 1780899553570
+    },
+    "wiki/entities/github-spec-kit.md": {
+      "hash": "97975eae4f4515ab55b6d0bab655e7bd",
+      "size": 1106,
+      "mtimeMs": 1780903191213
+    },
+    "wiki/entities/harness-engineering.md": {
+      "hash": "db8bef25a85ae5c32800371c61b3c350",
+      "size": 2571,
+      "mtimeMs": 1780905058370
+    },
+    "wiki/entities/harness-template.md": {
+      "hash": "a4304a21db5d755092eb11bf58400c57",
+      "size": 1619,
+      "mtimeMs": 1780905058372
+    },
+    "wiki/entities/longcat.md": {
+      "hash": "c9d5b342dda3191ab4dcb0ef5ecf5108",
+      "size": 687,
+      "mtimeMs": 1780901484730
+    },
+    "wiki/entities/ma-shang-xiao-fei-ji-shu-tuan-dui.md": {
+      "hash": "56e879aa55b680603955a0df2ba5110f",
+      "size": 1025,
+      "mtimeMs": 1780899553572
+    },
+    "wiki/entities/mcp.md": {
+      "hash": "7e06aab1ef49e4efb4052f766dedb880",
+      "size": 1223,
+      "mtimeMs": 1780898070361
+    },
+    "wiki/entities/mei-tuan-ye-wu-yan-fa-ping-tai-tuan-dui.md": {
+      "hash": "7b5143e57fd8ac58f7ed182fb49efef7",
+      "size": 1256,
+      "mtimeMs": 1780901484726
+    },
+    "wiki/entities/openclaw.md": {
+      "hash": "b4b4c1171123570664d8566978bf2b2f",
+      "size": 1707,
+      "mtimeMs": 1780898070355
+    },
+    "wiki/entities/openspec.md": {
+      "hash": "5f52498f80e382801bea5f4a01aba574",
+      "size": 994,
+      "mtimeMs": 1780903191211
+    },
+    "wiki/entities/quality-inspection-ai.md": {
+      "hash": "56e5179f8d014860e4fbddfc6d4cc261",
+      "size": 1397,
+      "mtimeMs": 1780899553577
+    },
+    "wiki/entities/qwen3-plus.md": {
+      "hash": "93e831008fe74f1ccb949f2c9d7acaa6",
+      "size": 713,
+      "mtimeMs": 1780902364110
+    },
+    "wiki/entities/roberta.md": {
+      "hash": "4f61cb03162baaba634f0d5ede871f3e",
+      "size": 1269,
+      "mtimeMs": 1780899553575
+    },
+    "wiki/entities/shu-ju-ku-tuan-dui.md": {
+      "hash": "edafe0144d40134f841015b3d52c9185",
+      "size": 1531,
+      "mtimeMs": 1780905058371
+    },
+    "wiki/entities/skill.md": {
+      "hash": "3ae38cbbb41bf69f1c2a78cf2eb9f0b0",
+      "size": 1110,
+      "mtimeMs": 1780898070362
+    },
+    "wiki/entities/specflow.md": {
+      "hash": "6d5501e2f4b5bf5d9dddd014a442048b",
+      "size": 3680,
+      "mtimeMs": 1780903191204
+    },
+    "wiki/entities/tian-ji-qian-duan-tuan-dui.md": {
+      "hash": "2918c398b41adc16513f6a051845b292",
+      "size": 1240,
+      "mtimeMs": 1780903191208
+    },
+    "wiki/entities/vibe-coding.md": {
+      "hash": "ab30a2aebc5c63246197f2c1194b7d6f",
+      "size": 1349,
+      "mtimeMs": 1780903191210
+    },
+    "wiki/entities/wang-chen.md": {
+      "hash": "783cd305ff992dcfcea070eb33a64aed",
+      "size": 426,
+      "mtimeMs": 1780902364114
+    },
+    "wiki/entities/werewolf-hitl.md": {
+      "hash": "1d0754e6551ab7a6b23f66ab8b9fe007",
+      "size": 692,
+      "mtimeMs": 1780902364115
+    },
+    "wiki/entities/yi-zhan.md": {
+      "hash": "bb76741a8f007a1c23fbeabc8069f0a5",
+      "size": 430,
+      "mtimeMs": 1780902364112
+    },
+    "wiki/index.md": {
+      "hash": "5085c7dda1dd050a3a696ca2e5d53a54",
+      "size": 11107,
+      "mtimeMs": 1780905058381
+    },
+    "wiki/log.md": {
+      "hash": "747b30eeaf0a27c224a0ca55fde1fe1b",
+      "size": 4076,
+      "mtimeMs": 1780905058383
+    },
+    "wiki/overview.md": {
+      "hash": "7f781bb357e3f50e081e913d0af2797f",
+      "size": 7919,
+      "mtimeMs": 1780905058383
+    },
+    "wiki/sources/NanobotOpenClaw轻量实现的底层原理解析.md": {
+      "hash": "8ec2d5b2614a0ad9993a205e402f23af",
+      "size": 6051,
+      "mtimeMs": 1780897469526
+    },
+    "wiki/sources/OpenClaw落地到生产实际应用的一种可能的路径.md": {
+      "hash": "d22fa6407a78dfa05f7c247e15fa0392",
+      "size": 6622,
+      "mtimeMs": 1780898527166
+    },
+    "wiki/sources/什么我的狼人杀水平还不如AI.md": {
+      "hash": "4755b84ff24d7a0eec2e43f296c63bf5",
+      "size": 3346,
+      "mtimeMs": 1780902364103
+    },
+    "wiki/sources/从OpenClaw看Agent架构设计.md": {
+      "hash": "d7a31cc1963ebc2473530ec290ee57df",
+      "size": 3836,
+      "mtimeMs": 1780898070316
+    },
+    "wiki/sources/别让AI瞎猜了用HarnessEngineering终结无限返工.md": {
+      "hash": "ec69b00a3c3de6c1b2e702451f0a1eae",
+      "size": 3711,
+      "mtimeMs": 1780905058368
+    },
+    "wiki/sources/治愈CursorAI编程的幻觉用它就够了.md": {
+      "hash": "688bdf72cbfc620d26a4d2c91c2cab3f",
+      "size": 5718,
+      "mtimeMs": 1780903191201
+    },
+    "wiki/sources/用Agent评测思路管理AICoding31万行代码AI重构的实践.md": {
+      "hash": "da2d829ebb734b73c4601e549feec8d5",
+      "size": 4573,
+      "mtimeMs": 1780901484723
+    },
+    "wiki/sources/颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.md": {
+      "hash": "16d826f6579fb0a0948317a896abc04a",
+      "size": 3305,
+      "mtimeMs": 1780899553568
+    }
+  }
+}
