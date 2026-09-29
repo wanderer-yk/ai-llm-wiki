@@ -1,40 +1,34 @@
 ---
 type: concept
-title: Blocker Gate（逻辑阻断门控）
-tags: [门控, 流程约束, specflow]
-related: [specflow, spec-driven-development, men-kong-ji-zhi]
-created: 2026-06-08
-updated: 2026-06-08
-sources: ["治愈CursorAI编程的幻觉用它就够了.html"]
+title: Blocker Gate（阻断门控）
+tags: [门控, 流程控制, sdd, 质量保障]
+related: [specflow, 规格驱动ai开发, 单指令状态机]
+created: 2026-06-12
+updated: 2026-06-12
+sources: ["[202603261200]治愈CursorAI编程的幻觉用它就够了.html"]
 ---
-# Blocker Gate（逻辑阻断门控）
+# Blocker Gate（阻断门控）
 
-**Blocker Gate** 是 [[specflow|Specflow]] 区别于社区方案的核心纪律机制。其核心理念是"先想清楚再写清楚"——在前置阶段未达标时，硬性阻断后续阶段的推进。
+Blocker Gate 是 [[specflow|Specflow]] 的核心纪律机制，是一种**硬性门控**——当需求对齐未完成时，强制阻断后续开发阶段的进入。
 
-## 判定标准
+## 核心原则
 
-Blocker Gate 的具体判定逻辑为：
+- "先想清楚，再写清楚"——从根源消灭因理解偏差导致的无效重工
+- 防止"带病"进入开发阶段
 
-1. **Specify 阶段**：细节未澄清（`specify.md` 中 `[User]` 区域的问题未全部回答）→ 阻断进入 Plan
-2. **Plan 阶段**：`plan.md` 中 `[Block]` 必答阻塞项未回答 → 阻断进入 Implement
+## 具体实现
 
-## [Block]/[?] 两级问题分级
+在 Specflow 中，Blocker Gate 通过以下机制落地：
 
-这是 Blocker Gate 的可操作化实现：
+- **`[Block]` 问题标记**：Plan 阶段中的强制阻断类问题，未回答则无法进入 Implement
+- **`[?]` 问题标记**：可选建议类问题，不阻塞流程流转
+- **Specify 阶段完成后**需再次输入 `/specflow` 并通过校验，才能触发 Plan 阶段
 
-- **`[Block]` 必答阻塞项**：未回答则无法进入开发阶段，强制阻断
-- **`[?]` 可选非阻塞项**：未回答不阻断，开发者可选择跳过
+## 双级门控体系
 
-## 与社区方案门控的区别
+`[Block]` 与 `[?]` 的双级问题标记提供了**灵活的门控粒度**——不是所有问题都硬性阻断，区分了"必须回答"与"建议回答"两个层级。
 
-[[github-spec-kit|GitHub Spec Kit]] 的门控机制是 Blocker Gate 的直接灵感来源，但 Specflow 做了关键增强：
+## 待澄清问题
 
-- 门控判定基于文件状态（`ai-docs/` 目录下的文件存在性和内容完整性），而非人工判断
-- 通过 `[Block]/[?]` 分级实现了结构化的门控标准
-- 门控状态随文件自动流转，解决了社区方案中"状态易丢失"的摩擦
-
-## 与其他 Wiki 概念的关联
-
-- [[men-kong-ji-zhi|门控机制]]（GitHub Spec Kit 的核心启示）是 Blocker Gate 的前身概念
-- [[pre-pr-ji-zhi|Pre-PR 预审机制]]（美团）与 Blocker Gate 精神一致，都是人工介入的质量关卡
-- [[an-quan-tie-lv|安全铁律]]（马上消费）中的"写操作工具执行前强制授权"与 Blocker Gate 的阻断逻辑异曲同工
+- Blocker Gate 的判定逻辑是纯文件存在性检查还是包含语义校验？
+- 流程是否支持回退（如 Plan 审查不通过回到 Specify）？

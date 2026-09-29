@@ -1,27 +1,26 @@
 ---
 type: entity
 title: GitHub Spec Kit
-tags: [spec-driven, ai-coding, 开源方案]
-related: [spec-driven-development, specflow, openspec, bmad-method]
-created: 2026-06-08
-updated: 2026-06-08
-sources: ["治愈CursorAI编程的幻觉用它就够了.html"]
+tags: [sdd, 规格驱动开发, 协作协议]
+related: [specflow, openspec, bmad-method, 规格驱动ai开发, blocker-gate]
+created: 2026-06-12
+updated: 2026-06-12
+sources: ["[202603261200]治愈CursorAI编程的幻觉用它就够了.html"]
 ---
 # GitHub Spec Kit
 
-**GitHub Spec Kit** 是一种工业级标准化协作协议，通过 **Constitution（宪章）** 定义技术底线，强调**门控（Gating）** 机制——需求阶段未对齐则阻断后续编码。
+GitHub Spec Kit 是一种工业级、标准化的**规格驱动开发协作协议**，通过 Constitution（宪章）定义技术底线，强调"先规格后任务"的工作模式。
 
-## 核心贡献
+## 核心特点
 
-- **门控机制**：在需求对齐完成前，硬性阻断后续编码阶段
-- **Constitution 宪章**：定义不可违反的技术底线和规范约束
-- 工业级设计，强调严格的质量门禁
+- **Constitution（宪章）**：定义项目的技术底线和约束
+- **门控（Gating）**：在需求阶段未对齐时阻断后续编码
 
 ## 对 Specflow 的启发
 
-[[specflow|Specflow]] 吸收了 GitHub Spec Kit 的门控思想，体现在 [[blocker-gate|Blocker Gate]] 的设计中——Specify 细节未澄清或 Plan Block 项未回答则强制停顿，"先想清楚再写清楚"。
+- **门控理念**被 Specflow 吸收并强化为 [[blocker-gate|Blocker Gate]] 硬性阻断机制
+- **"先规格后任务"**的严谨工作模式影响了 Specflow 的 Specify→Plan→Implement 流程设计
 
 ## 在 Cursor 中的局限
 
-- 在 Cursor 的对话式工作流中，门控状态缺乏持久化
-- 与 Cursor 的 Agentic Workflow 集成摩擦较大
+根据天玑前端团队的调研，Spec Kit 在 Cursor 中同样存在"摩擦力"，导致状态易丢失和心智负担。

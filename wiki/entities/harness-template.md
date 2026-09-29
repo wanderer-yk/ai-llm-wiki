@@ -1,40 +1,31 @@
 ---
 type: entity
-title: harness-template
-tags: [开源项目, 模板, harness-engineering, GitHub]
-related: [harness-engineering, shu-ju-ku-tuan-dui]
-created: 2026-06-08
-updated: 2026-06-08
-sources: ["别让AI瞎猜了用HarnessEngineering终结无限返工.html"]
+title: Harness Template
+tags: [harness-engineering, github, 项目模板, 开源工具]
+related: [harness-engineering, 数据库团队]
+created: 2026-06-12
+updated: 2026-06-12
+sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.html"]
 ---
-# harness-template
+# Harness Template
 
-**GitHub地址**：SisyphusSQ/harness-template
-**维护方**：[[shu-ju-ku-tuan-dui|爱奇艺数据库团队]]
+[[harness-engineering]] 的配套项目模板包，托管于 GitHub 仓库 **SisyphusSQ/harness-template**，由爱奇艺 [[数据库团队]] 提供。
 
-[[harness-engineering|Harness Engineering]]的开源项目模板仓库，提供可复用的项目结构模板。模板定位为在原项目旁边补一层协作与验证入口，不替换原工程结构。
+## 定位
 
-## 模板目录结构
+模板包不替换原项目工程结构，而是在旁边补一层协作和验证入口（"协作补层策略"）。提供的是可复用项目结构，而非必须原样照搬的文件，初始化时应适配目标项目的技术栈、任务系统和团队约定。
 
-| 路径 | 功能 |
-|------|------|
-| `AGENTS.md` | 入口地图，告诉agent项目结构、入口和验证命令 |
-| `docs/harness/control-plane.md` | 任务全生命周期控制平面（收集→冻结→切分→实现→验证→评审→回写） |
-| `docs/harness/project-constraints.md` | 项目级规则登记与检查状态 |
-| `.agent/PLANS.md` | 复杂任务计划协议（Scope/Non-Goals/Validation/Rollback） |
-| `docs/test/` | 验证步骤复用与副作用记录 |
-| `scripts/harness/` | 结构检查/计划检查/review gate脚本固化 |
+## 核心文件结构
 
-## 初始化原则
+| 文件/目录 | 职责 | 常见误用 |
+|-----------|------|----------|
+| `AGENTS.md` | 入口地图，导航+边界说明 | 写成项目百科淹没真正入口 |
+| `docs/harness/control-plane.md` | 控制面，任务收集/冻结/切分/实现/验证/评审/回写七步 | 只写流程名不写判断条件 |
+| `docs/harness/project-constraints.md` | 项目级规则登记+检查状态 | 将未机械化规则说成已强制执行 |
+| `.agent/PLANS.md` | 复杂任务计划协议+范围冻结 | 只写流程口号不写真实代码入口 |
+| `docs/test/` | 验证步骤复用+副作用记录 | 只贴终端输出不说明前置条件 |
+| `scripts/harness/` | 结构检查/计划检查/review gate 脚本 | 把业务测试塞进harness |
 
-1. 先让agent解读模板，理解模板意图
-2. 再让agent理解目标项目
-3. 最后对齐两者，按技术栈选择初始化层级
-4. 确认后执行并运行验证
+## 初始化流程
 
-## 常见误用
-
-- AGENTS.md写成项目百科导致入口被淹没
-- PLANS.md只写流程口号不写真实代码入口
-- project-constraints.md把尚未机械化的规则说成已强制执行
-- 把业务测试全部塞进harness检查
+五步法：①交模板+项目给agent → ②agent只读解读不修改 → ③输出方案（新增/修改/保留/风险） → ④根据技术栈选择层级 → ⑤确认后执行并运行验证。核心原则："先理解后执行"。

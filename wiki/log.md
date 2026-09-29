@@ -1,82 +1,427 @@
 # Research Log
 
-## 2026-06-08
+## 2026-06-12
 
 - Project created
-## [2026-06-08] delete | vivo微服务架构实践之Dubbo性能优化.html
 
-Deleted 1 source file and 0 wiki pages.
-
-
----
-type: overview
-title: 活动日志
-tags: [日志]
-related: []
-created: 2026-06-08
-updated: 2026-06-08
----
-
-# 活动日志
-
-## 2026-06-08
-
-- ingest | 从 OpenClaw 看 Agent 架构设计：录入来源文章，创建 6 个实体页面与 15 个概念页面，更新索引与总览
 
 ---
 type: overview
 title: Wiki 活动日志
-tags: [日志]
+tags: []
 related: []
-created: 2026-06-08
-updated: 2026-06-08
+created: 2026-06-12
+updated: 2026-06-12
 ---
-
 # Wiki 活动日志
 
-## 2026-06-08
+## 2026-06-12
 
-### ingest | 颠覆传统！意图规划+上下文工程+数据自迭代，让企业智能办公助手效能跃升200%
-- 录入来源页面：`wiki/sources/颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.md`
-- 新增实体：[[fucheng]]、[[ma-shang-xiao-fei-ji-shu-tuan-dui]]、[[enterprise-intelligent-assistant]]、[[roberta]]、[[digital-employee]]、[[quality-inspection-ai]]
-- 新增概念：[[intent-planning]]、[[context-engineering]]、[[data-self-iteration]]、[[query-rewriting]]、[[small-model-beats-llm-in-classification]]、[[entity-merge-wide-table]]、[[faq-conversion]]、[[nlp2sql-limitation]]、[[agent-collaboration-delivery]]、[[safety-iron-rule]]、[[conflict-resolution-four-principles]]
-- 更新索引与总览，整合新来源与已有Agent架构知识网络
-- 建立跨来源关联：Agent协同模式↔[[conversation-driven-vs-task-driven]]/[[perceive-think-act-loop]]，安全铁律↔[[thought-process-as-first-class-citizen]]，MCP扩展↔[[mcp]]
+### ingest | 什么？我的狼人杀水平还不如AI？
 
-## 2026-06-08
+- 新增来源页面：`wiki/sources/[202601082000]什么我的狼人杀水平还不如AI.md`
+- 新增实体：AgentScope（多智能体框架）、百炼（阿里云大模型平台）
+- 新增概念：AI 狼人杀、多智能体消息机制、结构化输出、Human in the Loop、ReActAgent
+- 文章系统介绍了使用 AgentScope Java 框架开发 AI 狼人杀游戏的七项核心技术能力
+- 核心发现：LLM API 三角色限制是多人对话场景的关键障碍，MultiAgentFormatter 通过消息标记+合并解决
 
-### ingest | 从OpenClaw看Agent架构设计
-- 录入首个来源页面，建立Wiki基础结构
-- 新增实体：openclaw、claude-code、anthropic、mcp、skill、execute
-- 新增概念：agent-architecture-design 及 14 个子概念
-- 建立以 Agent 架构设计为核心的初始知识网络
+## 2026-06-12
 
-## 2026-06-08
-
-- ingest | 用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践（美团技术团队，2026-05-07）。新增来源页、6个实体/概念页，更新索引与总览。核心方法论：人人对齐→人机对齐。
-
-## 2026-06-08
-
-ingest | 《什么？我的狼人杀水平还不如AI？》— 亦盏、望宸，阿里巴巴中间件。AgentScope Java 版构建 AI 狼人杀，六大工程挑战与六大核心能力（ReActAgent、MsgHub、多智能体格式化器、Function Calling 结构化输出、UserAgent 接口多态、SSE 双视角推送）。新增实体页 8 个、概念页 11 个。
-
-## 2026-06-08
-
-ingest | 《治愈 Cursor AI 编程的"幻觉"？用它就够了！》— 爱奇艺天玑前端团队 Specflow 规格驱动 AI 开发流程：四阶段工作流（Specify→Plan→Implement→Archive）+ Blocker Gate 门控 + 单指令状态机 + SSOT 单文档策略 + 研发范式前移理念。新增实体：cursor、specflow、tian-ji-qian-duan-tuan-dui、ai-qi-yi-ji-shu-chan-pin-tuan-dui、vibe-coding、openspec、github-spec-kit、bmad-method。新增概念：spec-driven-development、ai-bian-cheng-huan-jue、blocker-gate、dan-zhi-ling-zhuang-tai-ji、ssot-dan-wen-dang-ce-lue、yan-fa-fan-shi-qian-yi、liu-cheng-que-ding-xing。
+- ingest | 治愈 Cursor AI 编程的「幻觉」？用它就够了！ — 爱奇艺天玑前端团队介绍自研 Specflow 规格驱动 AI 开发流程，新增实体：Specflow、Cursor、OpenSpec、GitHub Spec Kit、BMAD-METHOD、天玑前端团队、爱奇艺技术产品团队；新增概念：规格驱动AI开发、AI编程幻觉、Vibe Coding、Blocker Gate、单指令状态机、SSOT单文档策略、多Agent角色思维隔离、研发范式前移
 
 ---
 type: overview
-title: 更新日志
-tags: [日志]
+title: Wiki 活动日志
+tags: []
 related: []
-created: 2026-06-08
-updated: 2026-06-08
+created: 2026-06-12
+updated: 2026-06-12
 ---
-# 更新日志
+# Wiki 活动日志
 
-## 2026-06-08
+## 2026-06-12
 
-- ingest | 别让AI瞎猜了：用Harness Engineering终结无限返工
-  - 新增来源页面：数据库团队（爱奇艺）提出的Harness Engineering方法论实践解读
-  - 新增实体：harness-engineering、shu-ju-ku-tuan-dui、harness-template
-  - 新增概念：harness-wu-yao-su、harness-wu-ceng-zhi-ze-mo-xing、cong-prompt-dao-harness、san-chong-cai-ce-wen-ti、wu-ceng-yan-zheng-ti-xi、qian-hou-duan-san-ceng-jia-gou、harness-san-jie-duan-luo-di-lu-jing、agent-san-yuan-ze
-  - 关键发现：本文与Specflow同属爱奇艺技术产品团队公众号，数据库团队（后端）与天玑前端团队（前端）构成同组织内AI编程方法论的层级互补
+### ingest | 别让AI瞎猜了：用Harness Engineering 终结无限返工
+
+- 新增来源页：[[sources/[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工|[202605141200]别让AI瞎猜了：用Harness Engineering 终结无限返工]]
+- 新增实体：[[数据库团队]]（爱奇艺旗下技术团队）、[[harness-template]]（配套模板仓库）
+- 新增概念：[[harness-engineering]]（五要素 agent 工程化方法论）、[[多源分治策略]]（信息按职责分散 vs SSOT）、[[执行语义冻结]]（后端返工根因）、[[前端三层分离模型]]（执行依据→状态暴露→交付实现）
+- 更新索引和概览以反映新内容
+- 关键发现：同属爱奇艺的数据库团队（Harness Engineering）与天玑前端团队（Specflow）在信息策略上存在明确方法论分歧——多源分治 vs SSOT 单文档
+
+---
+type: overview
+title: Wiki 更新日志
+tags: []
+related: []
+created: 2026-06-12
+updated: 2026-06-12
+---
+# Wiki 更新日志
+
+## 2026-06-12
+
+### ingest | 意图规划+上下文工程+数据自迭代：企业智能办公助手效能跃升
+
+- 新增来源页：`sources/[202601131830]颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.md`
+- 新增实体：[[富城]]（马上消费技术团队成员）、[[马上消费技术团队]]（重庆金融科技公司）、[[企业智能办公助手]]（四层架构产品体系）
+- 新增概念：[[意图规划]]、[[上下文工程]]、[[数据自迭代]]（三层框架核心概念）
+- 新增概念：[[Query改写]]、[[Agent协同模式]]、[[信源冲突裁决]]、[[主体合并宽表模式]]、[[FAQ转化知识对模式]]、[[AI质检模型]]
+- 重要发现：本文来自马上消费（金融科技），与已有爱奇艺系方法论（Specflow、Harness Engineering）构成跨行业横向对比素材
+- 方法论映射已标注：上下文工程 ↔ 多源分治策略、数据自迭代 ↔ 执行语义冻结、安全铁律 ↔ human-in-the-loop
+
+## 2026-06-12
+
+### ingest | Harness Engineering 终结无限返工
+
+- 新增来源页：`sources/[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.md`
+- 新增实体：[[数据库团队]]、[[harness-template]]
+- 新增概念：[[harness-engineering]]、[[多源分治策略]]、[[执行语义冻结]]、[[前端三层分离模型]]
+
+### ingest | Specflow 治愈 Cursor AI 编程幻觉
+
+- 新增来源页：`sources/[202603261200]治愈CursorAI编程的幻觉用它就够了.md`
+- 新增实体：[[specflow]]、[[天玑前端团队]]、[[爱奇艺技术产品团队]]
+- 新增概念：[[规格驱动ai开发]]、[[blocker-gate]]、[[ssot单文档策略]]、[[多agent角色思维隔离]]
+
+### ingest | AI 狼人杀水平
+
+- 新增来源页：`sources/[202601082000]什么我的狼人杀水平还不如AI.md`
+- 新增实体：[[agentscope]]、[[百炼]]
+- 新增概念：[[ai狼人杀]]、[[react-agent]]、[[多智能体消息机制]]、[[结构化输出]]、[[human-in-the-loop]]
+
+---
+type: overview
+title: Wiki 更新日志
+tags: []
+related: []
+created: 2026-06-12
+updated: 2026-06-12
+---
+# Wiki 更新日志
+
+## 2026-06-12
+
+### ingest | 用Agent评测思路管理AI Coding——31万行代码AI重构的实践
+
+- 新增来源页：`wiki/sources/[202605071958]用Agent评测思路管理AICoding31万行代码AI重构的实践.html`
+- 新增实体页：[[美团技术团队]]、[[agent评测系统]]、[[业务研发平台]]、[[longcat系列]]
+- 新增概念页：[[人人对齐人机对齐]]、[[pre-pr机制]]、[[零排期渐进式重构]]、[[高阶模型审查低阶模型]]、[[rd-as-qa]]、[[human-in-the-loop测试sop]]、[[四步行动指南]]、[[专家经验定向ai辅助排查]]、[[经验价值迁移]]、[[ai友好研发规范]]、[[标准四层架构迁移]]、[[主r打样-sop分发]]
+- 更新索引页 `wiki/index.md`
+- 更新概览页 `wiki/overview.md`
+
+### 关键发现
+
+- 美团技术团队从"Agent评测"视角切入 AI Coding 管理，提出"人人对齐→人机对齐"方法论，与 [[harness-engineering]]（五要素工程约束）和 [[规格驱动ai开发]]（规格驱动）形成三家公司的横向对比
+- AI Coding 90%+ 自动化但测试环节需更强人工主导，揭示了 AI 能力边界
+- "高阶模型审查低阶模型"和"不同厂商模型对抗互相审核"是新颖的多模型协作质量保证实践
+- 团队实行 RD as QA 模式（无独立 QA），与 AI Coding 高自动化环境匹配
+
+## 2026-06-12
+
+- 初始化 Wiki，导入四篇来源文章
+- 创建阿里巴巴 AgentScope、爱奇艺 Specflow/Harness Engineering、马上消费企业智能办公助手相关页面
+
+## 2026-06-12
+
+ingest | [202604031907]当整个团队开始0人工Coding一份万字AINative研发实战手册 — 腾讯技术工程微信公众号，作者binxiong，2026-04-03发布。完整AI Native研发方法论：四大痛点诊断→OpenSpec研发契约→opsx 8条指令集→三大武器库（知识库+MCP+Skills）→生产级Skill示例→团队协同三大规矩。新增实体：binxiong、CodeBuddy、opsx指令集、腾讯技术工程。新增概念：AI Native研发模式、三大武器库、活文档机制、Bridge Rule、原子化变更原则、MR双重视角审查、生产级Skill、自举式开发。发现OpenSpec跨团队归属矛盾（腾讯版多文件策略vs爱奇艺版单文档策略）。
+
+---
+type: overview
+title: Wiki 活动日志
+tags: []
+related: []
+created: 2026-06-12
+updated: 2026-06-12
+---
+# Wiki 活动日志
+
+## 2026-06-12
+
+- ingest | [202604131736] 详尽地带你从零开始设计实现一个AI Agent框架 — yabohe，腾讯技术工程公众号，2026-04-13。新增实体：yabohe、openclaw、pi-agent、manus、deepseek。新增概念：agent-loop、agent框架三要素、codeact架构、plan-and-execute模式、reflection模式、agent三层商用架构、极简agent设计哲学。更新实体：腾讯技术工程（补充 yabohe 文章关联）、codebuddy（补充 Agent SDK → WorkBuddy 证据）。更新概念：上下文工程（补充 Agent 框架核心定位）、react-agent（补充学术溯源）。
+
+## 2026-06-12
+
+- ingest | [202605071958] 用Agent评测思路管理AI Coding——31万行代码AI重构的实践 — 美团技术团队，2026-05-07。新增实体：美团技术团队、agent评测系统、业务研发平台、longcat系列。新增概念：人人对齐人机对齐、pre-pr机制、零排期渐进式重构、高阶模型审查低阶模型、rd-as-qa、human-in-the-loop测试sop、四步行动指南、专家经验定向ai辅助排查、经验价值迁移、ai友好研发规范、标准四层架构迁移、主r打样-sop分发。
+
+## 2026-06-12
+
+- ingest | [202604031907] 当整个团队开始 0 人工Coding：一份万字AI Native研发实战手册 — binxiong，腾讯技术工程公众号，2026-04-03。新增实体：binxiong、codebuddy、opsx指令集、腾讯技术工程。新增概念：ai-native研发模式、三大武器库、活文档机制、bridge-rule、原子化变更原则、mr双重视角审查、生产级skill、自举式开发。
+
+## 2026-06-12
+
+- ingest | [202605141200] 别让AI瞎猜了：用 Harness Engineering 终结无限返工 — 数据库团队，爱奇艺技术产品团队公众号，2026-05-14。新增实体：数据库团队、harness-template。新增概念：harness-engineering、多源分治策略、执行语义冻结、前端三层分离模型。
+
+## 2026-06-12
+
+- ingest | [202601131830] 颠覆传统！意图规划+上下文工程+数据自迭代，让企业智能办公助手效能跃升200% — 富城，马上消费技术团队公众号，2026-01-13。新增实体：富城、马上消费技术团队、企业智能办公助手。新增概念：意图规划、上下文工程、数据自迭代、Query改写、Agent协同模式、信源冲突裁决、主体合并宽表模式、FAQ转化知识对模式、AI质检模型。
+
+## 2026-06-12
+
+- ingest | [202603261200] 治愈 Cursor AI 编程的「幻觉」？用它就够了！ — 天玑前端团队，爱奇艺技术产品团队公众号，2026-03-26。新增实体：specflow、cursor、openspec、github-spec-kit、bmad-method、天玑前端团队、爱奇艺技术产品团队。新增概念：规格驱动ai开发、ai编程幻觉、vibe-coding、blocker-gate、单指令状态机、ssot单文档策略、多agent角色思维隔离、研发范式前移。
+
+## 2026-06-12
+
+- ingest | [202601082000] 什么我的狼人杀水平还不如AI？ — 亦盏、望宸，阿里巴巴中间件公众号，2026-01-08。新增实体：agentscope、百炼。新增概念：ai狼人杀、react-agent、多智能体消息机制、结构化输出、human-in-the-loop。
+
+## 2026-06-12
+
+- 初始化 Wiki 系统，创建项目概览、索引和日志页面。
+
+## 2026-06-12
+
+ingest | 十年老技术开发的 AI Agent 探索之路 — zhiyuanfu 著，腾讯技术工程公众号 2026-05-07 发布。新增来源页、11 个实体页（zhiyuanfu、24h打工人、codex、gemini-cli、claude-code、responses-api、mcp、a2a、microsoft-foundry-agent-service、github-agentic-workflows、腾讯程序员）、12 个概念页（人工并发天花板、自动化决策层级、先易后难陷阱、文件轮询架构、sdd留痕进化论、agent-control-plane、脚手架优于模型、task-driven对goal-driven、state-yaml共享面板、六步落地路径、增强自我而非取代自我、agent可观测性六维度、agent自举三前提）。更新索引和概览。
+
+## 2026-06-12 ingest | 从 Vibe Coding 到 Agentic Engineering：重构后台开发全流程
+
+- 新增来源页面：[[sources/[202604171736]从VibeCoding到AgenticEngineering重构后台开发全流程]]（seanguo，腾讯技术工程公众号，2026-04-17）
+- 新增实体页面：[[seanguo]]、[[superpowers插件]]、[[dot-agents]]、[[knot]]、[[galileo]]
+- 新增概念页面：[[agentic-engineering]]、[[prompt-and-pray]]、[[skill-command-mcp三层架构]]、[[十一阶段后台开发流程]]
+- 更新索引页面：[[index.md]] 新增 5 个实体条目、4 个概念条目、1 个来源条目
+- 更新概览页面：[[overview.md]] 新增"核心主题九：Agentic Engineering（腾讯 seanguo）"
+
+## 2026-06-12
+
+- ingest | [202605111758] 打造AI时代项目管理新范式——小红书PMO团队的Agentic探索之路
+
+## 2026-06-12
+
+ingest | [202601061754] AI实践：Code Insight 代码搜索定位的实践分享 — 有赞技术中台通过微信公众号"有赞coder"分享Code Insight代码搜索定位系统的半年实战经验，涵盖RAG（向量检索）+AST+符号表双路径互补架构，应用于代码问答、TraceAI排障、测试用例生成三大场景。新增实体：有赞技术中台、有赞coder、code-insight、llamaindex、aider。新增概念：代码索引、向量检索rag、ast加符号表联合分析、调用关系图谱、影响范围分析、gigo原则、rag技术瓶颈、代码安全扫描、traceai排障、代码问答、测试用例生成。更新cursor和claude-code实体的索引策略描述。
+
+## 2026-06-12
+
+- ingest | 从0到1：有赞AI客服的实践路径与落地思考 — 有赞共享技术团队 AI 客服系统完整落地实践，新增来源页、6 个实体页（有赞共享技术、Dify、Spring AI Alibaba Studio、Langfuse、Qwen、GPT-4.1）、12 个概念页（三阶段平台演进路线、Workflow 优先于 Agent、意图识别保守策略、全局历史变量替代平台记忆、售前售后流程分离、结构化上下文组装、多模态知识预学、知识优先级机制、静态+动态双路径知识注入、历史对话知识提取三难、文档分块参数调优、Agent 评测四要素、AI 原生协作流程、AI 项目协作三大特征）
+
+## 2026-06-12
+
+- ingest | Knowledge Wiki：面向 AI 的项目知识层建设实践（有赞共享技术，2026-04-07）——新增源文件、knowledge-wiki 实体、7 个概念页面（知识库降熵论、渐进式披露替代向量检索、分布式wiki架构、多agent逆向工程初始化、知识复利效应、最小作用域原则、知识准入控制），更新索引和概览
+
+## 2026-06-12
+
+- ingest | [202512261820]回收团队基于Cursor集成MCP的智能代码修复提示词生成实践 — 转转回收团队刘雅斌（侠客汇）提出六步智能提示词生成法，基于 Cursor+MCP 将 Sonar 扫描结果自动转换为结构化 AI 提示词。新增实体：回收团队、转转技术、刘雅斌、侠客汇、sonar、javalang。新增概念：六步智能提示词生成法、问题类型差异化上下文提取、分层模板体系、few-shot示例库、mcp工具封装模式、非结构化转结构化提示词。
+
+## 2026-06-12 ingest | 从 OpenClaw 看 Agent 架构设计
+
+- 新增来源：vivo 互联网搜索团队 Wang Wenqian《从 OpenClaw 看 Agent 架构设计》（2026-04-08，vivo互联网技术公众号）
+- 新增实体：vivo互联网技术、互联网搜索团队、wang-wenqian、nanobot
+- 新增概念：agent架构四决策、追加式上下文、上下文压缩策略、任务隔离、渐进式工具加载、skill功能聚合、对话驱动vs任务驱动
+- 重要更正：互联网搜索团队归属从腾讯更正为 vivo 公司
+- 关键发现：MCP 动态工具发现与 Anthropic Prompt Cache 缓存稳定性存在不可调和的矛盾
+- 关键发现：Claude Code 92% 缓存命中率核心策略为"永远不改变 tools 列表"
+- 关键发现：RLHF 优化回复满意度是模型回避工具调用的根本原因
+- 跨团队概念交叉：skill功能聚合（vivo）与生产级skill（腾讯seanguo）高度共鸣
+
+## [2026-06-12] ingest | OpenClaw 落地到生产实际应用的一种可能的路径
+
+**来源**：`[202604152000]OpenClaw落地到生产实际应用的一种可能的路径.html`
+**作者**：丁俊杰（vivo 互联网项目团队）
+**发布平台**：vivo互联网技术（微信公众号）
+
+新增实体：
+- `ding-junjie` — vivo 互联网项目团队成员，Coding Agent 四特征及 Agent 生产落地四层框架提出者
+- `互联网项目团队` — vivo 公司旗下技术团队（与互联网搜索团队为同公司不同子团队）
+- `agent-canvas` — Amazon 电商场景业务操作可视化画布/沙盘系统
+- `amazon` — Amazon，Agent Canvas 实践范例来源
+
+新增概念：
+- `coding-agent四特征` — 可视化/封闭/可验证/可回滚，解释 Coding Agent 领先根因
+- `agent生产落地环境重构论` — Agent 生产落地关键在改造环境而非提升模型
+- `agent生产落地四层框架` — 可视化层→封闭层→验证层→回滚层的工程化构建目标
+- `agent-canvas沙盘机制` — Amazon 实证：不可逆业务动作先映射到可推演画布空间
+- `结果产物化` — Agent 输出从对话日志升级为六类正式产物
+- `验证门禁化` — 验证从建议检查升级为四条硬性阻断规则
+- `业务diff等价物` — 为缺乏 git diff 的业务世界构造变更对比能力
+- `沙盘即业务分支` — 沙盘成立后业务世界首次具备类代码 branch 能力
+- `工程系统包裹的复杂性` — 代码复杂被工程系统包裹，业务世界缺乏这种包裹
+- `业务环境不可逆性` — 业务动作影响扩散不可简单撤销
+- `恢复稳定状态` — 业务回滚本质是一套复合能力而非简单撤销
+- `工作单元封装` — 开放模糊任务重构为边界明确的执行单元
+- `agent生产环境六条件` — 可视化/封闭/可验证/可推演/可回滚+有产物有历史有责任归属
+
+关键更新：
+- 与 Wang Wenqian《从 OpenClaw 看 Agent 架构设计》确认为 vivo Agent 系列文章（架构设计 vs 生产落地）
+- 验证门禁化与 Specflow Blocker Gate、美团 Pre-PR 形成跨团队验证门控共识
+- 业务 diff 等价物与有赞影响范围分析同属变更可追溯性谱系
+- 沙盘机制为 Agent 安全沙箱研究空白提供了环境层面的新方案
+
+## [2026-07-20] ingest | 私域转化率翻倍的秘密：我们把多模态 Agent 融进了私域营销
+
+- 来源：货拉拉技术公众号（[[货拉拉技术]]），署名 [[张广发]]、[[郑绮欣]]（[[货拉拉ai应用组|货拉拉 AI 应用组]]），发布日期 2026-05-20
+- 新增实体：[[货拉拉]]、[[货拉拉ai应用组]]、[[张广发]]、[[郑绮欣]]、[[货拉拉技术]]、[[悟空平台]]、[[海豚平台]]
+- 新增概念：[[私域营销]]、[[传统营销三大痛点]]、[[多模态aigc营销素材生产]]、[[三层解耦架构]]、[[三维质检能力矩阵]]、[[场景化规则引擎]]、[[全流程数据闭环]]、[[多模态素材三阶段生产方案]]、[[核心要素四维交叉分析]]、[[多元工具调用体系]]、[[效果校准机制]]、[[ai脚本分层输出]]、[[双维度经验前置挖掘]]、[[实时ai交互三模块]]、[[全链路迭代闭环]]、[[人机协同营销]]
+- 新增来源页：[[sources/[202605201100]私域转化率翻倍的秘密我们把多模态Agent融进了私域营销|[202605201100]私域转化率翻倍的秘密我们把多模态Agent融进了私域营销]]
+- 关键发现：货拉拉提出私域营销 Multi-Agent 三层解耦架构（业务应用层 + 核心智能体层 + 基础支撑层），落地 AI 质检 Agent（三维质检矩阵 + 场景化规则引擎 + 数据闭环）、多模态素材生成 Agent（规划→推理行动→结果生成三阶段）、问答交互 Agent（经验前置挖掘→实时交互→迭代闭环）三大专属 Agent，质检覆盖度 100%、SOP 执行率 100%、80% 私域交互可独立承担
+- 已知矛盾：人工复核成本降低数据正文写 70%、总结写 90%，待确认
+
+## [2026-07-20] ingest | 【干货】从 Prompt、Context 到 Harness，工程的三次进化与终局之战
+
+- 来源：李伟山，鹅厂技术派（微信公众号）/ 腾讯云开发者，2026-05-20 17:31，IP 属地广东，注明使用 AI 辅助写作
+- 新增来源页：[[sources/[202605201731]干货从PromptContext到Harness工程的三次进化与终局之战原创]]
+- 新增实体：[[李伟山]]、[[鹅厂技术派]]、[[腾讯云开发者]]、[[openai]]、[[anthropic]]、[[claude-3-与-claude-3-5]]
+- 新增概念：[[工程三次进化框架]]、[[prompt-engineering-李伟山版]]、[[context-engineering-李伟山版]]、[[harness-engineering-李伟山版]]、[[harness衰变定律]]、[[f-harness]]、[[AI自恋问题]]、[[验证闭环]]、[[声称完成vs验证完成]]、[[human-steer-agents-execute]]、[[工程师三职责]]、[[系统杠杆]]、[[可靠性边界论]]、[[嵌套关系论-李伟山版]]、[[三次进化统一目标论]]、[[四步实践路线图-李伟山]]、[[动态harness思维]]
+- 关键论点：软件工程在进化而非消失；Prompt→Context→Harness 三次进化层层嵌套、缺一不可；Harness 是除大模型之外的一切；Harness 衰变定律（模型能力与 Harness 复杂度呈反比）；"Human steer, agents execute" 工程师价值向上迁移论
+- 跨来源关联：与 [[harness-engineering]]（爱奇艺数据库团队版）、[[上下文工程]]（富城版）、[[三大武器库]]（binxiong 版）、[[agentic-engineering]]（seanguo 版）需系统对照；F-Harness Evaluator 与 [[高阶模型审查低阶模型]]（美团）形成验证体系；"单一事实来源"与 [[多源分治策略]]（爱奇艺版）可能互补；"工程师价值向上迁移论"与 [[经验价值迁移]]（美团）、[[ai-native研发模式]]（binxiong："AI 从打字员到施工队长"）形成共识
+
+## [2026-07-20] ingest | AI架构师的诞生：AI+传统DDD模式 = 实现开发效率提升75%
+
+## [2026-07-20] ingest | 如何设计一个AI Agent系统
+
+- **来源**: [202601261651]如何设计一个AIAgent系统.html
+- **作者**: 北桓（淘天集团 SRE 团队）
+- **发布平台**: 微信公众号"大淘宝技术"（IP 属地浙江）
+- **发布时间**: 2026-01-26 16:51
+- **主题领域**: AI Agent 系统设计、工程实践、资损防控、SRE
+
+### 摘要
+《如何设计一个AI Agent系统》一文从工程实践角度系统阐述如何设计、实现和落地"可控且可用"的 AI Agent 系统。文章以 Andrej Karpathy 的软件范式三阶段演进（Software 1.0/2.0/3.0）开篇，给出 AI Agent 标准公式（LLM + Planning + Memory + Tool Use），并将 Agent 核心技术拆解为提示词工程、推理能力、工具扩展、记忆管理、执行架构、协同进化六大板块。工程实践部分提出 Agent 研发流程三转变、设计范式三分类（最小可用/工作流式/动态规划式）和开发方式三分类。核心实践案例"AI 需求资损分析"覆盖三态架构（运行态/归档与保鲜/研发态）、五步人工流程拆解、工作流范式四大设计支柱、基于 MSRA RAG 分级的知识体系构建，以及 AI 资损资控门禁产品化设计。全文以九条实践体会收尾，提出"混合架构常态""智能是奢侈品，稳定是必需品""Agent 作为团队成员"等核心论断。
+
+### 新增实体
+- [[北桓]] — 淘天集团 SRE 团队成员，本文作者
+- [[sre团队]] — 淘天集团下属团队，以 AI+软件工程思维为核心构建稳定性体系
+- [[大淘宝技术]] — 微信公众号（IP 属地浙江），文章发布平台
+- [[淘天集团]] — 阿里巴巴旗下业务集团
+- [[msra]] — 微软亚洲研究院，RAG 分级论文发表机构
+- [[fred-brooks]] — "No Silver Bullet" 论文作者，次要困难/根本困难框架提出者
+- [[moe]] — Mixture of Experts，AI 资损分析运行态核心调度架构
+
+### 新增概念
+- [[软件范式三阶段演进]] — Karpathy 提出，1.0 手写逻辑 → 2.0 数据驱动 → 3.0 自然语言提示驱动
+- [[ai-agent标准公式]] — AI Agent = LLM + Planning + Memory + Tool Use
+- [[agent研发流程三转变]] — 核心关注点/流程驱动力/协作方式三维度转变
+- [[agent设计范式三分类]] — 最小可用范式 / 工作流式 / 动态规划式
+- [[ai需求资损分析]] — 嵌入研发 pipeline 的自动化资金损失风险分析实践
+- [[资损风险三挑战]] — 资源与风险错位分配 + 专家经验规模化难题 + 评估流程效率瓶颈
+- [[三态架构]] — 运行态（MoE 调度）/ 归档与保鲜 / 研发态
+- [[五步人工资损分析流程]] — Step1-5 完整人工分析拆解
+- [[失血模型]] — 各领域持续沉淀的资金损失场景模型
+- [[确定性推理管道]] — 工作流范式核心实现，抑制 LLM 幻觉与漂移
+- [[工作流范式四大设计支柱]] — 多源输入标准化 / 需求点实现点抽象 / 变更影响面分析 / 资金风险描述语言
+- [[rag查询四级分类]] — MSRA 论文 Level 1-4 查询任务分级
+- [[资金安全知识三类上下文能力]] — 语义对齐 + 链路落点 + 经验复用
+- [[agent能力vs-agent产品]] — 好的 Agent 能力不等于好的 Agent 产品
+- [[ai资损资控门禁]] — 将 Agent 输出转化为研发可执行的门禁
+- [[最小可用范式起步]] — 从 Prompt + LLM 验证核心价值，遵循奥卡姆剃刀
+- [[混合架构常态]] — "工作流外壳 + 智能内核 + 知识管理"三层结构为生产环境主流
+- [[智能vs稳定权衡]] — 错误可预测比高准确率更重要
+- [[ai的次要困难与根本困难]] — 引用 Fred Brooks 框架
+- [[知识工程流程]] — 业务专家+知识工程师协作的知识管理体系
+- [[评估驱动迭代飞轮]] — "无评估不迭代，无数据不优化"
+- [[agent作为团队成员]] — Agent 组织管理新思维
+
+### 跨源关联
+- Dify 作为低代码平台示例与 [[有赞共享技术]] AI 客服验证期选用 Dify 实践形成跨源关联
+- AgentScope 作为纯代码框架与 [[agentscope]] 多智能体框架形成跨源关联
+- "智能是奢侈品，稳定是必需品"与 [[意图识别保守策略]]（有赞）和 [[环境重构论]]（vivo 丁俊杰）形成跨团队稳定性共识
+- [[混合架构常态]]的"工作流外壳+智能内核"与 [[workflow优先于agent]]（有赞）形成直接呼应
+- [[评估驱动迭代飞轮]]与 [[评测集优先于知识库]]（小红书 PMO）、[[agent评测四要素]]（有赞）、[[人人对齐人机对齐]]（美团）形成评测方法论共识
+- [[最小可用范式起步]]与 [[三阶段平台演进路线]]（有赞）、四轮迭代（小红书 PMO）形成渐进式建设共识
+
+## [2026-07-20] ingest | AI Coding 思考：从工具提效到范式变革，我们还缺什么？
+
+- **来源**：[202603021610]AICoding思考从工具提效到范式变革我们还缺什么.html
+- **作者/团队**：[[书牧]]（[[淘天集团]] [[天猫技术]]）
+- **发布平台**：[[大淘宝技术]] 公众号（浙江，2026-03-02）
+- **核心主题**：企业级 AI Coding 瓶颈诊断与突破路径
+
+### 新增实体
+
+- 组织/团队：[[淘天集团]]、[[天猫技术]]、[[大淘宝技术]]
+- 人物：[[书牧]]、[[pd]]
+- 阿里内部 AI Coding 工具生态：[[aone-copilot]]、[[通义灵码]]、[[oneday]]、[[aone-agent]]、[[qwen-code]]、[[qoder]]
+- 阿里内部基础设施：[[mtop]]、[[buc]]、[[acl]]、[[bpms]]
+- 阿里内部 CI/CD 平台：[[aone]]、[[o2]]、[[摩天轮]]
+- 阿里中间件：[[tair]]
+- 代码仓库工具：[[deepwiki]]、[[artifact7]]、[[codebase]]
+- 阿里协同工具链：[[钉钉文档]]、[[钉钉项目群]]、[[钉钉会议]]
+- 角色演进终态：[[产品工程师]]
+- 业务领域：[[百补业务]]、[[国补]]、[[3c数码行业]]
+
+### 新增概念
+
+**核心诊断类**：[[范式变革瓶颈论]]、[[专家知识沉淀缺失]]、[[质变定义框架]]、[[工具提效vs范式质变]]、[[企业级需求三重约束]]、[[企业级vs长尾需求二分法]]、[[任务传达瓶颈论]]、[[主要矛盾未解论]]、[[ai代码量占比幻觉论]]、[[反人性文档论]]
+
+**信息论分析类**：[[信息传递链路模型]]、[[a动作与c动作失衡论]]、[[表达输出能力瓶颈论]]、[[信息论任务复杂度度量]]、[[自动驾驶低熵类比]]、[[系统性降熵]]、[[系统性降熵因果链]]
+
+**工作分类与场景判定类**：[[目标传达执行复杂度四象限]]、[[工作替代四象限模型]]、[[目标驱动vs过程驱动]]、[[执行复杂度区分论]]、[[场景适配成本判定]]、[[飞轮效应-天猫版]]、[[业务研发vs基础设施差异化重点论]]
+
+**专家知识管理类**：[[分层统一知识库]]、[[专家知识四层模型完整版]]、[[基础技术层七项子规范]]、[[业务架构两级分解]]、[[代码仓库三要素]]、[[解决方案经验知识化]]、[[专家知识统一管理论]]、[[技术资产语义化在线化]]、[[业务层知识为最大挑战论]]、[[知识自治论]]、[[专家知识体系化vs点状化差距]]、[[研发流程×专家知识关系模型]]、[[知识驱动ai-coding生态系统]]
+
+**Code Agent 生态诊断类**：[[code-agent碎片化困境]]、[[知识库绑定模式三分法]]、[[知识库全局复用缺失]]、[[context工程手艺活困境]]、[[规模效应断裂论]]、[[code-agent新人类比法]]
+
+**全流程类**：[[逐步拆解细化原则]]、[[前置节点ai协作论]]、[[pd参与ai-coding论]]、[[流程节点裁剪原则]]、[[一套agent多端交互]]、[[全流程ai-coding方向]]、[[双一致性优势论]]、[[sdd知识闭环]]
+
+**程序员职责变化类**：[[交付物链条前移论]]、[[程序员职责三变论]]、[[研发重心转移论]]、[[产品工程师角色]]、[[团队规范消亡论]]
+
+### 跨团队对话要点
+
+- "企业级研发尚未颠覆式提效"与 [[ai-native研发模式]]、[[pmo-bp-agent]]、[[四步行动指南]] 声称的范式变革存在根本分歧
+- [[ai代码量占比幻觉论]] 与行业普遍以 AI 采纳率/代码生成量为提效度量的实践形成直接对立
+- [[反人性文档论]] 与 [[活文档机制]]（腾讯）、[[知识库降熵论]]（有赞）高度一致
+- [[系统性降熵]] 与 [[知识库降熵论]]（有赞）命名一致，可能为平行独立提出
+- [[交付物链条前移论]] 与 [[研发范式前移]]（爱奇艺）方向一致
+- [[产品工程师角色]] 与 [[ai-native研发模式]] "AI 从打字员到施工队长"互补
+- [[ai代码量占比幻觉论]] 与 [[经验价值迁移]]（美团）度量反思呼应
+
+## [2026-07-21] ingest | 知识基座：让 AI 越用越懂业务的团队经验实践【天猫 AI Coding 实践系列】
+
+**来源**：[202603231539]知识基座让AI越用越懂业务的团队经验实践天猫AICoding实践系列.html
+**作者**：珈文（天猫品牌行业前端团队 / 淘天集团）
+**发布平台**：大淘宝技术（微信公众号），2026-03-23，IP 属地浙江，原创标记
+
+### 新增实体
+
+- 珈文 — 天猫品牌行业前端团队成员，本文作者
+- 天猫品牌行业前端团队 — 淘天集团旗下前端团队，覆盖消费电子/3C数码/运动/家装/汽车/奢品/服务等多行业
+- 知识基座-天猫 — AI 全栈研发知识基座系统（云端存储+信号驱动+业务域隔离），三组件四通道架构
+- search-knowledge — MCP Server 知识检索工具，三级分级召回，配合 LanceDB 向量数据库
+- knowledge-search-experience — AI 自动召回团队经验工具，支持结合用户实际代码配置做针对性分析
+- cursor-memory — Cursor Memory / Claude Memory 本地个人级记忆机制（四维局限对比对象）
+- 内部资产中心 — 淘天集团通用资产中心平台，组件/平台知识层来源
+- lancedb — 向量数据库，配合 Embedding 模型实现 RAG 向量检索
+
+### 新增概念
+
+- 企业级vs个人工具本质区别论 — 知识共享 + 智能沉淀两大核心能力是本质区别
+- 五大设计原则-天猫 — 信号驱动>全量沉淀 / 云端统一>本地分散 / 业务隔离>全局混杂 / 闭环验证>单向入库 / 渐进演进>一步到位
+- 超级团队公式 — 超级团队 = 超级个体 × 知识共享 × 智能沉淀（乘法关系）
+- 8步沉淀闭环 — 数据采集→信号识别→候选筛选→知识提炼→去重聚合→入库存储→人工确认→知识消费
+- 99-1会话价值分布 — 99% 会话无沉淀价值，1% 踩坑会话藏真正知识
+- 信号驱动的智能沉淀 — 自动捕获隐性经验的知识运营机制
+- 业务域物理隔离 — 按 Git Group/Repo 匹配业务域，避免跨业务域知识污染
+- 知识分层模型-天猫 — 组件/平台知识、业务领域知识、实践经验知识三层互斥补充
+- 多来源知识汇聚 — 直接对接集团内部已有知识源，遵循知识源头获取原则
+- 全链路ai驱动 — 终局目标：AI 自动判断知识分层路由
+- 代码知识不对称论 — 90%+ 代码 AI 生成但知识库仍依赖人工维护
+- 十倍速废弃定律 — AI 写代码速度 10 倍，废弃速度也 10 倍
+- 知识沉淀策略转向 — 从精挑细选转向量变引发质变
+- 知识消费者变更论 — 知识库消费者从人变为 AI
+- 经验库内容边界原则 — 经验库不应充斥组件官方文档内容
+- 经验库信号反哺机制 — 同类问题反复出现是上游文档需完善的信号
+- 知识维度扩展路线 — pitfall/decision/faq→convention/correction/cheatsheet（各有依赖条件）
+
+### 关键量化数据
+
+- 覆盖 3 业务域 × 2 个月 × 近 40 名后端 × 月均 20-30 需求
+- 1 个月自动捕获 128 条经验（pitfall 51% / faq 32% / decision 17%）
+- 平均置信度 0.92，89% 可直接入库或抽查审核
+- 召回率 85%，平均返回 2.3 条，pitfall 召回率 88%
+- tsconfig 问题解决时间 30-60 分钟 → 1-2 分钟
+
+### 与已有 Wiki 的关联
+
+- 与 [[knowledge-wiki]]（有赞分布式 Git submodule）和 [[活文档机制]]（腾讯代码内同步）构成三种知识管理范式
+- [[经验库内容边界原则]] 与有赞 [[知识准入控制]]（边界比内容更重要）形成策略分歧
+- [[信号驱动的智能沉淀]] 与马上消费 [[数据自迭代]] 理念一致
+- [[经验库信号反哺机制]] 回应美团 [[经验价值迁移]] 中"经验价值从能看全转移到能判断什么重要"
+- [[知识分层模型-天猫]] 与 [[专家知识四层模型完整版]]（天猫前文）和 [[知识准入控制]]（有赞）形成跨组织分类体系对比
+## [2026-09-29] delete | [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列.html
+
+Deleted 1 source file and 0 wiki pages.
+## [2026-09-29] review-resolution | 待审问题集中清理（106 条）
+
+- 新建 [[comparisons/中国大厂AI工程实践总对比]]：收口 30+ 条横向对比类建议（六维度对比 + 行业共识 + 五大分歧）
+- 新建 [[queries/ai工程量化效果声明追踪]]：收口量化数据缺失/矛盾类待审（13 项声明分级追踪）
+- 裁决 OpenSpec 归属矛盾：考证为 Fission AI 同一开源工具（npm @fission-ai/openspec），爱奇艺调研借鉴 vs 腾讯直接采用；plan.md SSOT 系 Specflow 特征非 OpenSpec；[[entities/openspec]] 页已订正
+- duplicate 裁决：[[concepts/agent-skills调用mcp模式]] 与 [[concepts/skill-command-mcp三层架构]] 不合并，已加区别注记
+- 修复 587 个文件损坏的 sources frontmatter 行（app 生成 bug，双变体 + 5 个边角案例手工复原）
+- 12 条待审因受影响页面已被删除判为陈旧（stale）直接跳过

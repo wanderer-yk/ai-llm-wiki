@@ -1,40 +1,14 @@
 ---
 type: entity
-title: MCP（Model Context Protocol）
-tags: [协议, 工具, 远程服务]
-related: [console-vs-mcp-strategy, prompt-cache-mechanism, progressive-tool-loading]
-created: 2026-06-08
-updated: 2026-06-08
-sources: ["从OpenClaw看Agent架构设计.html"]
+title: MCP (Model Context Protocol)
+tags: [协议, 工具接入, 标准化, agent]
+related: [responses-api, a2a, 三大武器库, agent三层商用架构]
+created: 2026-06-12
+updated: 2026-06-12
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html"]
 ---
+# MCP (Model Context Protocol)
 
-# MCP（Model Context Protocol）
+Agent 以标准方式接入工具、资源和外部系统的协议。MCP 工具定义采用 JSON 格式，包含 input_schema、permissions、rate_limit 等标准化字段。
 
-**MCP（Model Context Protocol，模型上下文协议）** 是一种用于远程服务的**标准化接口与鉴权**协议，其核心价值在于**动态工具发现与加载**。
-
-## 在 Agent 架构中的角色
-
-### 优势
-
-- 标准化远程服务接入，提供鉴权与动态发现能力。
-- 支持运行时按需加载工具，提升灵活性。
-
-### 矛盾
-
-MCP 的动态加载能力与 [[prompt-cache-mechanism|Prompt 缓存]] 的稳定性要求存在根本冲突：
-
-- 动态改变 `tools` 列表会破坏缓存前缀。
-- 这使得"完全动态的 MCP 工具"与"高缓存命中"难以兼得。
-
-### 推荐用法
-
-文章提出 [[console-vs-mcp-strategy|控制台 + MCP 混合策略]]：
-
-- **本地高频能力** → 用控制台（单个 `execute` 工具）
-- **远程鉴权服务** → 用 MCP
-
-## 参见
-
-- [[console-vs-mcp-strategy]]
-- [[progressive-tool-loading]]
-- [[prompt-based-tool-injection]]
+在 [[zhiyuanfu]] 的行业分析中，MCP 代表工具接入标准化趋势。与 [[三大武器库]]（腾讯 binxiong）中的 MCP 连接层直接对应。作者核心判断：协议层是长期资产，框架是短期工具；选技术栈优先看是否兼容 MCP/Responses API。

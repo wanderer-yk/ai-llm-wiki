@@ -1,31 +1,54 @@
 ---
 type: entity
 title: AgentScope
-tags: [多智能体框架, 阿里达摩院, java, python, agent]
-related: [agentscope-java, bailian, qwen3-plus, msg-hub, multi-agent-formatter, react-paradigm]
-created: 2026-06-08
-updated: 2026-06-08
-sources: ["什么我的狼人杀水平还不如AI.html"]
+tags: [多智能体框架, Java, 阿里巴巴, 开源]
+related: [ai狼人杀, 多智能体消息机制, 结构化输出, human-in-the-loop, 百炼]
+created: 2026-06-12
+updated: 2026-06-12
+sources: ["[202601082000]什么我的狼人杀水平还不如AI.html"]
 ---
 # AgentScope
 
-阿里达摩院推出的多智能体框架，支持 Java 和 Python 两个版本。文章中通过 Java 版本（[[agentscope-java|AgentScope Java]]，release/1.0.5）构建 AI 狼人杀游戏展示了其六大核心能力。
+## 简介
 
-## 六大核心能力
+AgentScope 是一个由阿里巴巴团队开发的多智能体应用框架，提供 Java 和 Python 两个版本。该框架旨在解决构建多 Agent 协作系统时的核心技术挑战，包括消息管理、信息隔离、结构化输出和人机交互等。
 
-1. **ReActAgent**：基于 [[react-paradigm|ReAct 范式]]（Reasoning + Acting）的持续推理循环，每个 Agent 独立持有 [[in-memory-memory|InMemoryMemory]] 对话记忆
-2. **MsgHub**：基于发布-订阅模式的 [[msg-hub|消息频道机制]]，支持频道隔离与广播控制
-3. **多智能体格式化器**：[[multi-agent-formatter|消息标记 + 消息合并]]，解决 LLM API 三角色限制下的多说话者问题
-4. **结构化输出**：[[function-calling-structured-output|基于 Function Calling]] 的结构化输出，确保决策可靠解析
-5. **UserAgent**：[[agent-interface-polymorphism|人类玩家 Agent]]，与 ReActAgent 同接口，替换即可接入
-6. **流式输出 + SSE**：[[dual-perspective-architecture|双视角实时推送]]，玩家视角（角色过滤）+ 上帝视角（全量复盘）
+## 核心组件
 
-## 多模型支持
+### Agent 实现
 
-为通义千问（[[dashscope-multi-agent-formatter|DashScopeMultiAgentFormatter]]）、GPT、Claude、Gemini 等均提供对应的格式化器实现。
+- **ReActAgent** — 基于 ReAct（Reasoning + Acting）范式的 AI Agent，包含四个核心配置：`name`（标识）、`sysPrompt`（角色提示词）、`model`（底层 LLM）、`memory`（对话记忆）
+- **UserAgent** — 人类玩家 Agent，与 ReActAgent 实现同一接口，通过注入 `UserInputBase` 获取用户输入
 
-## 相关资源
+### 消息管理
 
-- GitHub（Java 版）：`agentscope-ai/agentscope-java`
-- Python 版狼人杀示例：`agentscope-ai/agentscope/tree/main/examples/game/werewolves`
-- 钉钉交流群：146730017349
+- **MsgHub** — 基于发布-订阅模式的消息频道机制，支持自动广播（讨论阶段）、手动广播（投票阶段）和多实例隔离（夜间行动）
+- **MultiAgentFormatter** — 多智能体格式化器，通过消息标记（Agent name 绑定到 msg.name）和消息合并（多条消息合并为带 `<history>` 标签的 user 消息）解决 LLM API 三角色限制
+- **Memory / InMemoryMemory** — 对话记忆管理
+
+### 输出与编排
+
+- **Structured Output** — 基于 Function Calling 的结构化输出机制
+- **多Agent编排器** — 中心协调者，管理游戏流程
+- **GameState** — 全局状态对象，追踪角色、存活、轮次等信息
+
+### 实时通信
+
+- **GameEventEmitter** — 双轨事件发射器（playerSink + godViewHistory）
+- **SSE 实时推送** — 基于 Spring WebFlux 的 Server-Sent Events
+- **WebUserInput** — 通过 Reactor Sinks.One 实现异步等待用户输入
+
+## 支持的模型
+
+为通义千问、OpenAI GPT、Claude、Gemini 等主流模型均提供了对应的 Formatter 实现。
+
+## 技术要求
+
+- Java 17+
+- Maven 3.6+
+- 底层 LLM 通过阿里云[[百炼]]平台 API 调用
+
+## 项目地址
+
+- Java 版 GitHub: `agentscope-ai/agentscope-java`
+- Python 版 GitHub: `agentscope-ai/agentscope`

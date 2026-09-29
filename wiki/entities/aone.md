@@ -1,0 +1,12 @@
+---
+type: entity
+title: Aone
+tags: [ci-cd, 阿里巴巴, 内部平台]
+related: [o2, 摩天轮, 天猫技术]
+created: 2026-07-20
+updated: 2026-07-20
+sources: ["[202603021610]AICoding思考从工具提效到范式变革我们还缺什么.html"]
+---
+# Aone
+
+阿里巴巴内部 CI/CD 平台之一。在 [[专家知识四层模型完整版]] 基础技术层中作为 CI/CD 平台和流程的示例被提及。
