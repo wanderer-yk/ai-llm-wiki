@@ -425,3 +425,5 @@ Deleted 1 source file and 0 wiki pages.
 - duplicate 裁决：[[concepts/agent-skills调用mcp模式]] 与 [[concepts/skill-command-mcp三层架构]] 不合并，已加区别注记
 - 修复 587 个文件损坏的 sources frontmatter 行（app 生成 bug，双变体 + 5 个边角案例手工复原）
 - 12 条待审因受影响页面已被删除判为陈旧（stale）直接跳过
+
+## [2026-09-29] ingest | [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929.html

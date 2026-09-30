@@ -260,7 +260,33 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929
+- [[concepts/代码采纳率]] — 代码采纳率
+- [[concepts/Token成本追踪]] — Token成本追踪
+- [[concepts/跨系统数据关联机制]] — 跨系统数据关联机制
+- [[concepts/追踪终点延伸论]] — 追踪终点延伸论
+- [[concepts/诊断优先于证明]] — 诊断优先于证明
+- [[concepts/碰巧正确vs稳定正确]] — 碰巧正确vs稳定正确
+- [[concepts/llm-as-judge]] — llm-as-judge
+- [[concepts/高频低效知识]] — 高频低效知识
+- [[concepts/数据对齐团队认知论]] — 数据对齐团队认知论
+- [[comparisons/SWE-bench与垂直化评测基准对比]] — SWE-bench与垂直化评测基准对比
+- [[comparisons/Copilot Metrics与天猫跨系统数据关联对比]] — Copilot Metrics与天猫跨系统数据关联对比
+- [[entities/swe-bench]] — swe-bench
+- [[concepts/三层ai-coding度量体系]] — 三层ai-coding度量体系
+- [[concepts/知识资产治理革命]] — 知识资产治理革命
+- [[concepts/垂直化业务评测集]] — 垂直化业务评测集
+- [[concepts/复杂度矩阵]] — 复杂度矩阵
+- [[concepts/结果过程双视角评分模型]] — 结果过程双视角评分模型
+- [[concepts/评测可信度保障四机制]] — 评测可信度保障四机制
+- [[concepts/离线评测调优闭环]] — 离线评测调优闭环
+- [[concepts/调用命中采纳转化漏斗]] — 调用命中采纳转化漏斗
+- [[concepts/命中采纳四象限分析]] — 命中采纳四象限分析
+- [[concepts/四类上下文效果追踪框架]] — 四类上下文效果追踪框架
+- [[concepts/需求覆盖率]] — 需求覆盖率
 - [[sources/[202603231539]知识基座让AI越用越懂业务的团队经验实践天猫AICoding实践系列]] — [202603231539]知识基座让AI越用越懂业务的团队经验实践天猫AICoding实践系列
 - [[entities/珈文]] — 珈文
 - [[entities/天猫品牌行业前端团队]] — 天猫品牌行业前端团队
