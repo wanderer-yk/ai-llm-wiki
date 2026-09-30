@@ -1,19 +1,38 @@
 ---
 type: concept
 title: Agentic RAG
-tags: [rag, agent, 多跳推理, 主动澄清, 规划能力, 未来方向]
-related: [graphrag, agent-loop, plan-and-execute模式, 多跳推理, agent框架三要素]
+tags: [rag, agent, 多跳推理, 主动澄清, 规划能力, 未来方向, agentic-rag, 自主检索, 多轮迭代]
+related: ["graphrag", "agent-loop", "plan-and-execute模式", "多跳推理", "agent框架三要素", "rag知识表示演进论", "cot驱动意图识别与并行检索", "lightrag", "react-agent", "reflection模式", "[202604101635", "workflow优先于agent", "双路检索上下文", "badcase五分类"]
 created: 2026-06-25
-updated: 2026-06-25
-sources: ["[202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践.html"]
+updated: 2026-09-30
+sources: ["[202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践.html", "[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html"]
 ---
 # Agentic RAG
 
-Agentic RAG 是 [[货拉拉]] [[大数据技术团队]]在 GraphRAG 方案2.0 取得成效后规划的**未来探索方向**：用 Agent 的规划能力替代固定工作流，实现更智能的检索增强生成。
+**Agentic RAG** 是让 Agent 自主接管检索决策的 RAG 演进方向：由 Agent 自主决定"**是否检索、检索什么、结果够不够、要不要重查**"，使检索从一次性查找进化为多轮迭代优化。在 [[rag知识表示演进论]] 中，它被定位为 RAG 演进的终局方向——知识表示从扁平向量 → 实体关系图谱之后的第三阶段。
 
-## 核心理念
+在 [[货拉拉]] [[大数据技术团队]]的实践中（据《[202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践》），Agentic RAG 是 GraphRAG 方案2.0 取得成效后规划的**未来探索方向**：用 Agent 的规划能力替代固定工作流，实现更智能的检索增强生成。
 
-当前 GraphRAG 方案2.0 虽然引入了知识图谱和混合检索，但检索流程仍然是固定的（[[双路检索上下文|Local/Global 双路检索]]）。Agentic RAG 旨在让 Agent 自主决定检索策略，根据问题复杂度动态调整检索深度和路径。
+## 核心理念：从固定工作流到自主检索决策
+
+当前 GraphRAG 方案2.0（货拉拉）虽然引入了知识图谱和混合检索，但检索流程仍然是固定的（[[双路检索上下文|Local/Global 双路检索]]）。Agentic RAG 旨在让 Agent 自主决定检索策略，根据问题复杂度动态调整检索深度和路径。
+
+| 维度 | 固定工作流（方案2.0） | Agentic RAG |
+|------|---------------------|-------------|
+| 检索策略 | 预定义双路检索 | Agent 自主决定 |
+| 复杂查询 | 单次检索 | 多轮检索-验证循环 |
+| 模糊问题 | 尽力回答（可能幻觉） | 主动澄清 |
+| 可控性 | 高 | 需额外约束机制 |
+
+## 三种模式
+
+据《[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级》综述：
+
+| 模式 | 机制 |
+|---|---|
+| 自适应 RAG（Adaptive RAG） | 按问题复杂度动态选择检索策略 |
+| 自反思 RAG（Self-Reflective RAG） | 生成后评估质量，不满意即重新检索 |
+| 纠正性 RAG（Corrective RAG） | 评估检索结果，剔除噪音文档后再生成 |
 
 ## 关键能力
 
@@ -25,22 +44,26 @@ Agentic RAG 是 [[货拉拉]] [[大数据技术团队]]在 GraphRAG 方案2.0 �
 
 当用户问题描述模糊或信息不足时，Agent 主动向用户提问以澄清意图，而非基于不充分的上下文猜测并可能产生幻觉回答。这与 [[badcase五分类|Badcase类型4-5（幻觉回答）]]的解决直接相关。
 
-## 与固定工作流的区别
+## 与图增强检索的关系
 
-| 维度 | 固定工作流（方案2.0） | Agentic RAG |
-|------|---------------------|-------------|
-| 检索策略 | 预定义双路检索 | Agent 自主决定 |
-| 复杂查询 | 单次检索 | 多轮检索-验证循环 |
-| 模糊问题 | 尽力回答（可能幻觉） | 主动澄清 |
-| 可控性 | 高 | 需额外约束机制 |
+互补而非替代：**图结构保证结构化质量 + Agent 机制保证自适应能力**。前者解决"知识如何组织"，后者解决"检索策略如何决策"。
 
-## 与 Wiki 已有概念的关联
+## 与已有概念的关联
 
-- 与 [[agent-loop]]关联：Agentic RAG 的核心运行机制是 Agent Loop（推理+工具调用+上下文更新循环）
-- 与 [[plan-and-execute模式]]关联：多跳推理的"拆分子问题+逐步执行"正是 Plan-and-Execute 范式的应用
-- 与 [[agent框架三要素]]关联：Agentic RAG 需要 LLM Call（推理）+ Tools Call（检索工具）+ Context Engineering（多轮上下文管理）三要素协同
-- 与 [[workflow优先于agent]]（有赞）形成张力：有赞主张客服场景优先选择确定性 Workflow，而 Agentic RAG 代表了"从 Workflow 向 Agent 渐进演进"的未来方向
+- [[agent-loop]]：Agentic RAG 的核心运行机制是 Agent Loop（推理 + 工具调用 + 上下文更新的循环）
+- [[agent框架三要素]]：需要 LLM Call（推理）+ Tools Call（检索工具）+ Context Engineering（多轮上下文管理）三要素协同
+- [[workflow优先于agent]]（有赞）：形成张力——有赞主张客服场景优先选择确定性 Workflow，而 Agentic RAG 代表了"从 Workflow 向 Agent 渐进演进"的未来方向
+
+## 学术脉络
+
+- [[react-agent]]：ReAct 推理 + 行动范式
+- [[reflection模式]]：Self-Refine / Reflexion 学术线（与 Self-Reflective RAG 直接相关）
+- [[plan-and-execute模式]]：先规划后执行的结构化工作流；多跳推理的"拆分子问题 + 逐步执行"正是该范式在检索场景的应用
+
+> [!warning] 能力差距注意
+> 《[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级》作者自评其 CoT 驱动意图识别（见 [[cot驱动意图识别与并行检索]]）"已具备 Agentic RAG 中'自主规划检索策略'的雏形"——此为**自评定位而非实证结论**。完整的 Agentic RAG 要求自主决策四问（是否检索 / 检索什么 / 够不够 / 要不要重查），与该文章实际落地的 AI 答疑助手系统存在能力差距，差距未展开。
 
 ## 开放问题
 
-Agentic RAG 的具体落地计划与时间线尚未明确。在元数据检索场景中，Agent 自主性的引入是否会带来可控性下降和幻觉风险增加，需要进一步验证。
+- 具体落地计划与时间线尚未明确（货拉拉元数据检索场景）。
+- 在元数据检索场景中，Agent 自主性的引入是否会带来可控性下降和幻觉风险增加，需进一步验证。

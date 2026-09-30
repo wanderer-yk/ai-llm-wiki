@@ -5,7 +5,7 @@ tags: ["ai-coding", "devops", "spec-driven", "skill", "sota", "ide", "ai-coding�
 related: ["kiritomoe", "ai-coding第一性原理", "sota模型专属优化", "interview机制", "动态spec机制", "skill环境感知", "devops重构", "规格驱动ai开发", "aone-copilot", "通义灵码", "cursor"]
 created: 2026-07-20
 updated: 2026-07-20
-sources: ["[202601242318", "[202603021610]AICoding思考从工具提效到范式变革我们还缺什么.html"]
+sources: ["[202603021610]AICoding思考从工具提效到范式变革我们还缺什么.html", "[202601242318]QoderQuest10把执行交给AI把选择留给人类.html"]
 ---
 # Qoder
 

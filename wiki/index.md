@@ -262,7 +262,41 @@ updated: 2026-06-23
 
 
 
+
+
+
 ## Recently Updated
+- [[sources/[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级]] — [202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级
+- [[entities/凡烟]] — 凡烟
+- [[entities/跨端技术团队]] — 跨端技术团队
+- [[entities/AI答疑助手]] — AI答疑助手
+- [[entities/graphrag]] — graphrag
+- [[entities/lightrag]] — lightrag
+- [[entities/andrej-karpathy]] — andrej-karpathy
+- [[concepts/上下文工程统一命题]] — 上下文工程统一命题
+- [[concepts/rag知识表示演进论]] — rag知识表示演进论
+- [[concepts/cot驱动意图识别与并行检索]] — cot驱动意图识别与并行检索
+- [[concepts/graphrag工程化四困境]] — graphrag工程化四困境
+- [[concepts/lightrag三函数索引构建]] — lightrag三函数索引构建
+- [[concepts/lightrag双层检索范式]] — lightrag双层检索范式
+- [[concepts/多维度标注体系]] — 多维度标注体系
+- [[concepts/评测agent乐观偏差]] — 评测agent乐观偏差
+- [[concepts/agentic-rag]] — agentic-rag
+- [[comparisons/graphrag与lightrag对比]] — graphrag与lightrag对比
+- [[sources/[202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家]] — [202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家
+- [[entities/淘苏]] — 淘苏
+- [[entities/交易业务技术团队]] — 交易业务技术团队
+- [[entities/trade-spec]] — trade-spec
+- [[entities/aonesandbox]] — aonesandbox
+- [[entities/claude-agent-sdk]] — claude-agent-sdk
+- [[entities/claude-sonnet-4-5]] — claude-sonnet-4-5
+- [[entities/ideatalk]] — ideatalk
+- [[entities/qoderquest]] — qoderquest
+- [[concepts/AI领域专家搭档愿景]] — AI领域专家搭档愿景
+- [[concepts/领域知识竞争壁垒论]] — 领域知识竞争壁垒论
+- [[concepts/AI专家成长四机制]] — AI专家成长四机制
+- [[concepts/召回双风险论]] — 召回双风险论
+- [[concepts/生码F1-score定义]] — 生码F1-score定义
 - [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929
 - [[concepts/代码采纳率]] — 代码采纳率
 - [[concepts/Token成本追踪]] — Token成本追踪
