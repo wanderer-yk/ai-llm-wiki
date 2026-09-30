@@ -265,7 +265,23 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构]] — [202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构
+- [[entities/苏雄]] — 苏雄
+- [[entities/会员技术团队]] — 会员技术团队
+- [[concepts/轻量级单进程agent框架]] — 轻量级单进程agent框架
+- [[concepts/薄抽象设计哲学]] — 薄抽象设计哲学
+- [[concepts/有意取舍边界声明]] — 有意取舍边界声明
+- [[concepts/同步异步双路径]] — 同步异步双路径
+- [[concepts/互斥锁与暂存队列]] — 互斥锁与暂存队列
+- [[concepts/子agent单进程并发模型]] — 子agent单进程并发模型
+- [[concepts/入站消息总线]] — 入站消息总线
+- [[concepts/子agent工具排除机制]] — 子agent工具排除机制
+- [[concepts/tool抽象四要素]] — tool抽象四要素
+- [[concepts/exec-tool三层防护]] — exec-tool三层防护
+- [[concepts/简化cron解析]] — 简化cron解析
+- [[concepts/llm并发状态感知]] — llm并发状态感知
 - [[sources/[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级]] — [202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级
 - [[entities/凡烟]] — 凡烟
 - [[entities/跨端技术团队]] — 跨端技术团队
@@ -283,6 +299,7 @@ updated: 2026-06-23
 - [[concepts/评测agent乐观偏差]] — 评测agent乐观偏差
 - [[concepts/agentic-rag]] — agentic-rag
 - [[comparisons/graphrag与lightrag对比]] — graphrag与lightrag对比
+- [[comparisons/苏雄800行框架与pi-agent极简agent设计哲学对比]] — 苏雄800行框架与pi-agent极简agent设计哲学对比
 - [[sources/[202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家]] — [202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家
 - [[entities/淘苏]] — 淘苏
 - [[entities/交易业务技术团队]] — 交易业务技术团队
