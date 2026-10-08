@@ -274,7 +274,34 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术]] — [202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术
+- [[entities/得物技术]] — 得物技术
+- [[entities/稚归]] — 稚归
+- [[entities/飞书]] — 飞书
+- [[concepts/人机协作新型开发范式]] — 人机协作新型开发范式
+- [[concepts/开发者核心竞争力转变]] — 开发者核心竞争力转变
+- [[concepts/ai编程工具未来发展方向]] — ai编程工具未来发展方向
+- [[concepts/系统提示词护栏论]] — 系统提示词护栏论
+- [[concepts/系统提示词三技巧]] — 系统提示词三技巧
+- [[concepts/skill知识沉淀机制]] — skill知识沉淀机制
+- [[concepts/语义鸿沟]] — 语义鸿沟
+- [[concepts/约束衰减]] — 约束衰减
+- [[concepts/目标偏移]] — 目标偏移
+- [[concepts/三阶段对话模型]] — 三阶段对话模型
+- [[concepts/必须遵守vs建议参考约束分层]] — 必须遵守vs建议参考约束分层
+- [[concepts/增量验证]] — 增量验证
+- [[concepts/工作记忆限制理论]] — 工作记忆限制理论
+- [[concepts/渐进式知识构建]] — 渐进式知识构建
+- [[concepts/四核心子代理角色]] — 四核心子代理角色
+- [[concepts/中间产物驱动论]] — 中间产物驱动论
+- [[concepts/先整体规划再迭代实现]] — 先整体规划再迭代实现
+- [[concepts/子代理协作模式]] — 子代理协作模式
+- [[concepts/人类主导AI辅助三分类]] — 人类主导AI辅助三分类
+- [[concepts/上下文管理四技巧]] — 上下文管理四技巧
+- [[concepts/质量控制三策略]] — 质量控制三策略
+- [[concepts/AI编程局限性四认知]] — AI编程局限性四认知
 - [[sources/[202605181736]RAG全链路技术详解]] — [202605181736]RAG全链路技术详解
 - [[concepts/场景采样两阶段解耦]] — 场景采样两阶段解耦
 - [[concepts/ragas查询类型分类]] — ragas查询类型分类
@@ -449,29 +476,4 @@ updated: 2026-06-23
 - [[entities/cursor-memory]] — cursor-memory
 - [[entities/内部资产中心]] — 内部资产中心
 - [[entities/lancedb]] — lancedb
-- [[concepts/企业级vs个人工具本质区别论]] — 企业级vs个人工具本质区别论
-- [[concepts/五大设计原则-天猫]] — 五大设计原则-天猫
-- [[concepts/超级团队公式]] — 超级团队公式
-- [[concepts/8步沉淀闭环]] — 8步沉淀闭环
-- [[concepts/99-1会话价值分布]] — 99-1会话价值分布
-- [[concepts/隐性经验定义公式]] — 隐性经验定义公式
-- [[concepts/信号驱动的智能沉淀]] — 信号驱动的智能沉淀
-- [[concepts/代码知识不对称论]] — 代码知识不对称论
-- [[concepts/十倍速废弃定律]] — 十倍速废弃定律
-- [[concepts/知识沉淀策略转向]] — 知识沉淀策略转向
-- [[concepts/知识消费者变更论]] — 知识消费者变更论
-- [[concepts/业务域物理隔离]] — 业务域物理隔离
-- [[sources/[202603021610]AICoding思考从工具提效到范式变革我们还缺什么]] — [202603021610]AICoding思考从工具提效到范式变革我们还缺什么
-- [[entities/天猫技术]] — 天猫技术
-- [[entities/淘天集团]] — 淘天集团
-- [[entities/大淘宝技术]] — 大淘宝技术
-- [[entities/书牧]] — 书牧
-- [[entities/产品工程师]] — 产品工程师
-- [[entities/aone-copilot]] — aone-copilot
-- [[entities/通义灵码]] — 通义灵码
-- [[entities/oneday]] — oneday
-- [[entities/aone-agent]] — aone-agent
-- [[entities/qwen-code]] — qwen-code
-- [[entities/qoder]] — qoder
-- [[entities/mtop]] — mtop
-- [[entities/buc]] — buc
+- [[comparisons/单一SSOT与多源分治文档策略对比]] — 单一SSOT与多源分治文档策略对比
