@@ -266,7 +266,51 @@ updated: 2026-06-23
 
 
 
+
+
+
+
 ## Recently Updated
+- [[sources/[202605061742]天猫新品营销技术团队AI编码实战指南上]] — [202605061742]天猫新品营销技术团队AI编码实战指南上
+- [[concepts/过程文档留存]] — 过程文档留存
+- [[concepts/上下文窗口管理]] — 上下文窗口管理
+- [[concepts/严格解耦架构设计防技术债]] — 严格解耦架构设计防技术债
+- [[concepts/自检机制]] — 自检机制
+- [[concepts/持续失败场景处置]] — 持续失败场景处置
+- [[concepts/AI目标漂移约束]] — AI目标漂移约束
+- [[concepts/精准上下文供给]] — 精准上下文供给
+- [[concepts/迭代型需求git版本管理策略]] — 迭代型需求git版本管理策略
+- [[concepts/仓库解耦决定迭代成功率论]] — 仓库解耦决定迭代成功率论
+- [[concepts/人提方案AI执行半自动方案]] — 人提方案AI执行半自动方案
+- [[concepts/整体代码重构兜底策略]] — 整体代码重构兜底策略
+- [[concepts/Chat场景快捷调优手段]] — Chat场景快捷调优手段
+- [[concepts/三种实现风格]] — 三种实现风格
+- [[concepts/分支控制]] — 分支控制
+- [[concepts/报错调试]] — 报错调试
+- [[concepts/数据调试]] — 数据调试
+- [[concepts/出码准确率语料阶梯]] — 出码准确率语料阶梯
+- [[concepts/规范文档反馈迭代]] — 规范文档反馈迭代
+- [[comparisons/需求驱动型与工程主导型对比]] — 需求驱动型与工程主导型对比
+- [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列
+- [[entities/github-copilot-metrics]] — github-copilot-metrics
+- [[synthesis/天猫AICoding实践系列综合]] — 天猫AICoding实践系列综合
+- [[concepts/视图分离]] — 视图分离
+- [[concepts/任务设计与拆分]] — 任务设计与拆分
+- [[entities/卓屿]] — 卓屿
+- [[entities/天猫新品营销技术]] — 天猫新品营销技术
+- [[entities/D2C]] — D2C
+- [[concepts/AI生码四大痛点]] — AI生码四大痛点
+- [[concepts/AI生码五维归因框架]] — AI生码五维归因框架
+- [[concepts/最大化复用]] — 最大化复用
+- [[concepts/文档先行]] — 文档先行
+- [[concepts/二八定律]] — 二八定律
+- [[concepts/AI-Coding五步模型]] — AI-Coding五步模型
+- [[concepts/掌控AI生码环节介入论]] — 掌控AI生码环节介入论
+- [[concepts/前置准备]] — 前置准备
+- [[concepts/全流程节点]] — 全流程节点
+- [[concepts/文件引用层级与出码正确率]] — 文件引用层级与出码正确率
+- [[concepts/明确需求内容]] — 明确需求内容
+- [[concepts/PRD即单测]] — PRD即单测
 - [[sources/[202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构]] — [202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构
 - [[entities/苏雄]] — 苏雄
 - [[entities/会员技术团队]] — 会员技术团队
