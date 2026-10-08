@@ -5,7 +5,7 @@ tags: [工具, anthropic, cli, 编码agent]
 related: [zhiyuanfu, 24h打工人, codex, gemini-cli, cursor]
 created: 2026-06-12
 updated: 2026-10-08
-sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html"]
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html"]
 ---
 # Claude Code
 
@@ -15,3 +15,9 @@ Anthropic 推出的 Claude CLI 工具，具备读文件、改代码、跑命令�
 
 - **得物团队级方法论实证（2026-01，最丰富单来源）**：在 Claude Code 中构建协调者+四核心角色子代理系统（技术方案架构师/代码审查专家/代码实现专家/前端页面生成器，见 [[子代理协作模式]]），并沉淀系统提示词护栏论、[[约束衰减]]（第 1/5/10 轮衰减）、[[三阶段对话模型]]、[[上下文管理四技巧]]、[[AI编程局限性四认知]] 等团队级方法论。
 - 区别于既有索引中 zhiyuanfu「纯 grep 方案、Token 消耗多」的工具级记录，本源为团队协作视角的深度实践。
+
+## 来自 ConardLi Harness 实践篇的证据（2026-05）
+
+- **SubAgent 与 Agent Teams 双模式**（实验特性）：子代理模式成熟稳定；Agent Teams 支持多 Agent 并行开发，实测并行章节开发**最大 3**（经验值，超过易冲突）。
+- 工具链适配：`tmux` 多窗格并行会话（Agent Teams 适配配置仅见截图，键值存疑保留）、`.claude/skills` 承载 Skill 级 Harness、`--dangerously-skip-permissions` 跳过权限确认的边界=**仅限可信目录**（原文：「不要在陌生仓库里随便开」）。
+- 实验开关：Agent Teams 需手动开启实验特性，尚非默认能力。

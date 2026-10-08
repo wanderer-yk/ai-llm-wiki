@@ -4,8 +4,8 @@ title: Harness Engineering
 tags: [ai编程, agent工程化, 返工治理, 研发协作, 方法论]
 related: [ai编程幻觉, 规格驱动ai开发, 研发范式前移, specflow, bmad-method, 多源分治策略, ssot单文档策略, blocker-gate]
 created: 2026-06-12
-updated: 2026-06-12
-sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.html"]
+updated: 2026-10-08
+sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html"]
 ---
 # Harness Engineering
 
@@ -86,3 +86,7 @@ sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返�
 | 理论来源 | 参考 OpenAI 实践 | 融合 OpenSpec/GitHub Spec Kit/BMAD |
 
 两者同属爱奇艺、同公众号，在核心实践上趋同（都用 plan 冻结范围），但理论表述和实现路径不同。
+
+## 跨作者印证（2026-05）
+
+- ConardLi《Harness实践》提出 Harness **六核心部分**（系统提示词/工具链/Skills/子代理/权限与安全/记忆与上下文管理），与本源（爱奇艺 HarnessEngineering）**职责四要素**跨作者互证——两套划分粒度不同但要素覆盖一致，映射详见 [[comparisons/ConardLi六核心与爱奇艺Harness五要素对比]]。

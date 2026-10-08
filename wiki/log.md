@@ -522,3 +522,16 @@ Deleted 1 source file and 0 wiki pages.
 - 落地三项：规格驱动ai开发页正式增补 **Spec Coding 别名**+得物第三团队采用链（爱奇艺→腾讯→得物）；量化追踪页 +1 行（提效36%/人效3倍/AI代码占比100%/39接口零返工/25546行，**AI 自析+人工校准溯源降权**+10天口径矛盾注）；新建比较页 [[comparisons/按场景选人机协作模式三分类对比]]（得物颗粒度三档 vs 天猫严苛度五级 vs zhiyuanfu 决策五层：共识=重需求才启用重流程/确定性成本最低优先，分歧=需求属性vs场景属性vs手段属性三变量复合使用非互替）
 - 裁决登记：AI失效三模式 vs AI能力边界三结构性特征同文双分类不合并（流程防御 vs 能力认知）；本文 vs specflow/spec-kit 无张力不立页；得物双文系列比较页候选保留待第三篇或用户裁决
 - 复活 15 条（上篇4+RAG5+得物6）随本篇入队重扫按原裁决重 resolve；新待审 7 条（三对重复+1 独立）全清
+
+
+## [2026-10-08] ingest | Harness实践：让Agent自动制作知识讲解视频
+
+- 新增来源页 sources/[202605090830]Harness实践让Agent自动制作知识讲解视频（ConardLi，code秘密花园，2026-05-09 08:30，原创，IP 北京；全文 12 chunk 处理完毕，结论句完整收尾，确认全文无量化效果声明）
+- 新增实体页：ConardLi、code秘密花园、web-video-presentation、garden-skills、MiniMax、MMX-CLI、CC-Switch、tmux
+- 新增概念页：Harness核心价值三元组织论、Harness六大核心部分、Harness职责四要素、Skill级Harness论、网页即视频方案、视频网页四步关键流程、四阶段两检查点流水线、Plan检查点五项对齐、分阶段文档按需加载、文件化工作记忆、并行开发隔离机制、反馈修复最小切片、硬性自检规则、三级评审执行方式、SubAgent与AgentTeams双模式、开发模式三档、三种播放模式、流水线复用模式
+- 新增比较页：ConardLi六核心与爱奇艺Harness五要素对比（六核心 vs 五要素映射 + 层级谱系差异）
+- 修正记录：早期分析曾推测"链路第四工具=录屏"，正文 3.4/4.7 双重证实为 MMX CLI；自评失真并入 [[评测agent乐观偏差]] 口径；最大并行 3 经验值供 [[人工并发天花板]] 参考
+- 待回填既有页：claude-code（Agent Teams/SubAgent 双模式、实验开关、tmux 适配、.claude/skills、--dangerously-skip-permissions 使用边界、Agent Teams 并行章节开发最大 3）、评测agent乐观偏差（自评失真证据）、人工并发天花板（Agent 并行 3 vs 人工 4–6）、harness-engineering（跨作者四要素/六核心印证）
+- 量化追踪：[[ai工程量化效果声明追踪]] 记录"全文无量化效果声明（已确认全文）"
+
+- 收官处理记录（人工，2026-10-08）：28 新页 sources 单源重写+全库复验零损伤；**统一单源重写副作用修正 1 处**——比较页 ConardLi六核心与爱奇艺Harness五要素对比本该双源，已补回爱奇艺篇；待回填 4 页落地（claude-code Agent Teams/SubAgent 双模式+实验开关+tmux 适配存疑注+权限参数可信目录边界、评测agent乐观偏差自评失真跨源、人工并发天花板 Agent 并行 3 经验值、harness-engineering 跨作者四要素/六核心印证），其中 claude-code 权限参数表述经回源核对订正（原文=仅限可信目录，非沙箱/容器）；复活 21 条按原裁决重 resolve，另 review-e24f185b（SSOT 张力）被 sweep 自动解决=比较页建成后的正确行为；review-6896d061（四页回填需求）落地 resolve；review-ba5b438e（ConardLi 旧教程+Anthropic 博客两个候选源）悬置——次级来源采纳为用户决策

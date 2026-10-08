@@ -276,7 +276,36 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202605090830]Harness实践让Agent自动制作知识讲解视频]] — [202605090830]Harness实践让Agent自动制作知识讲解视频
+- [[entities/ConardLi]] — ConardLi
+- [[entities/code秘密花园]] — code秘密花园
+- [[entities/web-video-presentation]] — web-video-presentation
+- [[entities/garden-skills]] — garden-skills
+- [[entities/MiniMax]] — MiniMax
+- [[entities/MMX-CLI]] — MMX-CLI
+- [[entities/CC-Switch]] — CC-Switch
+- [[entities/tmux]] — tmux
+- [[concepts/Harness核心价值三元组织论]] — Harness核心价值三元组织论
+- [[concepts/三种播放模式]] — 三种播放模式
+- [[concepts/流水线复用模式]] — 流水线复用模式
+- [[concepts/开发模式三档]] — 开发模式三档
+- [[concepts/SubAgent与AgentTeams双模式]] — SubAgent与AgentTeams双模式
+- [[concepts/Harness六大核心部分]] — Harness六大核心部分
+- [[concepts/Skill级Harness论]] — Skill级Harness论
+- [[concepts/硬性自检规则]] — 硬性自检规则
+- [[concepts/三级评审执行方式]] — 三级评审执行方式
+- [[concepts/并行开发隔离机制]] — 并行开发隔离机制
+- [[concepts/反馈修复最小切片]] — 反馈修复最小切片
+- [[concepts/四阶段两检查点流水线]] — 四阶段两检查点流水线
+- [[concepts/Plan检查点五项对齐]] — Plan检查点五项对齐
+- [[concepts/分阶段文档按需加载]] — 分阶段文档按需加载
+- [[concepts/文件化工作记忆]] — 文件化工作记忆
+- [[concepts/网页即视频方案]] — 网页即视频方案
+- [[concepts/视频网页四步关键流程]] — 视频网页四步关键流程
+- [[concepts/Harness职责四要素]] — Harness职责四要素
+- [[comparisons/ConardLi六核心与爱奇艺Harness五要素对比]] — ConardLi六核心与爱奇艺Harness五要素对比
 - [[sources/[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术]] — [202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术
 - [[entities/阳凯]] — 阳凯
 - [[concepts/三层规范体系]] — 三层规范体系
@@ -449,32 +478,3 @@ updated: 2026-06-23
 - [[entities/claude-agent-sdk]] — claude-agent-sdk
 - [[entities/claude-sonnet-4-5]] — claude-sonnet-4-5
 - [[entities/ideatalk]] — ideatalk
-- [[entities/qoderquest]] — qoderquest
-- [[concepts/AI领域专家搭档愿景]] — AI领域专家搭档愿景
-- [[concepts/领域知识竞争壁垒论]] — 领域知识竞争壁垒论
-- [[concepts/AI专家成长四机制]] — AI专家成长四机制
-- [[concepts/召回双风险论]] — 召回双风险论
-- [[concepts/生码F1-score定义]] — 生码F1-score定义
-- [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929
-- [[concepts/代码采纳率]] — 代码采纳率
-- [[concepts/Token成本追踪]] — Token成本追踪
-- [[concepts/跨系统数据关联机制]] — 跨系统数据关联机制
-- [[concepts/追踪终点延伸论]] — 追踪终点延伸论
-- [[concepts/诊断优先于证明]] — 诊断优先于证明
-- [[concepts/碰巧正确vs稳定正确]] — 碰巧正确vs稳定正确
-- [[concepts/llm-as-judge]] — llm-as-judge
-- [[concepts/高频低效知识]] — 高频低效知识
-- [[concepts/数据对齐团队认知论]] — 数据对齐团队认知论
-- [[comparisons/SWE-bench与垂直化评测基准对比]] — SWE-bench与垂直化评测基准对比
-- [[comparisons/Copilot Metrics与天猫跨系统数据关联对比]] — Copilot Metrics与天猫跨系统数据关联对比
-- [[entities/swe-bench]] — swe-bench
-- [[concepts/三层ai-coding度量体系]] — 三层ai-coding度量体系
-- [[concepts/知识资产治理革命]] — 知识资产治理革命
-- [[concepts/垂直化业务评测集]] — 垂直化业务评测集
-- [[concepts/复杂度矩阵]] — 复杂度矩阵
-- [[concepts/结果过程双视角评分模型]] — 结果过程双视角评分模型
-- [[concepts/评测可信度保障四机制]] — 评测可信度保障四机制
-- [[concepts/离线评测调优闭环]] — 离线评测调优闭环
-- [[concepts/调用命中采纳转化漏斗]] — 调用命中采纳转化漏斗
-- [[concepts/命中采纳四象限分析]] — 命中采纳四象限分析
-- [[comparisons/按场景选人机协作模式三分类对比]] — 按场景选人机协作模式三分类对比
