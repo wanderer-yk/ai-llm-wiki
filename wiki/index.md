@@ -270,7 +270,41 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202605081607]天猫新品团队AI编码实战指南下]] — [202605081607]天猫新品团队AI编码实战指南下
+- [[entities/天猫新品业务编码助手]] — 天猫新品业务编码助手
+- [[entities/AI案例实践中心]] — AI案例实践中心
+- [[entities/CodeWiki]] — CodeWiki
+- [[concepts/合理质疑]] — 合理质疑
+- [[concepts/后端向前前端向后]] — 后端向前前端向后
+- [[concepts/场景严苛度分级]] — 场景严苛度分级
+- [[concepts/交付分割线]] — 交付分割线
+- [[concepts/业务团队AI资产沉淀论]] — 业务团队AI资产沉淀论
+- [[concepts/小二端AI主导对话生码]] — 小二端AI主导对话生码
+- [[concepts/分阶段生码辅助演进]] — 分阶段生码辅助演进
+- [[concepts/页面间完全解耦]] — 页面间完全解耦
+- [[concepts/代码约束提高迭代生码成功率]] — 代码约束提高迭代生码成功率
+- [[concepts/图片转结构化提示词]] — 图片转结构化提示词
+- [[concepts/生码沉淀]] — 生码沉淀
+- [[concepts/无感辅助]] — 无感辅助
+- [[concepts/类skill公共知识库]] — 类skill公共知识库
+- [[concepts/npm包知识库架构]] — npm包知识库架构
+- [[concepts/统一收口]] — 统一收口
+- [[concepts/精细化微调困境]] — 精细化微调困境
+- [[concepts/开放式场景一致性难题]] — 开放式场景一致性难题
+- [[concepts/C端全栈开发三挑战]] — C端全栈开发三挑战
+- [[concepts/C端全栈开发Action清单]] — C端全栈开发Action清单
+- [[concepts/技术方案打分评测]] — 技术方案打分评测
+- [[concepts/知识库生成与自动更新]] — 知识库生成与自动更新
+- [[concepts/AI友好代码架构]] — AI友好代码架构
+- [[concepts/全链路AI串联度提升]] — 全链路AI串联度提升
+- [[concepts/UI布局重构两步法]] — UI布局重构两步法
+- [[concepts/复杂prompt构建]] — 复杂prompt构建
+- [[concepts/AI生成prompt]] — AI生成prompt
+- [[concepts/复杂数据转换方法]] — 复杂数据转换方法
+- [[concepts/AI驱动人工决策多方案选优]] — AI驱动人工决策多方案选优
 - [[sources/[202605061742]天猫新品营销技术团队AI编码实战指南上]] — [202605061742]天猫新品营销技术团队AI编码实战指南上
 - [[concepts/过程文档留存]] — 过程文档留存
 - [[concepts/上下文窗口管理]] — 上下文窗口管理
@@ -439,45 +473,3 @@ updated: 2026-06-23
 - [[concepts/a动作与c动作失衡论]] — a动作与c动作失衡论
 - [[concepts/表达输出能力瓶颈论]] — 表达输出能力瓶颈论
 - [[concepts/信息论任务复杂度度量]] — 信息论任务复杂度度量
-- [[concepts/自动驾驶低熵类比]] — 自动驾驶低熵类比
-- [[concepts/系统性降熵]] — 系统性降熵
-- [[concepts/系统性降熵因果链]] — 系统性降熵因果链
-- [[concepts/目标传达执行复杂度四象限]] — 目标传达执行复杂度四象限
-- [[concepts/场景适配成本判定]] — 场景适配成本判定
-- [[concepts/飞轮效应-天猫版]] — 飞轮效应-天猫版
-- [[concepts/业务研发vs基础设施差异化重点论]] — 业务研发vs基础设施差异化重点论
-- [[concepts/专家知识体系化vs点状化差距]] — 专家知识体系化vs点状化差距
-- [[concepts/任务传达瓶颈论]] — 任务传达瓶颈论
-- [[concepts/前后段双重重要性论]] — 前后段双重重要性论
-- [[concepts/主要矛盾未解论]] — 主要矛盾未解论
-- [[concepts/ai代码量占比幻觉论]] — ai代码量占比幻觉论
-- [[concepts/反人性文档论]] — 反人性文档论
-- [[concepts/分层统一知识库]] — 分层统一知识库
-- [[concepts/专家知识四层模型完整版]] — 专家知识四层模型完整版
-- [[concepts/code-agent新人类比法]] — code-agent新人类比法
-- [[concepts/基础技术层七项子规范]] — 基础技术层七项子规范
-- [[concepts/业务架构两级分解]] — 业务架构两级分解
-- [[concepts/代码仓库三要素]] — 代码仓库三要素
-- [[concepts/解决方案经验知识化]] — 解决方案经验知识化
-- [[concepts/专家知识统一管理论]] — 专家知识统一管理论
-- [[sources/[202605201731]干货从PromptContext到Harness工程的三次进化与终局之战原创]] — [202605201731]干货从PromptContext到Harness工程的三次进化与终局之战原创
-- [[entities/李伟山]] — 李伟山
-- [[entities/鹅厂技术派]] — 鹅厂技术派
-- [[entities/腾讯云开发者]] — 腾讯云开发者
-- [[entities/openai]] — openai
-- [[entities/anthropic]] — anthropic
-- [[entities/claude-3-与-claude-3-5]] — claude-3-与-claude-3-5
-- [[concepts/工程三次进化框架]] — 工程三次进化框架
-- [[concepts/prompt-engineering-李伟山版]] — prompt-engineering-李伟山版
-- [[concepts/context-engineering-李伟山版]] — context-engineering-李伟山版
-- [[concepts/harness-engineering-李伟山版]] — harness-engineering-李伟山版
-- [[concepts/harness衰变定律]] — harness衰变定律
-- [[concepts/f-harness]] — f-harness
-- [[concepts/human-steer-agents-execute]] — human-steer-agents-execute
-- [[concepts/工程师三职责]] — 工程师三职责
-- [[concepts/系统杠杆]] — 系统杠杆
-- [[concepts/动态harness思维]] — 动态harness思维
-- [[concepts/嵌套关系论-李伟山版]] — 嵌套关系论-李伟山版
-- [[concepts/AI自恋问题]] — AI自恋问题
-- [[concepts/可靠性边界论]] — 可靠性边界论
-- [[concepts/声称完成vs验证完成]] — 声称完成vs验证完成
