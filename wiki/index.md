@@ -272,7 +272,31 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202605181736]RAG全链路技术详解]] — [202605181736]RAG全链路技术详解
+- [[concepts/场景采样两阶段解耦]] — 场景采样两阶段解耦
+- [[concepts/ragas查询类型分类]] — ragas查询类型分类
+- [[entities/驰海]] — 驰海
+- [[entities/天猫品牌行业架构团队]] — 天猫品牌行业架构团队
+- [[entities/ragas]] — ragas
+- [[concepts/rag全链路]] — rag全链路
+- [[concepts/ppl语义切分]] — ppl语义切分
+- [[concepts/hyde-假设文档检索]] — hyde-假设文档检索
+- [[concepts/doc2query反向-hyde]] — doc2query反向-hyde
+- [[concepts/多查询生成]] — 多查询生成
+- [[concepts/提取标签]] — 提取标签
+- [[concepts/重排序rerank]] — 重排序rerank
+- [[concepts/cross-encoder交叉编码器]] — cross-encoder交叉编码器
+- [[concepts/中间丢失]] — 中间丢失
+- [[concepts/生成阶段问题清单]] — 生成阶段问题清单
+- [[concepts/生成调优技术]] — 生成调优技术
+- [[concepts/多跳问题]] — 多跳问题
+- [[concepts/全局理解]] — 全局理解
+- [[concepts/社区检测]] — 社区检测
+- [[concepts/评测集生成]] — 评测集生成
+- [[concepts/场景生成]] — 场景生成
 - [[sources/[202605081607]天猫新品团队AI编码实战指南下]] — [202605081607]天猫新品团队AI编码实战指南下
 - [[entities/天猫新品业务编码助手]] — 天猫新品业务编码助手
 - [[entities/AI案例实践中心]] — AI案例实践中心
@@ -451,25 +475,3 @@ updated: 2026-06-23
 - [[entities/qoder]] — qoder
 - [[entities/mtop]] — mtop
 - [[entities/buc]] — buc
-- [[entities/acl]] — acl
-- [[entities/bpms]] — bpms
-- [[entities/aone]] — aone
-- [[entities/o2]] — o2
-- [[entities/摩天轮]] — 摩天轮
-- [[entities/tair]] — tair
-- [[entities/deepwiki]] — deepwiki
-- [[entities/artifact7]] — artifact7
-- [[entities/codebase]] — codebase
-- [[entities/钉钉文档]] — 钉钉文档
-- [[entities/钉钉项目群]] — 钉钉项目群
-- [[entities/钉钉会议]] — 钉钉会议
-- [[entities/pd]] — pd
-- [[concepts/范式变革瓶颈论]] — 范式变革瓶颈论
-- [[concepts/专家知识沉淀缺失]] — 专家知识沉淀缺失
-- [[concepts/质变定义框架]] — 质变定义框架
-- [[concepts/企业级需求三重约束]] — 企业级需求三重约束
-- [[concepts/企业级vs长尾需求二分法]] — 企业级vs长尾需求二分法
-- [[concepts/信息传递链路模型]] — 信息传递链路模型
-- [[concepts/a动作与c动作失衡论]] — a动作与c动作失衡论
-- [[concepts/表达输出能力瓶颈论]] — 表达输出能力瓶颈论
-- [[concepts/信息论任务复杂度度量]] — 信息论任务复杂度度量

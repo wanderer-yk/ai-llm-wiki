@@ -4,8 +4,8 @@ title: GraphRAG
 tags: [rag, 知识图谱, 微软, 图检索, 社区发现]
 related: [edge-2024-graphrag, lightrag, graphrag工程化四困境, graphrag与lightrag对比, AI答疑助手, 跨端技术团队]
 created: 2026-09-30
-updated: 2026-09-30
-sources: ["[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html"]
+updated: 2026-10-08
+sources: ["[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html", "[202605181736]RAG全链路技术详解.html"]
 ---
 # GraphRAG
 
@@ -36,3 +36,9 @@ GraphRAG 是微软于 2024 年提出的知识图谱增强 RAG 方法（独立可
 - **场景定位**：高成本、极致质量的离线分析场景（与 LightRAG 的在线实时答疑定位相对），完整对照见 [[graphrag与lightrag对比]]。
 - **核心启示**（据来源文章）：图结构确实有效解决上下文断裂与跨文档推理，但工程化方案太重。
 - **前沿衍生**：MiniRAG——图增强 RAG 在小模型（SLMs）上的尝试，异构图索引（文本片段节点+语义概念节点）+拓扑增强检索，面向端侧等资源受限场景（来源文章仅综述未实践）。
+
+## ## 第二口径：《RAG全链路技术详解》（2026-05）
+
+- 建图四步第二口径：文本切分 → LLM 提取实体/关系三元组 → 汇聚去重消歧建全局图 → **社区检测（Leiden 算法聚合+LLM 生成社区总结）**；与既有四步流水线互证，Leiden/社区总结为本源增量细节。
+- 检索两模式流程化：局部=关键词定位实体→n 跳邻居→结构化喂 LLM；全局=宏观主题检索预生成社区摘要→汇总回答。
+- 代表性框架清单点名 Microsoft GraphRAG / LlamaIndex / LightRAG。本源为正面完整教学口径，与 [[graphrag工程化四困境]] 的落地困难视角构成跨源张力。

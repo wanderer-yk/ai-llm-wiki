@@ -4,8 +4,8 @@ title: Qwen（通义千问）
 tags: [大模型, 阿里, 意图识别]
 related: [gpt-4-1, dify, langfuse, 意图识别保守策略]
 created: 2026-06-12
-updated: 2026-06-12
-sources: ["[202601131518]从0到1有赞AI客服的实践路径与落地思考.html"]
+updated: 2026-10-08
+sources: ["[202601131518]从0到1有赞AI客服的实践路径与落地思考.html", "[202605181736]RAG全链路技术详解.html"]
 ---
 # Qwen（通义千问）
 
@@ -27,3 +27,4 @@ sources: ["[202601131518]从0到1有赞AI客服的实践路径与落地思考.ht
 
 - [[deepseek-v3]] 在有赞 [[code-insight]] 中被选用（综合成本低且效果良好），Qwen 在 AI 客服中选用，体现有赞不同团队根据场景独立选型的策略
 - Qwen 作为阿里模型，与 [[百炼]]（阿里云大模型服务平台）同属阿里 AI 生态
+- RAG 全链路篇（2026-05）：Qwen2 用于 Meta-Chunking 的 PPL 语义切分计算；text-embedding-v4 作 embedding 示例模型；gte-rerank 与 BGE 系作重排序候选提及。

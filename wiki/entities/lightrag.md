@@ -4,8 +4,8 @@ title: LightRAG
 tags: [graphrag, rag, 知识图谱, 检索增强生成, 货拉拉, 图增强检索, 检索框架]
 related: ["microsoft-graphrag", "pathrag", "graphrag", "货拉拉", "双路检索上下文", "graphrag三类实体设计", "guo-2024-lightrag", "lightrag三函数索引构建", "lightrag双层检索范式", "graphrag与lightrag对比", "AI答疑助手", "跨端技术团队", "大数据技术团队", "实体权重计算模型", "离线在线两阶段架构", "极简agent设计哲学"]
 created: 2026-06-25
-updated: 2026-09-30
-sources: ["[202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践.html", "[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html"]
+updated: 2026-10-08
+sources: ["[202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践.html", "[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html", "[202605181736]RAG全链路技术详解.html"]
 ---
 # LightRAG
 
@@ -78,3 +78,8 @@ LightRAG 的核心设计遵循 [[graphrag]] 的 [[离线在线两阶段架构]]�
 
 - [202603181415]从RAG到GraphRAG货拉拉元数据检索应用实践.html — 三种 Graph-based RAG 范式定位、离线在线两阶段架构、货拉拉选型/架构落地/量化效果
 - [202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级.html — 论文出处与框架定义、做减法设计哲学、三大组成、同批 44 篇文档实验结果、场景定位
+
+## ## 关联证据
+
+- 《RAG全链路技术详解》（2026-05）将 LightRAG 与 Microsoft GraphRAG、LlamaIndex 并列为 GraphRAG 代表性框架。
+- 该文本地/全局检索二分与本文 low-level/high-level 分层检索范式互为跨源对照。

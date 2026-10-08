@@ -480,3 +480,17 @@ Deleted 1 source file and 0 wiki pages.
 - 待审：本轮零新条目（REVIEW 块未触发）；上篇 5 条已于同日早前 resolve，其中 review-6bd00c90（下篇尚未入库）随本 ingest 兑现
 - index 机制定谳（修正上轮"误裁"判断）：Recently Updated 为 **200 条定容滚动窗**（210+32−42=200 实证），app 裁旧留新是设计行为非 bug；分型目录（实体80/概念134/来源17/比较1/综合0）系原始快照冻结的存量、app 从不维护（盘面缺 123+258+40+5+1=428 页），登记不修——近期导航以滚动窗为准，全量目录待重建索引功能或人工整备
 - 上篇姊妹篇闭合：小二端/C 端团队建设与实用技巧集锦（UI 重构两步法/复杂 prompt 构建/严厉语气等）入库，上篇多个悬项（后端全栈化三抓手、视图分离落地）获得下篇支撑
+
+## [2026-10-08] ingest | [202605181736]RAG全链路技术详解.html
+
+
+## [2026-10-08] ingest | RAG全链路技术详解——补齐遗留页面
+
+- 新建 [[sources/arxiv-2024-meta-chunking]]：Meta-Chunking 论文（arXiv:2410.12788）来源页，PPL 语义切分 + 语义补全（全局增强重写 / Context-Aware Summary）完整记录
+- 新建 [[场景采样两阶段解耦]]：Ragas 测试集生成的 `_generate_scenarios`（确定性 KG 调度）/ `_generate_sample`（LLM 出题出答案）两阶段代码契约，含 SingleTurnSample 输出
+- 新建 [[ragas查询类型分类]]：单跳/多跳 × 具体/抽象 2×2 矩阵（爱因斯坦示例）与生成难度不对称机制
+- 更新 [[大淘宝技术]]：补充 alias AlibabaMTT、账号签名、biz id、origin_num、栏目体系等页面元数据
+- 主批次页面（来源页、[[驰海]]、[[天猫品牌行业架构团队]]、[[ragas]]、[[rag全链路]] 及检索/切分/生成/评测技术族概念页）已于前次写入完成
+- 遗留待裁决项（ragas 指标页粒度、ragas知识图谱构建独立页、comparison/synthesis 候选）已提交 REVIEW，待人工决定
+
+- 收官处理记录（人工，2026-10-08）：22 新页 sources 腐蚀重写 + 大淘宝技术页多源合并（HEAD 2 条+RAG 篇）；既有页回填 7 页（淘天集团/graphrag/llamaindex/lightrag/llm-as-judge/qwen/Query改写，均挂本源+updated 戳）；追踪页 +1 行（Ragas「接近人工评测」自报无口径——同时修正 ragas 页"已纳入追踪"的悬空声明）；上篇复活 5 条按原裁决重 resolve（RAG 篇入队触发源重扫所致）；review 点名的 embedding索引构建原理页**不存在**（内容实收于源页 §索引构建，属点名悬空，页未建）；约 12 张图床配图维持源页遗留问题#1 登记（转写待专项）；ragas 指标页粒度/知识图谱独立页/comparison 候选三项**维持不建**（现有 ragas.md+场景采样两阶段解耦+ragas查询类型分类 已承载，粒度拆分待内容再膨胀）
