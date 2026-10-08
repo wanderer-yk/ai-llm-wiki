@@ -275,7 +275,19 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术]] — [202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术
+- [[entities/阳凯]] — 阳凯
+- [[concepts/三层规范体系]] — 三层规范体系
+- [[concepts/需求颗粒度三档协作模式]] — 需求颗粒度三档协作模式
+- [[concepts/AI顶级执行者比喻]] — AI顶级执行者比喻
+- [[concepts/AI失效三模式]] — AI失效三模式
+- [[concepts/开发者角色重构]] — 开发者角色重构
+- [[concepts/确定性空间边界论]] — 确定性空间边界论
+- [[concepts/AI能力边界三结构性特征]] — AI能力边界三结构性特征
+- [[concepts/约束非能力论]] — 约束非能力论
+- [[concepts/MCP消除信息断层]] — MCP消除信息断层
 - [[sources/[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术]] — [202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术
 - [[entities/得物技术]] — 得物技术
 - [[entities/稚归]] — 稚归
@@ -465,15 +477,4 @@ updated: 2026-06-23
 - [[concepts/离线评测调优闭环]] — 离线评测调优闭环
 - [[concepts/调用命中采纳转化漏斗]] — 调用命中采纳转化漏斗
 - [[concepts/命中采纳四象限分析]] — 命中采纳四象限分析
-- [[concepts/四类上下文效果追踪框架]] — 四类上下文效果追踪框架
-- [[concepts/需求覆盖率]] — 需求覆盖率
-- [[sources/[202603231539]知识基座让AI越用越懂业务的团队经验实践天猫AICoding实践系列]] — [202603231539]知识基座让AI越用越懂业务的团队经验实践天猫AICoding实践系列
-- [[entities/珈文]] — 珈文
-- [[entities/天猫品牌行业前端团队]] — 天猫品牌行业前端团队
-- [[entities/知识基座-天猫]] — 知识基座-天猫
-- [[entities/search-knowledge]] — search-knowledge
-- [[entities/knowledge-search-experience]] — knowledge-search-experience
-- [[entities/cursor-memory]] — cursor-memory
-- [[entities/内部资产中心]] — 内部资产中心
-- [[entities/lancedb]] — lancedb
-- [[comparisons/单一SSOT与多源分治文档策略对比]] — 单一SSOT与多源分治文档策略对比
+- [[comparisons/按场景选人机协作模式三分类对比]] — 按场景选人机协作模式三分类对比

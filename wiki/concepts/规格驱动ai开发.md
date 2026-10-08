@@ -4,8 +4,8 @@ title: 规格驱动 AI 开发（SDD）
 tags: [sdd, 规格驱动开发, ai编程, 方法论]
 related: [specflow, openspec, github-spec-kit, bmad-method, ai编程幻觉, blocker-gate]
 created: 2026-06-12
-updated: 2026-06-12
-sources: ["[202603261200]治愈CursorAI编程的幻觉用它就够了.html"]
+updated: 2026-10-08
+sources: ["[202603261200]治愈CursorAI编程的幻觉用它就够了.html", "[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术.html"]
 ---
 # 规格驱动 AI 开发（SDD）
 
@@ -41,3 +41,8 @@ SDD 针对的是 AI 辅助编程中的两大核心痛点：
 ## 研发范式前移
 
 SDD 的核心价值是**研发范式前移**——将问题解决的关键环节从编码调试期前移至需求设计期，通过确定性流程对抗业务复杂性。"流程的确定性是对抗业务复杂性的唯一手段"。
+
+## 别名与采用链（2026-10 定稿）
+
+- **Spec Coding** 为本概念正式别名：得物阳凯《AI编程能力边界探索》中同义使用（案例标题直接写"SDD"，定义同为「在写代码之前，先写规格文档」，同用 [[openspec]] 工具流）——不另立页面，证据见 [[sources/[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术|得物 Spec Coding 实战]]。
+- **OpenSpec 采用链（第三团队实锤）**：爱奇艺天玑（调研借鉴）→ 腾讯 CodeBuddy（直接采用）→ **得物**（Claude Code + opsx 指令集落地 Spec Coding 项目实战）。
