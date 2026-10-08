@@ -535,3 +535,15 @@ Deleted 1 source file and 0 wiki pages.
 - 量化追踪：[[ai工程量化效果声明追踪]] 记录"全文无量化效果声明（已确认全文）"
 
 - 收官处理记录（人工，2026-10-08）：28 新页 sources 单源重写+全库复验零损伤；**统一单源重写副作用修正 1 处**——比较页 ConardLi六核心与爱奇艺Harness五要素对比本该双源，已补回爱奇艺篇；待回填 4 页落地（claude-code Agent Teams/SubAgent 双模式+实验开关+tmux 适配存疑注+权限参数可信目录边界、评测agent乐观偏差自评失真跨源、人工并发天花板 Agent 并行 3 经验值、harness-engineering 跨作者四要素/六核心印证），其中 claude-code 权限参数表述经回源核对订正（原文=仅限可信目录，非沙箱/容器）；复活 21 条按原裁决重 resolve，另 review-e24f185b（SSOT 张力）被 sweep 自动解决=比较页建成后的正确行为；review-6896d061（四页回填需求）落地 resolve；review-ba5b438e（ConardLi 旧教程+Anthropic 博客两个候选源）悬置——次级来源采纳为用户决策
+
+
+## 2026-10-08 ingest | 打造高效易用的AgentSkill
+
+- 完成《打造高效易用的 Agent Skill》（无糖可乐，百度Geek说，2026-03-09）全文 10 chunk 分析的成稿入库
+- 新建来源页 sources/[202603091800]打造高效易用的AgentSkill，含全部结构化代码/表格数据的逐字保留
+- 新建实体页 4 篇：百度Geek说、无糖可乐、anthropic、Skill-Creator
+- 新建概念页 24 篇：agent-skill、agent能力扩展演进、skill渐进式披露、skill三阶段工作原理、skill目录结构与命名规范、skill-git统一管理、skills-cli跨平台安装、AGENTS、description触发准确性权衡、agent欠触发倾向、description三大要素、负向触发说明、skill-body两种形态、skill步骤间校验、skill脚本自动化原则、skill评测三原则、skill触发评测方法、skill评测集构建规范、skill-body评测对照实验、skill改进四原则、解释why而非堆must、skill迭代闭环、skill-creator三版演进、code-review-skill多agent架构
+- 记录两组跨来源张力：①"Skill 正在统一能力扩展途径"收敛论 vs [[三大武器库]]/[[skill-command-mcp三层架构]] 分层论；②Agent 欠触发主动外推边界 vs 有赞 [[意图识别保守策略]]
+- 建立评测方法论跨团队印证链：本文评测三原则/五步闭环 ↔ [[拒绝感觉有效用数据证明]]、[[agent评测四要素]]、[[评测集优先于知识库]]、[[评测agent乐观偏差]]
+
+- 收官处理记录（人工，2026-10-08）：28 新页 sources 修复（含 1 页 merge 更新 anthropic.md 走 HEAD 底集∪token 三源合并=2 旧源+本篇）+全库复验零损伤；本篇零新待审（全 22 条为往期复活按原裁决重 resolve）；修复脚本已升级为"先查 id 数再定单源/多源路径"（上轮多源塌缩教训固化）

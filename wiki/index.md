@@ -277,7 +277,37 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202603091800]打造高效易用的AgentSkill]] — [202603091800]打造高效易用的AgentSkill
+- [[entities/百度Geek说]] — 百度Geek说
+- [[entities/无糖可乐]] — 无糖可乐
+- [[entities/anthropic]] — anthropic
+- [[entities/Skill-Creator]] — Skill-Creator
+- [[concepts/agent-skill知识包]] — agent-skill知识包
+- [[concepts/agent能力扩展演进]] — agent能力扩展演进
+- [[concepts/skill渐进式披露]] — skill渐进式披露
+- [[concepts/skill三阶段工作原理]] — skill三阶段工作原理
+- [[concepts/skill目录结构与命名规范]] — skill目录结构与命名规范
+- [[concepts/skill-git统一管理]] — skill-git统一管理
+- [[concepts/skills-cli跨平台安装]] — skills-cli跨平台安装
+- [[concepts/AGENTS]] — AGENTS
+- [[concepts/description触发准确性权衡]] — description触发准确性权衡
+- [[concepts/agent欠触发倾向]] — agent欠触发倾向
+- [[concepts/description三大要素]] — description三大要素
+- [[concepts/负向触发说明]] — 负向触发说明
+- [[concepts/skill-body两种形态]] — skill-body两种形态
+- [[concepts/skill步骤间校验]] — skill步骤间校验
+- [[concepts/skill脚本自动化原则]] — skill脚本自动化原则
+- [[concepts/skill评测三原则]] — skill评测三原则
+- [[concepts/skill触发评测方法]] — skill触发评测方法
+- [[concepts/skill评测集构建规范]] — skill评测集构建规范
+- [[concepts/skill-body评测对照实验]] — skill-body评测对照实验
+- [[concepts/skill改进四原则]] — skill改进四原则
+- [[concepts/解释why而非堆must]] — 解释why而非堆must
+- [[concepts/skill迭代闭环]] — skill迭代闭环
+- [[concepts/skill-creator三版演进]] — skill-creator三版演进
+- [[concepts/code-review-skill多agent架构]] — code-review-skill多agent架构
 - [[sources/[202605090830]Harness实践让Agent自动制作知识讲解视频]] — [202605090830]Harness实践让Agent自动制作知识讲解视频
 - [[entities/ConardLi]] — ConardLi
 - [[entities/code秘密花园]] — code秘密花园
@@ -449,32 +479,3 @@ updated: 2026-06-23
 - [[concepts/入站消息总线]] — 入站消息总线
 - [[concepts/子agent工具排除机制]] — 子agent工具排除机制
 - [[concepts/tool抽象四要素]] — tool抽象四要素
-- [[concepts/exec-tool三层防护]] — exec-tool三层防护
-- [[concepts/简化cron解析]] — 简化cron解析
-- [[concepts/llm并发状态感知]] — llm并发状态感知
-- [[sources/[202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级]] — [202604101635]AI答疑助手优化实践从RAG到LightRAG的全链路升级
-- [[entities/凡烟]] — 凡烟
-- [[entities/跨端技术团队]] — 跨端技术团队
-- [[entities/AI答疑助手]] — AI答疑助手
-- [[entities/graphrag]] — graphrag
-- [[entities/lightrag]] — lightrag
-- [[entities/andrej-karpathy]] — andrej-karpathy
-- [[concepts/上下文工程统一命题]] — 上下文工程统一命题
-- [[concepts/rag知识表示演进论]] — rag知识表示演进论
-- [[concepts/cot驱动意图识别与并行检索]] — cot驱动意图识别与并行检索
-- [[concepts/graphrag工程化四困境]] — graphrag工程化四困境
-- [[concepts/lightrag三函数索引构建]] — lightrag三函数索引构建
-- [[concepts/lightrag双层检索范式]] — lightrag双层检索范式
-- [[concepts/多维度标注体系]] — 多维度标注体系
-- [[concepts/评测agent乐观偏差]] — 评测agent乐观偏差
-- [[concepts/agentic-rag]] — agentic-rag
-- [[comparisons/graphrag与lightrag对比]] — graphrag与lightrag对比
-- [[comparisons/苏雄800行框架与pi-agent极简agent设计哲学对比]] — 苏雄800行框架与pi-agent极简agent设计哲学对比
-- [[sources/[202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家]] — [202603301537]从VibeCoding到范式编程用Spec打造淘系交易的AI领域专家
-- [[entities/淘苏]] — 淘苏
-- [[entities/交易业务技术团队]] — 交易业务技术团队
-- [[entities/trade-spec]] — trade-spec
-- [[entities/aonesandbox]] — aonesandbox
-- [[entities/claude-agent-sdk]] — claude-agent-sdk
-- [[entities/claude-sonnet-4-5]] — claude-sonnet-4-5
-- [[entities/ideatalk]] — ideatalk
