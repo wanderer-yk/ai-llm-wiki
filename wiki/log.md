@@ -553,3 +553,15 @@ Deleted 1 source file and 0 wiki pages.
 - 收官处理记录（人工，2026-10-09）：30 新页 sources 单源重写（本篇无 merge 更新页）+全库复验零损伤；生成期撞限一次 checkpoint 自愈成功
 - 落地三件：harness-engineering 页多来源谱系化（爱奇艺+ConardLi+百度三方，加百度"缰绳/基础设施"定义节）；新建比较页 [[comparisons/三方Harness定义对比]]（三定义并排+三共识+三分歧+synthesis 不另立裁决）；Agent Teams 张力裁决=场景依赖差异非矛盾（双模式页补注记互链，视频生产 vs 编码长程语境）
 - 待审 28 条：复活 22 条按原裁决重 resolve；新 6 条=missing-page 比较页落地+重复对×2 取全者落地+contradiction 场景差异裁决+悬置 2（hixuanxuan 仓库身份与 skill-eval 细节待外部检索放行）
+
+
+## 2026-10-09 ingest | [202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大
+
+- 新增来源页：Cheer（[[百度Geek说]]，2026-04-15，6858 字）对 Claude Code v2.1.88 泄漏源码的分析；定谳 Rules/MCP/Skills 的「API 请求位置决定论」，导读三问全部收束（Q1 [[rules与skills等价论]]、Q2 [[mcp内置工具同构论]]、Q3 [[skill流程非代码化]]）；证据等级限定为泄漏源码、版本特定、非官方口径
+- 新增概念页 21 篇：api请求位置决定论、rules被动注入机制、system静态动态缓存分区、messages注入四通道、rules条件生效机制、nested_memory按需加载、mcp内置工具同构论（吸收 mcp双位置注入/mcp真实rpc执行链）、mcp-instructions落地缺位、skill提示词注入本质、skill列表token预算、skill强制触发指令、skill双执行模式、skill触发可靠性痛点、rules与skills等价论、skills真正价值三场景、skill嵌套编排、触发质量决定论、skill流程非代码化、skill质量等式、提示词工程统一论、rules-skills-mcp选型指南
+- 新增比较页：mcp与bash对比（祛魅论 + 不可替代三场景 + 价值重定位）
+- 新增实体页：Cheer（[[百度Geek说]]署名作者）
+- 互证记录：Skill 欠触发常态与 [[agent欠触发倾向]] 构成源码级强互证；BLOCKING REQUIREMENT/250 字符预算/触发质量决定论与 [[description三大要素]]、[[负向触发说明]]、[[description触发准确性权衡]] 互证；nested_memory 与 [[skill渐进式披露]] 构成按需披露两方式比较素材；Skill 嵌套编排与 [[superpowers插件]] 互证；skill流程非代码化与 [[agent-skill知识包]] 立场一致
+- 待办：[[mcp]]、[[claude-code]]、[[anthropic]]、[[百度Geek说]] 既有页面建议并入本源码级证据；「API 请求位置决定论 vs [[三大武器库]]」比较页持续候选；姊妹篇《Claude Code 架构解析：从 Skill 调用到 Prompt Cache》待获取
+
+- 收官处理记录（人工，2026-10-09）：24 新页 sources 单源重写+全库复验零损伤；mcp/claude-code 两页源码级证据回写（统一标注「v2.1.88 泄漏源码、非官方口径、引用链未独立核实」限定）；新建比较页 [[comparisons/API请求位置决定论与三大武器库对比]]（裁决=运行时真相 vs 建设时组织两投影不矛盾，给出互补裁决规则）；待办中 anthropic/百度Geek说 两页未回写（前者本篇已 merge 挂源，后者为署名方新建页已含上下文）；悬置：泄漏源码出处外部核实（review-4ad67343）与 whenToUse 官方 frontmatter 规范补证（review-66043b88）均待外部检索放行；姊妹篇《Claude Code 架构解析》待用户获取

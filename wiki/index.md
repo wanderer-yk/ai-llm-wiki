@@ -280,7 +280,32 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大]] — [202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大
+- [[entities/Cheer]] — Cheer
+- [[concepts/api请求位置决定论]] — api请求位置决定论
+- [[concepts/rules被动注入机制]] — rules被动注入机制
+- [[concepts/system静态动态缓存分区]] — system静态动态缓存分区
+- [[concepts/messages注入四通道]] — messages注入四通道
+- [[concepts/rules条件生效机制]] — rules条件生效机制
+- [[concepts/nested_memory按需加载]] — nested_memory按需加载
+- [[concepts/mcp内置工具同构论]] — mcp内置工具同构论
+- [[concepts/mcp-instructions落地缺位]] — mcp-instructions落地缺位
+- [[concepts/skill提示词注入本质]] — skill提示词注入本质
+- [[concepts/skill列表token预算]] — skill列表token预算
+- [[concepts/skill强制触发指令]] — skill强制触发指令
+- [[concepts/skill双执行模式]] — skill双执行模式
+- [[concepts/skill触发可靠性痛点]] — skill触发可靠性痛点
+- [[concepts/rules与skills等价论]] — rules与skills等价论
+- [[concepts/skills真正价值三场景]] — skills真正价值三场景
+- [[concepts/skill嵌套编排]] — skill嵌套编排
+- [[concepts/触发质量决定论]] — 触发质量决定论
+- [[concepts/skill流程非代码化]] — skill流程非代码化
+- [[concepts/skill质量等式]] — skill质量等式
+- [[concepts/提示词工程统一论]] — 提示词工程统一论
+- [[concepts/rules-skills-mcp选型指南]] — rules-skills-mcp选型指南
+- [[comparisons/mcp与bash对比]] — mcp与bash对比
 - [[sources/[202604081800]HarnessEngineering让CodingAgent可靠完成长程任务]] — [202604081800]HarnessEngineering让CodingAgent可靠完成长程任务
 - [[concepts/harness边界移动论]] — harness边界移动论
 - [[concepts/harness基础设施论]] — harness基础设施论
@@ -457,28 +482,4 @@ updated: 2026-06-23
 - [[concepts/UI布局重构两步法]] — UI布局重构两步法
 - [[concepts/复杂prompt构建]] — 复杂prompt构建
 - [[concepts/AI生成prompt]] — AI生成prompt
-- [[concepts/复杂数据转换方法]] — 复杂数据转换方法
-- [[concepts/AI驱动人工决策多方案选优]] — AI驱动人工决策多方案选优
-- [[sources/[202605061742]天猫新品营销技术团队AI编码实战指南上]] — [202605061742]天猫新品营销技术团队AI编码实战指南上
-- [[concepts/过程文档留存]] — 过程文档留存
-- [[concepts/上下文窗口管理]] — 上下文窗口管理
-- [[concepts/严格解耦架构设计防技术债]] — 严格解耦架构设计防技术债
-- [[concepts/自检机制]] — 自检机制
-- [[concepts/持续失败场景处置]] — 持续失败场景处置
-- [[concepts/AI目标漂移约束]] — AI目标漂移约束
-- [[concepts/精准上下文供给]] — 精准上下文供给
-- [[concepts/迭代型需求git版本管理策略]] — 迭代型需求git版本管理策略
-- [[concepts/仓库解耦决定迭代成功率论]] — 仓库解耦决定迭代成功率论
-- [[concepts/人提方案AI执行半自动方案]] — 人提方案AI执行半自动方案
-- [[concepts/整体代码重构兜底策略]] — 整体代码重构兜底策略
-- [[concepts/Chat场景快捷调优手段]] — Chat场景快捷调优手段
-- [[concepts/三种实现风格]] — 三种实现风格
-- [[concepts/分支控制]] — 分支控制
-- [[concepts/报错调试]] — 报错调试
-- [[concepts/数据调试]] — 数据调试
-- [[concepts/出码准确率语料阶梯]] — 出码准确率语料阶梯
-- [[concepts/规范文档反馈迭代]] — 规范文档反馈迭代
-- [[comparisons/需求驱动型与工程主导型对比]] — 需求驱动型与工程主导型对比
-- [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列
-- [[entities/github-copilot-metrics]] — github-copilot-metrics
-- [[comparisons/三方Harness定义对比]] — 三方Harness定义对比
+- [[comparisons/API请求位置决定论与三大武器库对比]] — API请求位置决定论与三大武器库对比
