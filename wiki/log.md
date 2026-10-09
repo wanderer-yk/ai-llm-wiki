@@ -565,3 +565,7 @@ Deleted 1 source file and 0 wiki pages.
 - 待办：[[mcp]]、[[claude-code]]、[[anthropic]]、[[百度Geek说]] 既有页面建议并入本源码级证据；「API 请求位置决定论 vs [[三大武器库]]」比较页持续候选；姊妹篇《Claude Code 架构解析：从 Skill 调用到 Prompt Cache》待获取
 
 - 收官处理记录（人工，2026-10-09）：24 新页 sources 单源重写+全库复验零损伤；mcp/claude-code 两页源码级证据回写（统一标注「v2.1.88 泄漏源码、非官方口径、引用链未独立核实」限定）；新建比较页 [[comparisons/API请求位置决定论与三大武器库对比]]（裁决=运行时真相 vs 建设时组织两投影不矛盾，给出互补裁决规则）；待办中 anthropic/百度Geek说 两页未回写（前者本篇已 merge 挂源，后者为署名方新建页已含上下文）；悬置：泄漏源码出处外部核实（review-4ad67343）与 whenToUse 官方 frontmatter 规范补证（review-66043b88）均待外部检索放行；姊妹篇《Claude Code 架构解析》待用户获取
+
+## [2026-10-09] ingest | [202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合.html
+
+- 收官处理记录（人工，2026-10-09）：37 新页 sources 单源重写+全库复验零损伤；ingest 波折两次——chunk 7 撞 16,384 分析上限（用户重启清零后重试自过）+chunk 9 传输层流中断烧尽重试进 failed；**新机制确认：failed 任务对 touch/rescan 重入队免疫，唯一复位路径=app 重启**；venue 待审核对即结（Harness 源页 venue 字段本就正确）；新建比较页 [[comparisons/三线基建与三大武器库对比]]（三线 vs 三库逐线对照+Rules≠知识库辨析+隐性知识显性资产化↔知识库降熵论强同构裁决）；悬置 3：IMClaw/Karpathy AutoResearch 采集范围（用户决策，review-3d4e743a/ba73cbef）+AIQA 架构图永久缺口（review-cceca7ca）+柚漫剧自研框架与百度 San 关系（review-be282a8f），均待外部检索或用户放行
