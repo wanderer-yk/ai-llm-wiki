@@ -581,3 +581,30 @@ Deleted 1 source file and 0 wiki pages.
 - 矛盾对裁决：autoresearch score=15/10 与轮次计数矛盾维持三页标记悬置（查证 smallnest/autoresearch 仓库/asciinema 需外部检索放行，review-e5f09715/2a6f42b1）
 - 悬置维持：截图承载缺口（六条核心原则/四阶段终止条件表等，待 GitHub 补证 review-ec0f1c4a）+达尔文.skill 8 维构成（待花叔仓库 review-8b0936aa）+延伸采集 IMClaw 专文/GoClaw/OpenClaw 全指南（用户决策 review-c657e3bf/ed926770）
 - 复活 5 条（柚漫剧轮）按原裁决重 resolve
+
+## [2026-10-09] ingest | [202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱.html
+
+
+---
+type: log
+title: Wiki 活动日志
+tags: []
+related: []
+created: 2026-10-09
+updated: 2026-10-09
+sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱.html"]
+---
+# Wiki 活动日志
+
+## 2026-10-09 ingest | [202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱
+
+- 建立来源页：张城（元乙）《从可观测到可理解：用 UModel 构建 Agent 原生的代码知识图谱》（微信公众号「阿里云云原生」，2026-04-23），完整保留五范式框架、Entity+Log+Link 建模表、六阶段流水线、code-wiki CLI 命令树、两步查询 SPL、三案例 Demo 输出与 CI 门禁命令等结构化数据。
+- 新增实体页：[[umodel]]（统一建模层、SLS 后端、规模/延迟自报数据、未来路线）、[[code-wiki]]（Agent 查询侧 CLI，CLI+Skill 接入形态）、[[vibeops-agents]]（实证项目，模块结构与三案例对象）、[[张城]]（作者，别名元乙）、[[阿里云云原生]]（发布公众号）、[[阿里云云原生可观测团队]]（归属与评测基准规划主体）、[[tree-sitter]]（PEG 增量解析器与双用途分野）、[[deepwiki]]（范式四代表，MCP Server 三工具）、[[qodo]]（范式三代表，Qodo-Embed-1）、[[augment-code]]（范式三代表，Context Engine 与 Cursor 失败评测来源）。
+- 新增占位来源页：[[sources/如何用UModel构建一个会成长的个人Wiki]]（张城前作，元数据待补）。
+- 新增概念页：[[代码理解的五种范式]]、[[UModel六阶段构建流水线]]、[[两步查询模式]]、[[意图化子命令设计]]、[[Agent交互层CLI+Skill]]、[[token预算优化输出格式]]、[[AST确定性提取+LLM语义增强分层置信度]]、[[Entity+Log+Link三元组建模]]、[[代码域vs跨域]]、[[快照vs时间线]]、[[个人Wiki到代码Wiki同范式不同确定性]]、[[tree-sitter双用途分野]]、[[架构发现非社区检测]]、[[三范式量化评测基准]]（规划未落地）、[[Agent自主维护图谱]]（愿景）、[[架构守护门禁]]（[[验证门禁化]]代码域实例）、[[RCA三维度汇聚]]、[[AgenticSearch无索引流派]]。
+- 记录矛盾与张力：①"agentic search > RAG" vs "CodeIndex 是主流"的路线之争，评测基准为未落地的量化裁决方案；②"架构发现非社区检测" vs `check arch` 内置规定性分层规则的内部张力；③CLI+Skill vs MCP 的接入形态三方分歧；④"15 秒未读源码影响评估"强主张 vs Demo 演示输出的证据落差。
+- [[ai工程量化效果声明追踪]] 待追加条目：Cursor 92% 相似度复用、Qodo-Embed-1 1.5B 超 CoIR 7B 竞品、Augment 30-80% 质量提升、Augment 对 Cursor 50+ 文件重构评测、DeepWiki 15.7k star、~11000 实体/~19000 边/百毫秒延迟、5 条命令 <15 秒未读源码（Demo）、三范式评测基准承诺未兑现。
+
+- 收官处理记录（人工，2026-10-09）：30 新页 sources 修复（29 单源+deepwiki merge 页 HEAD 底集双源合并）+全库复验零损伤；生成阶段撞 32768 上限三次烧尽重试进 failed，用户重启后 checkpoint 续跑补缺完成（已落盘 13 页基础上收敛）——生成超限的收敛路径与 chunk 撞限不同：页面清单越长越难一次吐完，靠多轮 resume 累积
+- 追踪页 +8 行（Cursor 92%/Qodo-Embed-1/Augment 30-80%/Augment vs Cursor/DeepWiki 15.7k star/UModel 规模延迟/5命令15秒 Demo/三范式基准未兑现）——app log 待办全部落地
+- 待审零条（续跑不触发复活+本篇未触发 REVIEW 块）

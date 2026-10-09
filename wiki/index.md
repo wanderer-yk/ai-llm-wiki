@@ -287,7 +287,40 @@ updated: 2026-06-23
 
 
 
+
+
+
 ## Recently Updated
+- [[sources/[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱]] — [202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱
+- [[entities/阿里云云原生可观测团队]] — 阿里云云原生可观测团队
+- [[entities/sources/如何用UModel构建一个会成长的个人Wiki]] — 如何用UModel构建一个会成长的个人Wiki
+- [[concepts/代码理解的五种范式]] — 代码理解的五种范式
+- [[concepts/UModel六阶段构建流水线]] — UModel六阶段构建流水线
+- [[concepts/两步查询模式]] — 两步查询模式
+- [[concepts/意图化子命令设计]] — 意图化子命令设计
+- [[concepts/Agent交互层CLI+Skill]] — Agent交互层CLI+Skill
+- [[concepts/token预算优化输出格式]] — token预算优化输出格式
+- [[concepts/AST确定性提取+LLM语义增强分层置信度]] — AST确定性提取+LLM语义增强分层置信度
+- [[concepts/Entity+Log+Link三元组建模]] — Entity+Log+Link三元组建模
+- [[concepts/代码域vs跨域]] — 代码域vs跨域
+- [[concepts/快照vs时间线]] — 快照vs时间线
+- [[concepts/个人Wiki到代码Wiki同范式不同确定性]] — 个人Wiki到代码Wiki同范式不同确定性
+- [[concepts/tree-sitter双用途分野]] — tree-sitter双用途分野
+- [[concepts/架构发现非社区检测]] — 架构发现非社区检测
+- [[concepts/三范式量化评测基准]] — 三范式量化评测基准
+- [[concepts/Agent自主维护图谱]] — Agent自主维护图谱
+- [[concepts/架构守护门禁]] — 架构守护门禁
+- [[concepts/RCA三维度汇聚]] — RCA三维度汇聚
+- [[concepts/AgenticSearch无索引流派]] — AgenticSearch无索引流派
+- [[entities/deepwiki]] — deepwiki
+- [[entities/qodo]] — qodo
+- [[entities/augment-code]] — augment-code
+- [[entities/umodel]] — umodel
+- [[entities/code-wiki]] — code-wiki
+- [[entities/vibeops-agents]] — vibeops-agents
+- [[entities/张城]] — 张城
+- [[entities/阿里云云原生]] — 阿里云云原生
+- [[entities/tree-sitter]] — tree-sitter
 - [[sources/[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了]] — [202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了
 - [[concepts/四阶段优化循环]] — 四阶段优化循环
 - [[concepts/奇偶轮角色互换]] — 奇偶轮角色互换
@@ -458,33 +491,3 @@ updated: 2026-06-23
 - [[concepts/code-review-skill多agent架构]] — code-review-skill多agent架构
 - [[sources/[202605090830]Harness实践让Agent自动制作知识讲解视频]] — [202605090830]Harness实践让Agent自动制作知识讲解视频
 - [[entities/ConardLi]] — ConardLi
-- [[entities/code秘密花园]] — code秘密花园
-- [[entities/web-video-presentation]] — web-video-presentation
-- [[entities/garden-skills]] — garden-skills
-- [[entities/MiniMax]] — MiniMax
-- [[entities/MMX-CLI]] — MMX-CLI
-- [[entities/CC-Switch]] — CC-Switch
-- [[entities/tmux]] — tmux
-- [[concepts/Harness核心价值三元组织论]] — Harness核心价值三元组织论
-- [[concepts/三种播放模式]] — 三种播放模式
-- [[concepts/流水线复用模式]] — 流水线复用模式
-- [[concepts/开发模式三档]] — 开发模式三档
-- [[concepts/SubAgent与AgentTeams双模式]] — SubAgent与AgentTeams双模式
-- [[concepts/Harness六大核心部分]] — Harness六大核心部分
-- [[concepts/Skill级Harness论]] — Skill级Harness论
-- [[concepts/硬性自检规则]] — 硬性自检规则
-- [[concepts/三级评审执行方式]] — 三级评审执行方式
-- [[concepts/并行开发隔离机制]] — 并行开发隔离机制
-- [[concepts/反馈修复最小切片]] — 反馈修复最小切片
-- [[concepts/四阶段两检查点流水线]] — 四阶段两检查点流水线
-- [[concepts/Plan检查点五项对齐]] — Plan检查点五项对齐
-- [[concepts/分阶段文档按需加载]] — 分阶段文档按需加载
-- [[concepts/文件化工作记忆]] — 文件化工作记忆
-- [[concepts/网页即视频方案]] — 网页即视频方案
-- [[concepts/视频网页四步关键流程]] — 视频网页四步关键流程
-- [[concepts/Harness职责四要素]] — Harness职责四要素
-- [[comparisons/ConardLi六核心与爱奇艺Harness五要素对比]] — ConardLi六核心与爱奇艺Harness五要素对比
-- [[sources/[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术]] — [202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术
-- [[entities/阳凯]] — 阳凯
-- [[concepts/三层规范体系]] — 三层规范体系
-- [[concepts/需求颗粒度三档协作模式]] — 需求颗粒度三档协作模式
