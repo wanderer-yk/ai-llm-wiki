@@ -285,7 +285,37 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了]] — [202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了
+- [[concepts/四阶段优化循环]] — 四阶段优化循环
+- [[concepts/奇偶轮角色互换]] — 奇偶轮角色互换
+- [[concepts/issue选择策略]] — issue选择策略
+- [[concepts/agent权限边界清单]] — agent权限边界清单
+- [[concepts/错误处理三机制]] — 错误处理三机制
+- [[concepts/results-tsv结构化归档]] — results-tsv结构化归档
+- [[comparisons/autoresearch三项目对比]] — autoresearch三项目对比
+- [[entities/karpathy]] — karpathy
+- [[entities/autoresearchkarpathy-原版]] — autoresearchkarpathy-原版
+- [[entities/鸟窝]] — 鸟窝
+- [[entities/smallnest-autoresearch]] — smallnest-autoresearch
+- [[entities/acpx]] — acpx
+- [[entities/imclaw]] — imclaw
+- [[entities/花叔]] — 花叔
+- [[entities/达尔文skill]] — 达尔文skill
+- [[entities/auto-optimize-skill]] — auto-optimize-skill
+- [[concepts/ralph-wiggum方法]] — ralph-wiggum方法
+- [[concepts/autoresearch软件开发迁移]] — autoresearch软件开发迁移
+- [[concepts/多agent交叉审核]] — 多agent交叉审核
+- [[concepts/5维度量化评分]] — 5维度量化评分
+- [[concepts/反馈驱动迭代]] — 反馈驱动迭代
+- [[concepts/program-md规则核心]] — program-md规则核心
+- [[concepts/val-loss改善才commit]] — val-loss改善才commit
+- [[concepts/autoresearch三原则]] — autoresearch三原则
+- [[concepts/六条核心原则]] — 六条核心原则
+- [[concepts/硬性保护与软性保护]] — 硬性保护与软性保护
+- [[concepts/人的参与程度反映领域特征]] — 人的参与程度反映领域特征
 - [[sources/[202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出]] — [202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出
 - [[entities/三石]] — 三石
 - [[entities/KMP]] — KMP
@@ -458,31 +488,3 @@ updated: 2026-06-23
 - [[entities/阳凯]] — 阳凯
 - [[concepts/三层规范体系]] — 三层规范体系
 - [[concepts/需求颗粒度三档协作模式]] — 需求颗粒度三档协作模式
-- [[concepts/AI顶级执行者比喻]] — AI顶级执行者比喻
-- [[concepts/AI失效三模式]] — AI失效三模式
-- [[concepts/开发者角色重构]] — 开发者角色重构
-- [[concepts/确定性空间边界论]] — 确定性空间边界论
-- [[concepts/AI能力边界三结构性特征]] — AI能力边界三结构性特征
-- [[concepts/约束非能力论]] — 约束非能力论
-- [[concepts/MCP消除信息断层]] — MCP消除信息断层
-- [[sources/[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术]] — [202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术
-- [[entities/得物技术]] — 得物技术
-- [[entities/稚归]] — 稚归
-- [[entities/飞书]] — 飞书
-- [[concepts/人机协作新型开发范式]] — 人机协作新型开发范式
-- [[concepts/开发者核心竞争力转变]] — 开发者核心竞争力转变
-- [[concepts/ai编程工具未来发展方向]] — ai编程工具未来发展方向
-- [[concepts/系统提示词护栏论]] — 系统提示词护栏论
-- [[concepts/系统提示词三技巧]] — 系统提示词三技巧
-- [[concepts/skill知识沉淀机制]] — skill知识沉淀机制
-- [[concepts/语义鸿沟]] — 语义鸿沟
-- [[concepts/约束衰减]] — 约束衰减
-- [[concepts/目标偏移]] — 目标偏移
-- [[concepts/三阶段对话模型]] — 三阶段对话模型
-- [[concepts/必须遵守vs建议参考约束分层]] — 必须遵守vs建议参考约束分层
-- [[concepts/增量验证]] — 增量验证
-- [[concepts/工作记忆限制理论]] — 工作记忆限制理论
-- [[concepts/渐进式知识构建]] — 渐进式知识构建
-- [[concepts/四核心子代理角色]] — 四核心子代理角色
-- [[concepts/中间产物驱动论]] — 中间产物驱动论
-- [[concepts/先整体规划再迭代实现]] — 先整体规划再迭代实现

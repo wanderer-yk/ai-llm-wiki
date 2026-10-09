@@ -573,3 +573,11 @@ Deleted 1 source file and 0 wiki pages.
 ## [2026-10-09] ingest | [202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出.html
 
 - 收官处理记录（人工，2026-10-09）：20 新页 sources 单源重写（源页1/概念16/实体3 KMP/三石/网盘）+全库复验零损伤；本篇零新待审；复活 5 条按原裁决重 resolve，其中三线基建比较页条目被 sweep 自动消（建页即消第 3 次实证）；核心概念三层架构管住AI输出（规则层/Skill层/mailbox 通道）与既有 [[mailbox消息通道]]、[[checklist驱动skill]]、[[漂移比崩溃危险]] 等构成存量代码迁移方法论族
+
+## [2026-10-09] ingest | [202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了.html
+
+- 收官处理记录（人工，2026-10-09）：28 新页 sources 单源重写（源页1/概念18/实体9 karpathy/花叔/鸟窝/imclaw/达尔文skill/auto-optimize-skill 等/比较页 autoresearch三项目对比）+全库复验零损伤；生成期撞限一次 checkpoint 自愈
+- 回写三页：codex（autoresearch 实现者角色+agents/codex.md 契约+Issue #21 案例）、claude-code（审核者角色+agents/claude.md 契约+Issue #15 案例）、百度Geek说（五篇同号枢纽补记）
+- 矛盾对裁决：autoresearch score=15/10 与轮次计数矛盾维持三页标记悬置（查证 smallnest/autoresearch 仓库/asciinema 需外部检索放行，review-e5f09715/2a6f42b1）
+- 悬置维持：截图承载缺口（六条核心原则/四阶段终止条件表等，待 GitHub 补证 review-ec0f1c4a）+达尔文.skill 8 维构成（待花叔仓库 review-8b0936aa）+延伸采集 IMClaw 专文/GoClaw/OpenClaw 全指南（用户决策 review-c657e3bf/ed926770）
+- 复活 5 条（柚漫剧轮）按原裁决重 resolve

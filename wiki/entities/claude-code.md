@@ -5,7 +5,7 @@ tags: [工具, anthropic, cli, 编码agent]
 related: [zhiyuanfu, 24h打工人, codex, gemini-cli, cursor]
 created: 2026-06-12
 updated: 2026-10-09
-sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html"]
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了.html"]
 ---
 # Claude Code
 
@@ -28,3 +28,7 @@ Anthropic 推出的 Claude CLI 工具，具备读文件、改代码、跑命令�
 - **附件与记忆机制**：`nested_memory` 按需加载（目录级 CLAUDE.md 发现经 `getMemoryFiles`/`processMemoryFile` 流水线）；`/skill-name` 手动触发链路与 `@file` FileAttachment （证据等级：v2.1.88 泄漏源码、版本特定、非官方口径，引用链未独立核实）。
 - **Skill 双执行模式**：Inline（默认，指令注入当前上下文）与 Fork（独立上下文隔离执行），见 [[skill双执行模式]]。
 - 泄漏源码出处待核（文中链接指向官方仓库但官方不发布源码），已登记 [[sources/[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大|源页]] 开放问题。
+
+## autoresearch 审核者角色（2026-04）
+
+- 在 smallnest/autoresearch 中 Claude Code 任**审核者**角色：`agents/claude.md` 承载审核者指令+评分标准+问题模板，对 Codex 实现产出量化评分与问题清单；Issue #15 案例中 Claude 亲自补充实现（实现/审核角色非绝对固定）。
