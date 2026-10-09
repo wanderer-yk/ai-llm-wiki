@@ -569,3 +569,7 @@ Deleted 1 source file and 0 wiki pages.
 ## [2026-10-09] ingest | [202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合.html
 
 - 收官处理记录（人工，2026-10-09）：37 新页 sources 单源重写+全库复验零损伤；ingest 波折两次——chunk 7 撞 16,384 分析上限（用户重启清零后重试自过）+chunk 9 传输层流中断烧尽重试进 failed；**新机制确认：failed 任务对 touch/rescan 重入队免疫，唯一复位路径=app 重启**；venue 待审核对即结（Harness 源页 venue 字段本就正确）；新建比较页 [[comparisons/三线基建与三大武器库对比]]（三线 vs 三库逐线对照+Rules≠知识库辨析+隐性知识显性资产化↔知识库降熵论强同构裁决）；悬置 3：IMClaw/Karpathy AutoResearch 采集范围（用户决策，review-3d4e743a/ba73cbef）+AIQA 架构图永久缺口（review-cceca7ca）+柚漫剧自研框架与百度 San 关系（review-be282a8f），均待外部检索或用户放行
+
+## [2026-10-09] ingest | [202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出.html
+
+- 收官处理记录（人工，2026-10-09）：20 新页 sources 单源重写（源页1/概念16/实体3 KMP/三石/网盘）+全库复验零损伤；本篇零新待审；复活 5 条按原裁决重 resolve，其中三线基建比较页条目被 sweep 自动消（建页即消第 3 次实证）；核心概念三层架构管住AI输出（规则层/Skill层/mailbox 通道）与既有 [[mailbox消息通道]]、[[checklist驱动skill]]、[[漂移比崩溃危险]] 等构成存量代码迁移方法论族

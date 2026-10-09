@@ -283,7 +283,29 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出]] — [202605201800]网盘存量代码迁移实战我们如何用三层架构管住AI的输出
+- [[entities/三石]] — 三石
+- [[entities/KMP]] — KMP
+- [[entities/网盘]] — 网盘
+- [[concepts/三层架构管住AI输出]] — 三层架构管住AI输出
+- [[concepts/AI迁移三规律性问题]] — AI迁移三规律性问题
+- [[concepts/强依赖选型判据]] — 强依赖选型判据
+- [[concepts/两阶段迁移流程]] — 两阶段迁移流程
+- [[concepts/skill稳定性决定论]] — skill稳定性决定论
+- [[concepts/checklist驱动skill]] — checklist驱动skill
+- [[concepts/skill分层文件管理]] — skill分层文件管理
+- [[concepts/提取校验修复三skill拆分]] — 提取校验修复三skill拆分
+- [[concepts/ai自审偏差]] — ai自审偏差
+- [[concepts/skill错误倒逼生成]] — skill错误倒逼生成
+- [[concepts/上下文膨胀必然论]] — 上下文膨胀必然论
+- [[concepts/漂移比崩溃危险]] — 漂移比崩溃危险
+- [[concepts/agent-memory结构化提炼]] — agent-memory结构化提炼
+- [[concepts/并行质量收益论]] — 并行质量收益论
+- [[concepts/mailbox消息通道]] — mailbox消息通道
+- [[concepts/工程结构优先论]] — 工程结构优先论
 - [[sources/[202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合]] — [202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合
 - [[concepts/需求准出自动拦截]] — 需求准出自动拦截
 - [[concepts/测试左移ai助力]] — 测试左移ai助力
@@ -464,24 +486,3 @@ updated: 2026-06-23
 - [[concepts/四核心子代理角色]] — 四核心子代理角色
 - [[concepts/中间产物驱动论]] — 中间产物驱动论
 - [[concepts/先整体规划再迭代实现]] — 先整体规划再迭代实现
-- [[concepts/子代理协作模式]] — 子代理协作模式
-- [[concepts/人类主导AI辅助三分类]] — 人类主导AI辅助三分类
-- [[concepts/上下文管理四技巧]] — 上下文管理四技巧
-- [[concepts/质量控制三策略]] — 质量控制三策略
-- [[concepts/AI编程局限性四认知]] — AI编程局限性四认知
-- [[sources/[202605181736]RAG全链路技术详解]] — [202605181736]RAG全链路技术详解
-- [[concepts/场景采样两阶段解耦]] — 场景采样两阶段解耦
-- [[concepts/ragas查询类型分类]] — ragas查询类型分类
-- [[entities/驰海]] — 驰海
-- [[entities/天猫品牌行业架构团队]] — 天猫品牌行业架构团队
-- [[entities/ragas]] — ragas
-- [[concepts/rag全链路]] — rag全链路
-- [[concepts/ppl语义切分]] — ppl语义切分
-- [[concepts/hyde-假设文档检索]] — hyde-假设文档检索
-- [[concepts/doc2query反向-hyde]] — doc2query反向-hyde
-- [[concepts/多查询生成]] — 多查询生成
-- [[concepts/提取标签]] — 提取标签
-- [[concepts/重排序rerank]] — 重排序rerank
-- [[concepts/cross-encoder交叉编码器]] — cross-encoder交叉编码器
-- [[concepts/中间丢失]] — 中间丢失
-- [[comparisons/三线基建与三大武器库对比]] — 三线基建与三大武器库对比
