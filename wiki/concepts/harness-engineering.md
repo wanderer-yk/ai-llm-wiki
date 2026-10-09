@@ -4,8 +4,8 @@ title: Harness Engineering
 tags: [ai编程, agent工程化, 返工治理, 研发协作, 方法论]
 related: [ai编程幻觉, 规格驱动ai开发, 研发范式前移, specflow, bmad-method, 多源分治策略, ssot单文档策略, blocker-gate]
 created: 2026-06-12
-updated: 2026-10-08
-sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html"]
+updated: 2026-10-09
+sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返工.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html", "[202604081800]HarnessEngineering让CodingAgent可靠完成长程任务.html"]
 ---
 # Harness Engineering
 
@@ -90,3 +90,12 @@ sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返�
 ## 跨作者印证（2026-05）
 
 - ConardLi《Harness实践》提出 Harness **六核心部分**（系统提示词/工具链/Skills/子代理/权限与安全/记忆与上下文管理），与本源（爱奇艺 HarnessEngineering）**职责四要素**跨作者互证——两套划分粒度不同但要素覆盖一致，映射详见 [[comparisons/ConardLi六核心与爱奇艺Harness五要素对比]]。
+
+## 第三方定义：百度版（2026-04，"缰绳"谱系）
+
+百度Geek说《HarnessEngineering：让Coding Agent可靠完成长程任务》（[[无糖可乐]]）提供两个互补定义：
+
+1. **缰绳隐喻**（01 节）：Harness 英文本意"缰绳"，Agent 场景即让强模型在**安全边界内被稳定地约束、引导和复用**；
+2. **基础设施定位**（09 节，[[harness基础设施论]]）：Harness 是"团队基础设施建设的一部分，解决 Agent 完成大规模任务时的不确定性，并提供可量化的结果评估能力"。
+
+配套 [[harness边界移动论]]：Harness 每个环节都隐含"当前模型做不到"的假设，随模型进化过期，但"哪些交给模型、哪些留在框架"的判断不会消失。方法论主体为长程任务三特征/三困难/四原则 + 任务边界三模式 + skill-for-skill 元技能自举。三方定义谱系对照见 [[comparisons/三方Harness定义对比]]。

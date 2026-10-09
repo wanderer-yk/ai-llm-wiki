@@ -278,7 +278,39 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604081800]HarnessEngineering让CodingAgent可靠完成长程任务]] — [202604081800]HarnessEngineering让CodingAgent可靠完成长程任务
+- [[concepts/harness边界移动论]] — harness边界移动论
+- [[concepts/harness基础设施论]] — harness基础设施论
+- [[concepts/skill-for-skill元技能自举]] — skill-for-skill元技能自举
+- [[concepts/分块token预算推导]] — 分块token预算推导
+- [[concepts/批判性evaluator校验]] — 批判性evaluator校验
+- [[concepts/任务粒度80%检验标准]] — 任务粒度80%检验标准
+- [[concepts/file-as-progress状态持久化]] — file-as-progress状态持久化
+- [[entities/long-term-task-orchestration]] — long-term-task-orchestration
+- [[concepts/长程任务三特征]] — 长程任务三特征
+- [[concepts/效果速度成本三关注点]] — 效果速度成本三关注点
+- [[concepts/完成真实性]] — 完成真实性
+- [[concepts/长程任务三困难]] — 长程任务三困难
+- [[concepts/上下文焦虑]] — 上下文焦虑
+- [[concepts/长程任务四原则]] — 长程任务四原则
+- [[concepts/任务边界三模式]] — 任务边界三模式
+- [[concepts/错误最小范围解决]] — 错误最小范围解决
+- [[concepts/双轨校验]] — 双轨校验
+- [[concepts/跨模型评估]] — 跨模型评估
+- [[concepts/自我说服效应]] — 自我说服效应
+- [[concepts/局部失败容忍与妥协分级]] — 局部失败容忍与妥协分级
+- [[concepts/agent-teams最后选项论]] — agent-teams最后选项论
+- [[concepts/任务粒度三因素]] — 任务粒度三因素
+- [[concepts/3000行经验上限]] — 3000行经验上限
+- [[concepts/同目录文件同组原则]] — 同目录文件同组原则
+- [[concepts/子任务CLI化]] — 子任务CLI化
+- [[concepts/prompt确定性]] — prompt确定性
+- [[concepts/主agent转述失真]] — 主agent转述失真
+- [[concepts/随到随补调度]] — 随到随补调度
+- [[concepts/双通道输出设计]] — 双通道输出设计
 - [[sources/[202603091800]打造高效易用的AgentSkill]] — [202603091800]打造高效易用的AgentSkill
 - [[entities/百度Geek说]] — 百度Geek说
 - [[entities/无糖可乐]] — 无糖可乐
@@ -449,33 +481,4 @@ updated: 2026-06-23
 - [[comparisons/需求驱动型与工程主导型对比]] — 需求驱动型与工程主导型对比
 - [[sources/[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929]] — [202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列
 - [[entities/github-copilot-metrics]] — github-copilot-metrics
-- [[synthesis/天猫AICoding实践系列综合]] — 天猫AICoding实践系列综合
-- [[concepts/视图分离]] — 视图分离
-- [[concepts/任务设计与拆分]] — 任务设计与拆分
-- [[entities/卓屿]] — 卓屿
-- [[entities/天猫新品营销技术]] — 天猫新品营销技术
-- [[entities/D2C]] — D2C
-- [[concepts/AI生码四大痛点]] — AI生码四大痛点
-- [[concepts/AI生码五维归因框架]] — AI生码五维归因框架
-- [[concepts/最大化复用]] — 最大化复用
-- [[concepts/文档先行]] — 文档先行
-- [[concepts/二八定律]] — 二八定律
-- [[concepts/AI-Coding五步模型]] — AI-Coding五步模型
-- [[concepts/掌控AI生码环节介入论]] — 掌控AI生码环节介入论
-- [[concepts/前置准备]] — 前置准备
-- [[concepts/全流程节点]] — 全流程节点
-- [[concepts/文件引用层级与出码正确率]] — 文件引用层级与出码正确率
-- [[concepts/明确需求内容]] — 明确需求内容
-- [[concepts/PRD即单测]] — PRD即单测
-- [[sources/[202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构]] — [202604241629]800行代码实现OpenClaw的Tool消息总线子Agent管理架构
-- [[entities/苏雄]] — 苏雄
-- [[entities/会员技术团队]] — 会员技术团队
-- [[concepts/轻量级单进程agent框架]] — 轻量级单进程agent框架
-- [[concepts/薄抽象设计哲学]] — 薄抽象设计哲学
-- [[concepts/有意取舍边界声明]] — 有意取舍边界声明
-- [[concepts/同步异步双路径]] — 同步异步双路径
-- [[concepts/互斥锁与暂存队列]] — 互斥锁与暂存队列
-- [[concepts/子agent单进程并发模型]] — 子agent单进程并发模型
-- [[concepts/入站消息总线]] — 入站消息总线
-- [[concepts/子agent工具排除机制]] — 子agent工具排除机制
-- [[concepts/tool抽象四要素]] — tool抽象四要素
+- [[comparisons/三方Harness定义对比]] — 三方Harness定义对比

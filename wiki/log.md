@@ -547,3 +547,9 @@ Deleted 1 source file and 0 wiki pages.
 - 建立评测方法论跨团队印证链：本文评测三原则/五步闭环 ↔ [[拒绝感觉有效用数据证明]]、[[agent评测四要素]]、[[评测集优先于知识库]]、[[评测agent乐观偏差]]
 
 - 收官处理记录（人工，2026-10-08）：28 新页 sources 修复（含 1 页 merge 更新 anthropic.md 走 HEAD 底集∪token 三源合并=2 旧源+本篇）+全库复验零损伤；本篇零新待审（全 22 条为往期复活按原裁决重 resolve）；修复脚本已升级为"先查 id 数再定单源/多源路径"（上轮多源塌缩教训固化）
+
+## [2026-10-09] ingest | [202604081800]HarnessEngineering让CodingAgent可靠完成长程任务.html
+
+- 收官处理记录（人工，2026-10-09）：30 新页 sources 单源重写（本篇无 merge 更新页）+全库复验零损伤；生成期撞限一次 checkpoint 自愈成功
+- 落地三件：harness-engineering 页多来源谱系化（爱奇艺+ConardLi+百度三方，加百度"缰绳/基础设施"定义节）；新建比较页 [[comparisons/三方Harness定义对比]]（三定义并排+三共识+三分歧+synthesis 不另立裁决）；Agent Teams 张力裁决=场景依赖差异非矛盾（双模式页补注记互链，视频生产 vs 编码长程语境）
+- 待审 28 条：复活 22 条按原裁决重 resolve；新 6 条=missing-page 比较页落地+重复对×2 取全者落地+contradiction 场景差异裁决+悬置 2（hixuanxuan 仓库身份与 skill-eval 细节待外部检索放行）
