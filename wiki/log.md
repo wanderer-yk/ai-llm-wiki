@@ -652,3 +652,7 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 待核事项：`ChatMemory.forSubAgent()` 与各 Splitter/Retriever 归属、IdeaLab 平台本体、千问AI平台与阿里正式关系、`mcp-servers.json` 格式等，已记录于来源页开放问题清单
 
 - 收官处理记录（人工，2026-10-10）：24 新页+千问AI平台 merge 页双源合并修复+全库复验零损伤；落地两件——harness-engineering 页加"命题统一：五次出现谱系"节（review-7c03df82 裁决：synthesis 不另立，主页即谱系锚点）+新建查询页 [[queries/上下文终局三方押注追踪]]（review-2b26eb97/9d0836be 合并立项：工具定义派/记忆派/知识库派三方对立押注长期追踪，含越线信号——记忆与知识库均在被工具化，"一切皆 Tool"若成立则工具定义派以吞并方式胜出）；悬置 2：aiagentdemo 仓库源码核查（review-3a63dba3）+千问AI平台归属核实（review-3bedded8），均待外部检索；复活 15 条照例重 resolve
+
+## [2026-10-10] ingest | [202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践.html
+
+- 收官处理记录（人工，2026-10-10）：17 新页 sources 单源重写+全库复验零损伤；生成撞限一次 checkpoint 自愈；本篇零新待审且**零复活**（前 15 条已 resolve 的条目未重建——复活机制比"每次全量入队必复活"的定案更不定，观察存疑不横标）；本篇为 Claude Code 官方设计反向工程长文（system-prompt 动态组装/system-reminder 注入/autocompact 水位线/microcompact 工具白名单/fork-sub-agent/memdir 结构化记忆/verification-agent 五哲学/prompt-context-harness 三阶段），与千问系前五篇及 leaks 篇形成 claude-code 主题最密集证据网

@@ -298,7 +298,26 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践]] — [202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践
+- [[concepts/prompt-context-harness三阶段]] — prompt-context-harness三阶段
+- [[concepts/system-prompt动态组装机制]] — system-prompt动态组装机制
+- [[concepts/system-prompt优先级链]] — system-prompt优先级链
+- [[concepts/cacheScope分级缓存]] — cacheScope分级缓存
+- [[concepts/system-reminder注入机制]] — system-reminder注入机制
+- [[concepts/claude-md四路径分层]] — claude-md四路径分层
+- [[concepts/内外双版本提示词]] — 内外双版本提示词
+- [[concepts/函数结果清理机制]] — 函数结果清理机制
+- [[concepts/microcompact工具白名单]] — microcompact工具白名单
+- [[concepts/autocompact水位线机制]] — autocompact水位线机制
+- [[concepts/九段式结构化摘要模板]] — 九段式结构化摘要模板
+- [[concepts/memdir结构化记忆系统]] — memdir结构化记忆系统
+- [[concepts/harness三层次定位]] — harness三层次定位
+- [[concepts/六大系统内置AgentTool]] — 六大系统内置AgentTool
+- [[concepts/verification-agent五大设计哲学]] — verification-agent五大设计哲学
+- [[concepts/fork-sub-agent机制]] — fork-sub-agent机制
 - [[sources/[202604220830]AI实践基于SpringAI从0到1构建AIAgent]] — [202604220830]AI实践基于SpringAI从0到1构建AIAgent
 - [[entities/觖弦]] — 觖弦
 - [[entities/spring-ai]] — spring-ai
@@ -482,21 +501,3 @@ updated: 2026-06-23
 - [[entities/三石]] — 三石
 - [[entities/KMP]] — KMP
 - [[entities/网盘]] — 网盘
-- [[concepts/三层架构管住AI输出]] — 三层架构管住AI输出
-- [[concepts/AI迁移三规律性问题]] — AI迁移三规律性问题
-- [[concepts/强依赖选型判据]] — 强依赖选型判据
-- [[concepts/两阶段迁移流程]] — 两阶段迁移流程
-- [[concepts/skill稳定性决定论]] — skill稳定性决定论
-- [[concepts/checklist驱动skill]] — checklist驱动skill
-- [[concepts/skill分层文件管理]] — skill分层文件管理
-- [[concepts/提取校验修复三skill拆分]] — 提取校验修复三skill拆分
-- [[concepts/ai自审偏差]] — ai自审偏差
-- [[concepts/skill错误倒逼生成]] — skill错误倒逼生成
-- [[concepts/上下文膨胀必然论]] — 上下文膨胀必然论
-- [[concepts/漂移比崩溃危险]] — 漂移比崩溃危险
-- [[concepts/agent-memory结构化提炼]] — agent-memory结构化提炼
-- [[concepts/并行质量收益论]] — 并行质量收益论
-- [[concepts/mailbox消息通道]] — mailbox消息通道
-- [[concepts/工程结构优先论]] — 工程结构优先论
-- [[sources/[202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合]] — [202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合
-- [[queries/上下文终局三方押注追踪]] — 上下文终局三方押注追踪
