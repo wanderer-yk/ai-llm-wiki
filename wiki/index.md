@@ -302,7 +302,16 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604140830]浏览器自动化从GUI到OpenCLI]] — [202604140830]浏览器自动化从GUI到OpenCLI
+- [[entities/opencli]] — opencli
+- [[entities/明径]] — 明径
+- [[concepts/api优先浏览器自动化]] — api优先浏览器自动化
+- [[concepts/agent浏览器探索七步工作流]] — agent浏览器探索七步工作流
+- [[concepts/opencli五级认证策略]] — opencli五级认证策略
+- [[concepts/cli录制回放生成]] — cli录制回放生成
+- [[concepts/软件竞争可调用性]] — 软件竞争可调用性
 - [[sources/[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层]] — [202604150830]ClaudeCode源码拆解从启动到多Agent扩展层
 - [[entities/无岳]] — 无岳
 - [[concepts/任务对象化判据]] — 任务对象化判据
@@ -495,15 +504,4 @@ updated: 2026-06-23
 - [[concepts/token预算优化输出格式]] — token预算优化输出格式
 - [[concepts/AST确定性提取+LLM语义增强分层置信度]] — AST确定性提取+LLM语义增强分层置信度
 - [[concepts/Entity+Log+Link三元组建模]] — Entity+Log+Link三元组建模
-- [[concepts/代码域vs跨域]] — 代码域vs跨域
-- [[concepts/快照vs时间线]] — 快照vs时间线
-- [[concepts/个人Wiki到代码Wiki同范式不同确定性]] — 个人Wiki到代码Wiki同范式不同确定性
-- [[concepts/tree-sitter双用途分野]] — tree-sitter双用途分野
-- [[concepts/架构发现非社区检测]] — 架构发现非社区检测
-- [[concepts/三范式量化评测基准]] — 三范式量化评测基准
-- [[concepts/Agent自主维护图谱]] — Agent自主维护图谱
-- [[concepts/架构守护门禁]] — 架构守护门禁
-- [[concepts/queryloop状态机]] — queryloop状态机
-- [[concepts/权限四层链路]] — 权限四层链路
-- [[concepts/统一任务抽象先行]] — 统一任务抽象先行
-- [[comparisons/claude-code源码拆解两篇对比]] — claude-code源码拆解两篇对比
+- [[comparisons/浏览器自动化路线对比]] — 浏览器自动化路线对比
