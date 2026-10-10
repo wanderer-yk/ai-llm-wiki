@@ -295,7 +295,32 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604230830]深入源码HermesAgent如何实现SelfImproving]] — [202604230830]深入源码HermesAgent如何实现SelfImproving
+- [[concepts/skill创建透明度]] — skill创建透明度
+- [[concepts/团队治理写操作二次确认]] — 团队治理写操作二次确认
+- [[concepts/用得越久越好用]] — 用得越久越好用
+- [[entities/RDSHermes]] — RDSHermes
+- [[entities/三剑]] — 三剑
+- [[concepts/memory-skill-nudge三子系统自进化闭环]] — memory-skill-nudge三子系统自进化闭环
+- [[concepts/memory容量上限倒逼压缩]] — memory容量上限倒逼压缩
+- [[concepts/快照冻结与前缀缓存]] — 快照冻结与前缀缓存
+- [[concepts/声明式事实记忆]] — 声明式事实记忆
+- [[concepts/memory与skill职责边界]] — memory与skill职责边界
+- [[concepts/skill自动创建触发条件]] — skill自动创建触发条件
+- [[concepts/skill局部patch修补]] — skill局部patch修补
+- [[concepts/skill轻量索引按需加载]] — skill轻量索引按需加载
+- [[concepts/双计数器nudge触发]] — 双计数器nudge触发
+- [[concepts/领域知识护城河论]] — 领域知识护城河论
+- [[concepts/三会话自进化实证案例]] — 三会话自进化实证案例
+- [[concepts/记忆内容威胁模式扫描]] — 记忆内容威胁模式扫描
+- [[concepts/skill安全扫描统一门禁]] — skill安全扫描统一门禁
+- [[concepts/组织级自进化]] — 组织级自进化
+- [[concepts/密钥托管凭证隔离]] — 密钥托管凭证隔离
+- [[concepts/skill生命周期元数据]] — skill生命周期元数据
+- [[concepts/skill组合成工作流]] — skill组合成工作流
 - [[sources/[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践]] — [202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践
 - [[concepts/内外双驱记忆架构]] — 内外双驱记忆架构
 - [[concepts/SQLite全量对话持久化]] — SQLite全量对话持久化
@@ -473,26 +498,3 @@ updated: 2026-06-23
 - [[concepts/design-json唯一设计源]] — design-json唯一设计源
 - [[concepts/设计即代码]] — 设计即代码
 - [[concepts/无需走查的代码集成]] — 无需走查的代码集成
-- [[concepts/通用技术Prompt模板]] — 通用技术Prompt模板
-- [[concepts/单点提效到基建驱动]] — 单点提效到基建驱动
-- [[concepts/ai-coding基建]] — ai-coding基建
-- [[concepts/代码作为产研协作中间态]] — 代码作为产研协作中间态
-- [[concepts/痛点倒逼基建]] — 痛点倒逼基建
-- [[concepts/隐性知识显性资产化]] — 隐性知识显性资产化
-- [[concepts/rules四类分层调度]] — rules四类分层调度
-- [[concepts/知识到流程跃迁]] — 知识到流程跃迁
-- [[concepts/前端单测Skill]] — 前端单测Skill
-- [[concepts/高闭环任务先行]] — 高闭环任务先行
-- [[concepts/跨角色前置对齐架构]] — 跨角色前置对齐架构
-- [[concepts/copilot到ai-agent范式转移]] — copilot到ai-agent范式转移
-- [[sources/[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大]] — [202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大
-- [[entities/Cheer]] — Cheer
-- [[concepts/api请求位置决定论]] — api请求位置决定论
-- [[concepts/rules被动注入机制]] — rules被动注入机制
-- [[concepts/system静态动态缓存分区]] — system静态动态缓存分区
-- [[concepts/messages注入四通道]] — messages注入四通道
-- [[concepts/rules条件生效机制]] — rules条件生效机制
-- [[concepts/nested_memory按需加载]] — nested_memory按需加载
-- [[concepts/mcp内置工具同构论]] — mcp内置工具同构论
-- [[concepts/mcp-instructions落地缺位]] — mcp-instructions落地缺位
-- [[concepts/skill提示词注入本质]] — skill提示词注入本质

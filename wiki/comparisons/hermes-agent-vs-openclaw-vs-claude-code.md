@@ -5,7 +5,7 @@ tags: [对比, agent架构, hermes-agent, openclaw, claude-code]
 related: [hermes-agent, openclaw, claude-code, 内外双路径自进化, SQLite全量对话持久化, 内外双驱记忆架构, 即时上下文注入, 全生命周期hook机制, 结构化错误分类自愈体系, 受控子Agent机制, 比例阈值压缩, 双压缩范式对比, Agent发展三阶段, 插件化生态扩展, 多层安全护栏]
 created: 2026-10-10
 updated: 2026-10-10
-sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html"]
+sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html", "[202604230830]深入源码HermesAgent如何实现SelfImproving.html"]
 ---
 # Hermes Agent vs OpenClaw vs Claude Code
 
@@ -40,3 +40,15 @@ sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其Promp
 
 - 来源内部对 OpenClaw 持久化的表述经历了"无状态 → SQLite 持久化 → 存 Memory Chunk 索引（非全文）"的精确化过程，引用时以最终口径为准
 - 子 Agent 嵌套存在散文（单层）与代码注释（`MAX_DEPTH = 2` 两层）的口径张力，见 [[受控子Agent机制]]
+
+## 补充对比维度（三剑源码篇，2026-04-23）
+
+| 维度 | Hermes Agent | OpenClaw | Claude Code |
+|---|---|---|---|
+| 上下文加载 | **动态图书馆**（轻量索引+按需加载，[[skill轻量索引按需加载]]） | "重型背包"（全量注入） | 分层附件（[[渐进式披露]] 谱系） |
+| Skill 来源 | 自动提炼+patch 修补（[[skill局部patch修补]]） | 手写/社区安装 | 手写为主+Skills 目录 |
+| 定位门槛 | 团队服务（6 维门槛：[[团队治理写操作二次确认]] 等） | 开发者工具 | 开发者工具 |
+| 自进化层级 | 云端组织级自进化+治理审计 | 单机自进化（[[组织级自进化]] 对照） | 无自主进化（[[确定性逻辑外置]] 哲学） |
+| 迁移 | v0.6.0 `hermes claw migrate`（从 OpenClaw 迁出） | — | — |
+
+**归因警示**：本页及 [[用得越久越好用]] 对 OpenClaw 的批评（无学习通路/记忆膨胀/升级即崩溃）均为作者三剑**单方定性**，原文与 wiki 均无第三方或源码级佐证——若 OpenClaw 实际存在自动经验沉淀或记忆压缩机制，本页对比结论将显著弱化（review-7a2e021f 立案，独立核验待办）。引用本页结论时须带"作者单方对比"限定。

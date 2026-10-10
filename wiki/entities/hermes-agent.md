@@ -5,7 +5,7 @@ tags: [agent, 自进化, 开源, rl训练, nous-research, 持久运行]
 related: [nous-research, 飞樰, 千问AI平台, openclaw, claude-code, 内外双路径自进化, 动态skill生成, 后台审查agent, agent轨迹, sharegpt格式, grpo算法, 批量数据生成, opd机制, rl-cli标准化训练四阶段, 轨迹头尾保护压缩, 比例阈值压缩, 双压缩范式对比, 内外双驱记忆架构, SQLite全量对话持久化, 即时上下文注入, 全生命周期hook机制, 结构化错误分类自愈体系, 受控子agent机制, 插件化生态扩展, 多层安全护栏, harness五位一体, agent发展三阶段, hermes与openclaw与claude-code三方对比]
 created: 2026-10-10
 updated: 2026-10-10
-sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html"]
+sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html", "[202604230830]深入源码HermesAgent如何实现SelfImproving.html"]
 ---
 # Hermes Agent
 
@@ -50,3 +50,11 @@ Hermes Agent 是 Nous Research（[[nous-research]]，美国开源人工智能研
 ## 待核实项
 
 - "4 万 Star" 独立验证；"Hunter" 是否为 "Honcho" 误写；子 Agent 嵌套单层散文表述 vs `MAX_DEPTH = 2` 的口径差异；插件接口规范与安全护栏实现细节。
+
+## 源码级补充（三剑篇，2026-04-23）
+
+- **安全机制源码级证据**：Memory 内容威胁模式扫描 + Skill 统一安全扫描门禁（写入前扫描+自动回滚），佐证 [[记忆内容威胁模式扫描]]、[[skill安全扫描统一门禁]]。
+- **三子系统闭环**：Memory（越用越懂你）+ Skill（越用越会做事）+ Nudge Engine（保证循环不停转），实证案例三会话闭环（示意性叙事非实测，见 [[三会话自进化实证案例]]）。
+- **v0.6.0 生态三项**：Profiles 多实例（修复单 Agent 硬伤）、MCP Server Mode（打通 IDE 生态）、`hermes claw migrate` 迁移工具（sessions/cron/memory，目标含 OpenClaw 与 RDSClaw——RDSClaw 身份待查，见 [[RDSHermes]]）。
+- **核心主张**：「用得越久，越好用」（[[用得越久越好用]]）——注意该主张的对比基线（对 OpenClaw 的批评）为作者单方定性，独立核验待办。
+- 七条设计取舍表与源码行号证据索引见源页；Skill 自动进化四方向为作者展望非已实现特性（[[skill生命周期元数据]] 等页已标注）。

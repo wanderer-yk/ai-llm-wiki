@@ -636,3 +636,7 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 ## [2026-10-10] ingest | [202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html
 
 - 收官处理记录（人工，2026-10-10）：36 新页 sources 单源重写+全库复验零损伤；生成撞限一次 checkpoint 自愈；回写三件——harness-engineering 补 Hermes"五位一体"定性（第四个独立创作者版本，三方对比页待扩四方）、上下文压缩策略补第三种触发机制（50% 比例阈值+轨迹头尾保护+压缩器模型选择维度）、追踪页 +3 行（4 万 Star 可核验/Claude Mythos 营销式声明/OpenClaw-RL 热度声明+论文出处待查注）；矛盾对悬置（Hermes 内部两处口径：子Agent 嵌套单层 vs MAX_DEPTH=2、记忆服务名 Hunter/Honcho 误写——待 nousresearch/hermes-agent 仓库源码裁决，review-fb8f8ef8/43c94c95）；悬置：仓库深研补实现级细节（review-bd413305）+OpenClaw-RL 论文出处（review-12d0e5f1）；复活 3 条（千问首篇）照例重 resolve
+
+## [2026-10-10] ingest | [202604230830]深入源码HermesAgent如何实现SelfImproving.html
+
+- 收官处理记录（人工，2026-10-10）：23 新页 sources 单源重写+全库复验零损伤；生成撞限两次 checkpoint 自愈（续跑收敛能力再次验证）；落地三件——hermes-agent 实体页+后台审查agent 页源码级回写（fork 细节/attention budget 理由/安全机制/v0.6.0 生态）、对比页扩 5 维度+**单方定性归因警示**（对 OpenClaw 批评无第三方佐证，引用须带限定——review-7a2e021f 立案）、追踪页 +4 行（榜单无口径/示意案例/厂商自述/竞品单方定性，分级标注）；悬置 4：RDSClaw 身份（review-1177461a）+展望特性源码核验（review-db74f8db）+OpenClaw 批评独立核验（review-7a2e021f）+v0.6.0 细节（review-31b987ae），均待外部检索；复活 9 条照例重 resolve

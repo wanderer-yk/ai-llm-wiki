@@ -5,7 +5,7 @@ tags: [agent, 异步, 复盘, hermes-agent]
 related: [hermes-agent, 动态skill生成, 内外双路径自进化, 多agent交叉审核, agent轨迹]
 created: 2026-10-10
 updated: 2026-10-10
-sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html"]
+sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html", "[202604230830]深入源码HermesAgent如何实现SelfImproving.html"]
 ---
 # 后台审查 Agent
 
@@ -23,3 +23,8 @@ sources: ["[202604240830]深度解析HermesAgent如何实现自进化及其Promp
 
 - 复盘对象是 [[agent轨迹]]（完整任务对话记录），产出物是记忆条目与 Skill 文件包，构成 [[内外双路径自进化]] 的“经验记录→Skill 抽象”环节。
 - “异步 fork 轻量实例做审查”与 [[多agent交叉审核]]（autoresearch 软件开发迁移）在“用另一个 Agent 审查执行 Agent”的结构上同构，但 Hermes 的审查是事后复盘而非事中/事后质量门禁。
+
+## Hermes fork 实现细节（源码级，2026-04-23）
+
+- **设计理由**：自省不应占用用户任务的 **attention budget**——后台化使 review 对用户完全无感。
+- **fork 实现细节**（`run_agent.py:2665-2711` `_spawn_background_review`）：输出重定向 /dev/null；`max_iterations=8` 上限；禁用自身 nudge 防无限递归；与主 agent 共享 `_memory_store`；daemon 线程；审查提示词以 "Nothing to save." 收尾防交差式写入；**响应发送给用户之后才触发**。
