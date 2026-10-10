@@ -621,3 +621,12 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 待核问题登记：pi-agent/OpenClaw 工具集合三变体（vivo 文 Read/Write/Edit/Shell vs 五层表 shell/fs/web/browser/MCP vs AgentLoop 代码 shell/fs/web/message/cron）；两处代码 HTML 渲染疑失真（`cwd ?? WORKSPACE`、`execFile(args[0],...)`）；46.9%/95%/150K→2K/72%→90%/73%→85%/评测调查数据/环境噪声实验等定量数据原始出处未注明；[[千问AI平台]]首发或转载待考；9 条外部文献独立 source 页取舍（优先级建议 [8][9][1]）。
 
 - 收官处理记录（人工，2026-10-09）：7 新页 sources 单源重写+全库复验零损伤（本篇大量交叉引用既有概念页，新页少而网络增量密）；落地两件——**补建悬空页 [[pi-agent工具集合口径三变体]]**（源页引用但未生成，contradiction 立案→三口径表+粒度/层位差异初步裁定，openclaw/pi-agent 两页加注记互链）+新建比较页 [[comparisons/OpenClaw五层架构与四决策对比]]（千问篇分层视角 vs vivo 决策视角互补裁决）；悬置 2：定量数据出处溯源（review-cb74298e，46.9%/95%/150K→2K 等厂商实验二手转述，待外部检索后一并入追踪页）+initializer-coding 模式 Anthropic 溯源（review-19cddefe）
+
+
+## [2026-10-10] ingest | 工作流的Skill怎么写从7个顶级Skill中提炼的模式与最佳实践
+
+- 新增来源页（青斧，千问AI平台公众号，2026-04-27）：7 个顶级 Skill 终局名单与速查表（vercel-deploy/cloudflare-deploy/cloudflare/test-driven-development/stitch-loop/discovery-process/audit-context-building）。
+- 新增 7 个 Skill 实体页 + Skill 生态仓库/标准实体页：openai-skills（归属修正：导航型 cloudflare 出自 OpenCode 而非 openai/skills）、obra-superpowers（与既有 superpowers插件 疑同一项目，待合并核实）、google-labs-code-stitch-skills、deanpeters-product-manager-skills、trailofbits-skills、anthropics-skills、agentskills-io、clawhub。
+- 新增概念页：五大设计模式 + 思维框架（6 篇）、模式选择决策树、导航型与操作型skill拆分、防止llm偷懒4种武器、教学三种有效方式、安全边界三原则、skill知识三层架构、skilltoken预算。
+- 新增比较页：skill设计模式五加一模式对比（速查表 + 判据/结构对比 + 模式3vs4四维对比 + 操作型vs思维型）。
+- 与既有 [[skill渐进式披露]]、[[token预算优化输出格式]]、[[human-in-the-loop]]、[[agent权限边界清单]]、[[file-as-progress状态持久化]]、[[验证门禁化]]、[[reflection模式]] 等持续互证，无矛盾。

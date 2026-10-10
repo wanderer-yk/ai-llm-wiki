@@ -292,7 +292,39 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604270830]工作流的Skill怎么写从7个顶级Skill中提炼的模式与最佳实践]] — [202604270830]工作流的Skill怎么写从7个顶级Skill中提炼的模式与最佳实践
+- [[entities/青斧]] — 青斧
+- [[entities/openai-skills]] — openai-skills
+- [[entities/cloudflare导航型skill]] — cloudflare导航型skill
+- [[entities/obra-superpowers]] — obra-superpowers
+- [[entities/test-driven-development]] — test-driven-development
+- [[entities/google-labs-code-stitch-skills]] — google-labs-code-stitch-skills
+- [[entities/stitch-loop]] — stitch-loop
+- [[entities/deanpeters-product-manager-skills]] — deanpeters-product-manager-skills
+- [[entities/discovery-process]] — discovery-process
+- [[entities/trailofbits-skills]] — trailofbits-skills
+- [[entities/audit-context-building]] — audit-context-building
+- [[entities/vercel-deploy]] — vercel-deploy
+- [[entities/cloudflare-deploy]] — cloudflare-deploy
+- [[entities/agentskillsioagent-skills-开放标准]] — agentskillsioagent-skills-开放标准
+- [[entities/anthropics-skills]] — anthropics-skills
+- [[entities/openclawclawhubskill-注册中心]] — openclawclawhubskill-注册中心
+- [[concepts/skill线性流程模式]] — skill线性流程模式
+- [[concepts/skill决策树加按需加载模式]] — skill决策树加按需加载模式
+- [[concepts/skill循环迭代模式]] — skill循环迭代模式
+- [[concepts/skill接力棒循环模式]] — skill接力棒循环模式
+- [[concepts/skill多阶段检查点编排模式]] — skill多阶段检查点编排模式
+- [[concepts/skill思维框架模式]] — skill思维框架模式
+- [[concepts/模式选择决策树]] — 模式选择决策树
+- [[concepts/导航型与操作型skill拆分]] — 导航型与操作型skill拆分
+- [[concepts/防止llm偷懒4种武器]] — 防止llm偷懒4种武器
+- [[concepts/教学三种有效方式]] — 教学三种有效方式
+- [[concepts/安全边界三原则]] — 安全边界三原则
+- [[concepts/skill知识三层架构]] — skill知识三层架构
+- [[concepts/skilltoken预算]] — skilltoken预算
+- [[comparisons/skill设计模式五加一模式对比]] — skill设计模式五加一模式对比
 - [[sources/[202604280830]你不知道的Agent原理架构与工程实践]] — [202604280830]你不知道的Agent原理架构与工程实践
 - [[entities/侑夕]] — 侑夕
 - [[entities/千问AI平台]] — 千问AI平台
@@ -462,35 +494,3 @@ updated: 2026-06-23
 - [[concepts/局部失败容忍与妥协分级]] — 局部失败容忍与妥协分级
 - [[concepts/agent-teams最后选项论]] — agent-teams最后选项论
 - [[concepts/任务粒度三因素]] — 任务粒度三因素
-- [[concepts/3000行经验上限]] — 3000行经验上限
-- [[concepts/同目录文件同组原则]] — 同目录文件同组原则
-- [[concepts/子任务CLI化]] — 子任务CLI化
-- [[concepts/prompt确定性]] — prompt确定性
-- [[concepts/主agent转述失真]] — 主agent转述失真
-- [[concepts/随到随补调度]] — 随到随补调度
-- [[concepts/双通道输出设计]] — 双通道输出设计
-- [[sources/[202603091800]打造高效易用的AgentSkill]] — [202603091800]打造高效易用的AgentSkill
-- [[entities/百度Geek说]] — 百度Geek说
-- [[entities/无糖可乐]] — 无糖可乐
-- [[entities/anthropic]] — anthropic
-- [[entities/Skill-Creator]] — Skill-Creator
-- [[concepts/agent-skill知识包]] — agent-skill知识包
-- [[concepts/agent能力扩展演进]] — agent能力扩展演进
-- [[concepts/skill渐进式披露]] — skill渐进式披露
-- [[concepts/skill三阶段工作原理]] — skill三阶段工作原理
-- [[concepts/skill目录结构与命名规范]] — skill目录结构与命名规范
-- [[concepts/skill-git统一管理]] — skill-git统一管理
-- [[concepts/skills-cli跨平台安装]] — skills-cli跨平台安装
-- [[concepts/AGENTS]] — AGENTS
-- [[concepts/description触发准确性权衡]] — description触发准确性权衡
-- [[concepts/agent欠触发倾向]] — agent欠触发倾向
-- [[concepts/description三大要素]] — description三大要素
-- [[concepts/负向触发说明]] — 负向触发说明
-- [[concepts/skill-body两种形态]] — skill-body两种形态
-- [[concepts/skill步骤间校验]] — skill步骤间校验
-- [[concepts/skill脚本自动化原则]] — skill脚本自动化原则
-- [[concepts/skill评测三原则]] — skill评测三原则
-- [[concepts/skill触发评测方法]] — skill触发评测方法
-- [[concepts/skill评测集构建规范]] — skill评测集构建规范
-- [[concepts/skill-body评测对照实验]] — skill-body评测对照实验
-- [[comparisons/OpenClaw五层架构与四决策对比]] — OpenClaw五层架构与四决策对比
