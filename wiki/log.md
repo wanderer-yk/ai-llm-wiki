@@ -656,3 +656,15 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 ## [2026-10-10] ingest | [202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践.html
 
 - 收官处理记录（人工，2026-10-10）：17 新页 sources 单源重写+全库复验零损伤；生成撞限一次 checkpoint 自愈；本篇零新待审且**零复活**（前 15 条已 resolve 的条目未重建——复活机制比"每次全量入队必复活"的定案更不定，观察存疑不横标）；本篇为 Claude Code 官方设计反向工程长文（system-prompt 动态组装/system-reminder 注入/autocompact 水位线/microcompact 工具白名单/fork-sub-agent/memdir 结构化记忆/verification-agent 五哲学/prompt-context-harness 三阶段），与千问系前五篇及 leaks 篇形成 claude-code 主题最密集证据网
+
+
+## [2026-10-10] ingest | OpenClaw长期记忆：优秀管线与玄学效果
+
+- 摄入城决发表于千问AI平台公众号（2026-04-15）的 OpenClaw 长期记忆源码级分析文章，本 wiki 第三篇 OpenClaw 主题来源
+- 新增来源页与实体页：[[RDSClaw]]（`openclaw-memory-alibaba-local` 插件官方分发）、[[LoCoMo10]]（长期记忆评测基准）、[[城决]]（作者）
+- 新增概念页：自进化记忆管线、原生记忆不确定性链路、两阶段实时记忆管线、LLM-CRUD记忆整合、双提取器分流、Evergreen免衰减、混合召回、记忆注入不可信标记、多通道记忆统一管理、Dreaming三阶段演进、Deep-Sleep六维评分与晋升门控、light-sleep摄取与去重、REM睡眠主题反射与候选真理、记忆写入双路径、memory-flush机制、默认晋升方式、markdown多层记忆体系、LLM弱约束记忆决策、记忆召回与反馈环、梦境日记叙事生成、双提取方式
+- 新增比较页：[[个人记忆vs自进化记忆对比]]
+- [[ai工程量化效果声明追踪]] 挂接条目更新：LoCoMo10 +13.90% 口径已核实为加权汇总（非矛盾）；保留自报评测执行方/样本量/加权方案未披露的记录
+- 待验证线索：RDSClaw 与 [[RDSHermes]] 是否同属阿里云 RDS 产品线（DashScope 兼容为旁证）
+
+- 收官处理记录（人工，2026-10-10）：26 新页 sources 单源重写（源页1/概念23 睡眠隐喻记忆整合族+实体3 城决/LoCoMo10/RDSClaw/比较页 个人记忆vs自进化记忆对比）+全库复验零损伤；11 块零重试；对比页归因警示补旁证（RDSClaw 插件生态证明 OpenClaw 有记忆扩展能力，但原生架构自动沉淀仍未核验——三剑批评适用范围限定为原生架构）；悬置 5 全外部检索类：RDSClaw/RDSHermes 产品线关系×2（review-3c3b0875/7e18b6d1）+LoCoMo10 加权方案与第三方基线×2（review-246afe1d/20f18a42，+13.90% 已核实为加权汇总非矛盾）+插件机制源码核证（review-cebe0de0）；复活 20 条（上轮零复活本轮全量——机制不定再证）
