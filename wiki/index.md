@@ -301,7 +301,25 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层]] — [202604150830]ClaudeCode源码拆解从启动到多Agent扩展层
+- [[entities/无岳]] — 无岳
+- [[concepts/任务对象化判据]] — 任务对象化判据
+- [[concepts/执行收回论]] — 执行收回论
+- [[concepts/多agent系统工程论]] — 多agent系统工程论
+- [[concepts/spec与任务系统分工]] — spec与任务系统分工
+- [[concepts/动态能力面稳定内部对象]] — 动态能力面稳定内部对象
+- [[concepts/mcp翻译收敛]] — mcp翻译收敛
+- [[concepts/skill能力声明对象]] — skill能力声明对象
+- [[concepts/plugin能力组合包]] — plugin能力组合包
+- [[concepts/复杂度安放位置论]] — 复杂度安放位置论
+- [[concepts/三主干链路]] — 三主干链路
+- [[concepts/每种复杂度只在一个地方爆炸]] — 每种复杂度只在一个地方爆炸
+- [[concepts/运行泥球反模式]] — 运行泥球反模式
+- [[concepts/五条带走结论]] — 五条带走结论
+- [[concepts/组织接入交付链路论]] — 组织接入交付链路论
+- [[concepts/复杂度承接之问]] — 复杂度承接之问
 - [[sources/[202604151800]OpenClaw长期记忆优秀管线与玄学效果]] — [202604151800]OpenClaw长期记忆优秀管线与玄学效果
 - [[entities/RDSClaw]] — RDSClaw
 - [[entities/LoCoMo10]] — LoCoMo10
@@ -485,20 +503,7 @@ updated: 2026-06-23
 - [[concepts/三范式量化评测基准]] — 三范式量化评测基准
 - [[concepts/Agent自主维护图谱]] — Agent自主维护图谱
 - [[concepts/架构守护门禁]] — 架构守护门禁
-- [[concepts/RCA三维度汇聚]] — RCA三维度汇聚
-- [[concepts/AgenticSearch无索引流派]] — AgenticSearch无索引流派
-- [[entities/deepwiki]] — deepwiki
-- [[entities/qodo]] — qodo
-- [[entities/augment-code]] — augment-code
-- [[entities/umodel]] — umodel
-- [[entities/code-wiki]] — code-wiki
-- [[entities/vibeops-agents]] — vibeops-agents
-- [[entities/张城]] — 张城
-- [[entities/阿里云云原生]] — 阿里云云原生
-- [[entities/tree-sitter]] — tree-sitter
-- [[sources/[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了]] — [202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了
-- [[concepts/四阶段优化循环]] — 四阶段优化循环
-- [[concepts/奇偶轮角色互换]] — 奇偶轮角色互换
-- [[concepts/issue选择策略]] — issue选择策略
-- [[concepts/agent权限边界清单]] — agent权限边界清单
-- [[concepts/错误处理三机制]] — 错误处理三机制
+- [[concepts/queryloop状态机]] — queryloop状态机
+- [[concepts/权限四层链路]] — 权限四层链路
+- [[concepts/统一任务抽象先行]] — 统一任务抽象先行
+- [[comparisons/claude-code源码拆解两篇对比]] — claude-code源码拆解两篇对比

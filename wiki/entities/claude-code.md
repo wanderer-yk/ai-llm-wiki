@@ -4,8 +4,8 @@ title: Claude Code
 tags: [工具, anthropic, cli, 编码agent]
 related: [zhiyuanfu, 24h打工人, codex, gemini-cli, cursor]
 created: 2026-06-12
-updated: 2026-10-09
-sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了.html"]
+updated: 2026-10-10
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202605090830]Harness实践让Agent自动制作知识讲解视频.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604201800]我把Karpathy的AutoResearch搬到了软件开发领域效果炸了.html", "[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层.html"]
 ---
 # Claude Code
 
@@ -32,3 +32,11 @@ Anthropic 推出的 Claude CLI 工具，具备读文件、改代码、跑命令�
 ## autoresearch 审核者角色（2026-04）
 
 - 在 smallnest/autoresearch 中 Claude Code 任**审核者**角色：`agents/claude.md` 承载审核者指令+评分标准+问题模板，对 Codex 实现产出量化评分与问题清单；Issue #15 案例中 Claude 亲自补充实现（实现/审核角色非绝对固定）。
+
+## 源码拆解五节（无岳篇，2026-04-15）
+
+1. **权限执行链**：权限是可解释执行链而非确认框——[[权限四层链路]]（规则→运行时判定→交互→执行隔离）+ [[权限决策对象化]]（boolean→对象）；
+2. **统一任务抽象**：主会话后台化/本地 subagent/teammate/remote agent 全部映射进同一任务语义——[[统一任务抽象先行]]、[[子agent即任务对象]]；
+3. **扩展层收敛**：外部可以热闹，内部必须收敛——[[动态能力面稳定内部对象]]、[[mcp翻译收敛]]（四映射+auth tool 注入）、[[skill能力声明对象]]、[[plugin能力组合包]]；
+4. **三主干链路**：交互链（REPL→turn 打包）/ 任务链（Task Runtime 管多 Agent 生命周期与回流）/ 扩展链（能力增长不失控）——七层职责清单见源页；
+5. **五条带走结论**：复杂度前置/运行时决定存活/工具有制度/权限是执行链/多 Agent 前提是统一任务抽象——全文蒸馏见源页。

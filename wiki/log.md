@@ -668,3 +668,12 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 待验证线索：RDSClaw 与 [[RDSHermes]] 是否同属阿里云 RDS 产品线（DashScope 兼容为旁证）
 
 - 收官处理记录（人工，2026-10-10）：26 新页 sources 单源重写（源页1/概念23 睡眠隐喻记忆整合族+实体3 城决/LoCoMo10/RDSClaw/比较页 个人记忆vs自进化记忆对比）+全库复验零损伤；11 块零重试；对比页归因警示补旁证（RDSClaw 插件生态证明 OpenClaw 有记忆扩展能力，但原生架构自动沉淀仍未核验——三剑批评适用范围限定为原生架构）；悬置 5 全外部检索类：RDSClaw/RDSHermes 产品线关系×2（review-3c3b0875/7e18b6d1）+LoCoMo10 加权方案与第三方基线×2（review-246afe1d/20f18a42，+13.90% 已核实为加权汇总非矛盾）+插件机制源码核证（review-cebe0de0）；复活 20 条（上轮零复活本轮全量——机制不定再证）
+
+
+## 2026-10-10 ingest | Claude Code 源码拆解：从启动到多 Agent 扩展层
+
+- 定稿来源页 sources/[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层（9/9 chunk 闭环），完整保留 12 段源码骨架、三主干链路表、MCP 翻译收敛映射、8 行穿透清单与五条带走结论，并记录保真度疑点（源码版本未披露、canRunInParallel vs isConcurrencySafe 命名不一致等）
+- 新建实体页 [[无岳]]（作者，内部 Agent 平台/Vibe Coding 从业者视角；与阿里系关系仅为间接证据）
+- 新建概念页 15 篇（chunk 8/9）：任务对象化判据、执行收回论、多agent系统工程论、spec与任务系统分工、动态能力面稳定内部对象、mcp翻译收敛、skill能力声明对象、plugin能力组合包、复杂度安放位置论、三主干链路、每种复杂度只在一个地方爆炸、运行泥球反模式、五条带走结论、组织接入交付链路论、复杂度承接之问
+- 记录跨源互证：executionContext 'fork' ↔ fork-sub-agent机制；mcp翻译收敛 ↔ skill-command-mcp三层架构（消费侧镜像）；组织接入交付链路论 ↔ agent生产落地环境重构论；运行泥球反模式 ↔ agent-loop 对照面
+- 待办：更新 claude-code（补权限执行链、统一任务抽象、扩展层收敛、三主干链路、五条带走结论五节）与 mcp（消费侧机制回链）；chunk 5-7 概念页存在性核对；四张截图待人工核读
