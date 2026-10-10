@@ -700,3 +700,15 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 与 sources/[202604151800]（OpenClaw 长期记忆优秀管线）全要素互证，为最强 comparison 候选；References [1]-[5] URL 已全部兑现入来源页
 
 - 收官处理记录（人工，2026-10-10）：21 新页 sources 单源重写+全库复验零损伤；**归因警示证据升级**（本篇源码级证实 OpenClaw 原生有双层记忆/时间衰减/compaction 双触发 summarizeInStages——三剑「无自动压缩/沉淀」批评被显著削弱，对比页限定语升级为「批评部分成立：机制存在但效果不确定，与 Hermes 可量化自进化确有代差；Skill 只能手写两条仍待核」）+新建比较页 [[comparisons/openclaw两篇解析对比]]（app 口径最强候选落地：三维度篇全景 vs 长期记忆篇纵深，机制存在但效果不确定=插件生态价值空间）；复活 28 条照例重 resolve；本篇零新待审
+
+
+## [2026-10-10] ingest | OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系
+
+- 完成来源全文提取定稿：chunk 5-6 承载全部八章正文与相关链接；chunk 1-4 为微信页面头部/模板 CSS；chunk 7 证实仅为尾部模板，"存档降级"流程正式关闭。
+- 新增来源页：sources/[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系.md。
+- 新增实体页：DuckDB、千问AI平台、皓跃、阿里云（归属为 aliyun.com URL 推断，非正文明示）；更新 RDSClaw（补控制台集成可观测插件证据、试用链接、云上 RDS DuckDB 三优势与部署演进路径）。
+- 新增概念页：全链路可观测体系、可观测三目标、四层观测架构、Trace数据模型、异步非阻塞观测写入、观测三视图、静默决策显性化、DuckDB选型三理由、可观测性基础能力论；"可观测部署演进路径"按分析结论并入 RDSClaw 页呈现，不单独建页。
+- 确立"可观测性"为 OpenClaw 工程化第五维度（prompt/context/harness/记忆/可观测）；与美团 [[agent可观测性六维度]] 构成"实现架构 vs 指标框架"对照，安全视图为六维度外增量维度。
+- 待办：query 页 [[ai工程量化效果声明追踪]] 需追加两条自报无口径声明（50 万条 SQLite vs DuckDB 对比仅存图片无数值；Done 案例"十秒定性"），因该页已有多条既有条目，通过 REVIEW 提请人工确认后追加。
+
+- 收官处理记录（人工，2026-10-10）：13 新页+2 merge 页（RDSClaw 三源/千问AI平台 四源）修复+全库复验零损伤；追踪页 +2 行（SQLite vs DuckDB 对比无数值存图/Done 十秒定性，review-4d4970b6/88b1cc94 重复对取全落地）；观测三视图 vs 美团六维度比较页**暂不建**（双方概念页已互链，review-579a78d9 裁决等更多可观测来源入库再升级）；确立可观测性=OpenClaw 工程化第五维度（prompt/context/harness/记忆/可观测）；悬置 3：千问归属第二来源（review-14f92f4f）+RDSClaw 产品事实三处（review-d0563972）+安全视图规则集公开方法（review-155a00e1），均待外部检索；复活 28 条照例重 resolve

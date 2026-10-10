@@ -304,7 +304,22 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系]] — [202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系
+- [[entities/DuckDB]] — DuckDB
+- [[entities/皓跃]] — 皓跃
+- [[entities/千问AI平台]] — 千问AI平台
+- [[entities/阿里云]] — 阿里云
+- [[concepts/全链路可观测体系]] — 全链路可观测体系
+- [[concepts/可观测三目标]] — 可观测三目标
+- [[concepts/四层观测架构]] — 四层观测架构
+- [[concepts/Trace数据模型]] — Trace数据模型
+- [[concepts/异步非阻塞观测写入]] — 异步非阻塞观测写入
+- [[concepts/观测三视图]] — 观测三视图
+- [[concepts/静默决策显性化]] — 静默决策显性化
+- [[concepts/DuckDB选型三理由]] — DuckDB选型三理由
+- [[concepts/可观测性基础能力论]] — 可观测性基础能力论
 - [[sources/[202604130830]深度解析OpenClaw在PromptContextHarness三个维度中的设计哲学与实践]] — [202604130830]深度解析OpenClaw在PromptContextHarness三个维度中的设计哲学与实践
 - [[concepts/promptmode三级模式]] — promptmode三级模式
 - [[concepts/openclaw系统提示词23模块]] — openclaw系统提示词23模块
@@ -491,18 +506,3 @@ updated: 2026-06-23
 - [[entities/audit-context-building]] — audit-context-building
 - [[entities/vercel-deploy]] — vercel-deploy
 - [[entities/cloudflare-deploy]] — cloudflare-deploy
-- [[entities/agentskillsioagent-skills-开放标准]] — agentskillsioagent-skills-开放标准
-- [[entities/anthropics-skills]] — anthropics-skills
-- [[entities/openclawclawhubskill-注册中心]] — openclawclawhubskill-注册中心
-- [[concepts/skill线性流程模式]] — skill线性流程模式
-- [[concepts/skill决策树加按需加载模式]] — skill决策树加按需加载模式
-- [[concepts/skill循环迭代模式]] — skill循环迭代模式
-- [[concepts/skill接力棒循环模式]] — skill接力棒循环模式
-- [[concepts/skill多阶段检查点编排模式]] — skill多阶段检查点编排模式
-- [[concepts/skill思维框架模式]] — skill思维框架模式
-- [[concepts/模式选择决策树]] — 模式选择决策树
-- [[concepts/导航型与操作型skill拆分]] — 导航型与操作型skill拆分
-- [[concepts/防止llm偷懒4种武器]] — 防止llm偷懒4种武器
-- [[concepts/教学三种有效方式]] — 教学三种有效方式
-- [[concepts/安全边界三原则]] — 安全边界三原则
-- [[comparisons/openclaw两篇解析对比]] — openclaw两篇解析对比

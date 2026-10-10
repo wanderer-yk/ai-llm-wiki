@@ -5,7 +5,7 @@ tags: [量化追踪, 可信度, 开放问题, 效果声明]
 related: [效果评估矛盾, 声称完成vs验证完成, AI质检模型, 数据自迭代]
 created: 2026-09-29
 updated: 2026-10-08
-sources: ["[202601131830]颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.html", "[202512261820]回收团队基于Cursor集成MCP的智能代码修复提示词生成实践.html", "[202605201100]私域转化率翻倍的秘密我们把多模态Agent融进了私域营销.html", "[202604071830]KnowledgeWiki面向AI的项目知识层建设实践.html", "[202605111758]打造AI时代项目管理新范式小红书PMO团队的Agentic探索之路.html", "[202603261200]治愈CursorAI编程的幻觉用它就够了.html", "[202605071958]用Agent评测思路管理AICoding31万行代码AI重构的实践.html", "[202601261651]如何设计一个AIAgent系统.html", "[202605061742]天猫新品营销技术团队AI编码实战指南上.html", "[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929.html", "[202605181736]RAG全链路技术详解.html", "[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术.html", "[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱.html", "[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html", "[202604230830]深入源码HermesAgent如何实现SelfImproving.html"]
+sources: ["[202601131830]颠覆传统意图规划上下文工程数据自迭代让企业智能办公助手效能跃升200V10.html", "[202512261820]回收团队基于Cursor集成MCP的智能代码修复提示词生成实践.html", "[202605201100]私域转化率翻倍的秘密我们把多模态Agent融进了私域营销.html", "[202604071830]KnowledgeWiki面向AI的项目知识层建设实践.html", "[202605111758]打造AI时代项目管理新范式小红书PMO团队的Agentic探索之路.html", "[202603261200]治愈CursorAI编程的幻觉用它就够了.html", "[202605071958]用Agent评测思路管理AICoding31万行代码AI重构的实践.html", "[202601261651]如何设计一个AIAgent系统.html", "[202605061742]天猫新品营销技术团队AI编码实战指南上.html", "[202603251545]拒绝感觉有效用数据证明AICoding的真实团队价值天猫AICoding实践系列-20260929.html", "[202605181736]RAG全链路技术详解.html", "[202603111830]AI编程能力边界探索基于ClaudeCode的SpecCoding项目实战得物技术.html", "[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱.html", "[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html", "[202604230830]深入源码HermesAgent如何实现SelfImproving.html", "[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系.html"]
 ---
 # AI 工程量化效果声明追踪
 
@@ -53,6 +53,8 @@ sources: ["[202601131830]颠覆传统意图规划上下文工程数据自迭代�
 | 三范式量化评测基准（承诺） | 阿里云·UModel | **未兑现** | 文内自认规划未落地，列作后续观察 |
 | Hermes Agent "GitHub 4 万 Star" | 千问AI平台·飞樰（Hermes 解析，2026-04） | **自报·可核验** | 可经 github.com/nousresearch/hermes-agent 独立验证（review 建议核实后回填） |
 | Hermes OpenRouter +204%、GitHub 0→106k+ Star | 千问AI平台·三剑（Hermes 源码篇，2026-04） | **自报·二手榜单无口径** | 榜单时间窗与统计口径未说明，star 数可部分核验 |
+| SQLite vs DuckDB 聚合分析对比（50 万条 observations，同 Schema 同查询） | 千问AI平台·皓跃（OpenClaw Observability，2026-04） | **自报·无数值** | 结论"SQLite 落后"但具体数值仅存于配图（imgfileid=100075651），正文无口径 |
+| Done 案例 Trace 复盘"十秒定性" | 千问AI平台·皓跃（同上文） | **自报·无口径** | 软性耗时声明，无测量方法与对照 |
 | "12→9→6 调用、2→1→0 错误"（三会话改善） | 千问AI平台·三剑（同上文） | **示意案例非实测** | 作者自标注示意性叙事，不得引为实测数据 |
 | DBA 飞书群晨间巡检 40min→2min（RDSHermes） | 千问AI平台·三剑（同上文） | **自报·厂商自述无口径** | 未经第三方验证 |
 | OpenClaw"升级就崩溃、记忆膨胀" | 千问AI平台·三剑（同上文） | **单方定性** | 作者对竞品的批评性声明，无第三方佐证，见对比页归因警示 |
