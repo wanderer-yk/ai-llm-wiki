@@ -608,3 +608,16 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 收官处理记录（人工，2026-10-09）：30 新页 sources 修复（29 单源+deepwiki merge 页 HEAD 底集双源合并）+全库复验零损伤；生成阶段撞 32768 上限三次烧尽重试进 failed，用户重启后 checkpoint 续跑补缺完成（已落盘 13 页基础上收敛）——生成超限的收敛路径与 chunk 撞限不同：页面清单越长越难一次吐完，靠多轮 resume 累积
 - 追踪页 +8 行（Cursor 92%/Qodo-Embed-1/Augment 30-80%/Augment vs Cursor/DeepWiki 15.7k star/UModel 规模延迟/5命令15秒 Demo/三范式基准未兑现）——app log 待办全部落地
 - 待审零条（续跑不触发复活+本篇未触发 REVIEW 块）
+
+## [2026-10-09] ingest | [202604280830]你不知道的Agent原理架构与工程实践.html
+
+
+## 2026-10-09 ingest | 你不知道的Agent原理架构与工程实践
+
+- 新增来源页：[[sources/[202604280830]你不知道的Agent原理架构与工程实践]] — [[侑夕]] 于 [[千问AI平台]]（微信公众号，IP 浙江，2026-04-28 08:30）发布的十二章 Agent 工程体系长文：Agent Loop → Harness → 上下文工程 → 工具设计 → 记忆 → 自主度 → 多 Agent → 评测 → 追踪 → OpenClaw 落地 → 反模式 → 划重点，附 9 条一手厂商参考文献（Anthropic 4 条、OpenAI 2 条、Cloudflare/Simon Willison/LangChain 各 1 条）；来源页完整保留了 AgentLoop 代码、Workflow/Agent 七维表、压缩保留优先级、好工具/差工具表、ChatGPT 四层记忆表、inbox 消息结构、Pass@k/Pass^k 表、三类评分器表、OpenClaw 五层架构表、八大反模式表及全部安全代码。
+- 新增实体页：[[侑夕]]（作者，五处署名一致）、[[千问AI平台]]（发布公众号，venue）、[[ChatGPT]]（四层记忆案例，与 [[openclaw]] 混合检索形成产品取舍对照）。
+- 新增概念页：[[workflow与agent控制权分界]]、[[五种常见控制模式]]、[[harness四要素]]。
+- 连同先前批次已入库的概念页（[[openclaw五层架构]]、[[上下文五层分层]]、[[确定性逻辑外置]]、[[agent记忆四分类]]、[[chatgpt四层记忆]]、[[agent自主度三前提]]、[[jsonl-inbox协作协议]]、[[agent评测八要素]]、[[安全边界先于功能]]、[[prompt-injection-source-sink拆分]]、[[工程实现五步顺序]]、[[agent落地八大反模式]] 等），本文档 13 chunks ingest 完成；参考文献与概念页的一手出处映射已记录于来源页。
+- 待核问题登记：pi-agent/OpenClaw 工具集合三变体（vivo 文 Read/Write/Edit/Shell vs 五层表 shell/fs/web/browser/MCP vs AgentLoop 代码 shell/fs/web/message/cron）；两处代码 HTML 渲染疑失真（`cwd ?? WORKSPACE`、`execFile(args[0],...)`）；46.9%/95%/150K→2K/72%→90%/73%→85%/评测调查数据/环境噪声实验等定量数据原始出处未注明；[[千问AI平台]]首发或转载待考；9 条外部文献独立 source 页取舍（优先级建议 [8][9][1]）。
+
+- 收官处理记录（人工，2026-10-09）：7 新页 sources 单源重写+全库复验零损伤（本篇大量交叉引用既有概念页，新页少而网络增量密）；落地两件——**补建悬空页 [[pi-agent工具集合口径三变体]]**（源页引用但未生成，contradiction 立案→三口径表+粒度/层位差异初步裁定，openclaw/pi-agent 两页加注记互链）+新建比较页 [[comparisons/OpenClaw五层架构与四决策对比]]（千问篇分层视角 vs vivo 决策视角互补裁决）；悬置 2：定量数据出处溯源（review-cb74298e，46.9%/95%/150K→2K 等厂商实验二手转述，待外部检索后一并入追踪页）+initializer-coding 模式 Anthropic 溯源（review-19cddefe）

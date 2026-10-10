@@ -4,8 +4,8 @@ title: OpenClaw
 tags: [ai-agent, 产品, 平台]
 related: [manus, pi-agent, agent-loop, 文件系统作为上下文]
 created: 2026-06-12
-updated: 2026-06-12
-sources: ["[202604131736]详尽地带你从零开始设计实现一个AIAgent框架.html"]
+updated: 2026-10-09
+sources: ["[202604131736]详尽地带你从零开始设计实现一个AIAgent框架.html", "[202604280830]你不知道的Agent原理架构与工程实践.html"]
 ---
 # OpenClaw
 
@@ -20,3 +20,7 @@ AI Agent 平台（openclaw.ai），2026 年初爆火的 Agent 产品。在 [[sou
 ## 与本文极简框架的对比验证
 
 yabohe 指出 OpenClaw Pi Agent 的 4 工具设计（Read/Write/Edit/Shell）与本文极简框架的 4 工具（shell_exec/file_read/file_write/python_exec）高度一致，印证了极简工具集在工业级 Agent 产品中的可行性。
+
+## 工具集合口径注记（2026-10-09）
+
+- 本页既有「Pi Agent 4 核心工具（Read/Write/Edit/Shell）」口径来自 vivo 文；千问篇给出另两口径（五层表 shell/fs/web/browser/MCP、AgentLoop 注册 shell/fs/web/message/cron）。三口径并存及初步裁定（粒度/层位差异）详见 [[pi-agent工具集合口径三变体]]，终核待一手仓库。

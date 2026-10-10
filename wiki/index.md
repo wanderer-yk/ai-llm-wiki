@@ -290,7 +290,16 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604280830]你不知道的Agent原理架构与工程实践]] — [202604280830]你不知道的Agent原理架构与工程实践
+- [[entities/侑夕]] — 侑夕
+- [[entities/千问AI平台]] — 千问AI平台
+- [[entities/ChatGPT]] — ChatGPT
+- [[concepts/workflow与agent控制权分界]] — workflow与agent控制权分界
+- [[concepts/五种常见控制模式]] — 五种常见控制模式
+- [[concepts/harness四要素]] — harness四要素
 - [[sources/[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱]] — [202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱
 - [[entities/阿里云云原生可观测团队]] — 阿里云云原生可观测团队
 - [[entities/sources/如何用UModel构建一个会成长的个人Wiki]] — 如何用UModel构建一个会成长的个人Wiki
@@ -484,10 +493,4 @@ updated: 2026-06-23
 - [[concepts/skill触发评测方法]] — skill触发评测方法
 - [[concepts/skill评测集构建规范]] — skill评测集构建规范
 - [[concepts/skill-body评测对照实验]] — skill-body评测对照实验
-- [[concepts/skill改进四原则]] — skill改进四原则
-- [[concepts/解释why而非堆must]] — 解释why而非堆must
-- [[concepts/skill迭代闭环]] — skill迭代闭环
-- [[concepts/skill-creator三版演进]] — skill-creator三版演进
-- [[concepts/code-review-skill多agent架构]] — code-review-skill多agent架构
-- [[sources/[202605090830]Harness实践让Agent自动制作知识讲解视频]] — [202605090830]Harness实践让Agent自动制作知识讲解视频
-- [[entities/ConardLi]] — ConardLi
+- [[comparisons/OpenClaw五层架构与四决策对比]] — OpenClaw五层架构与四决策对比
