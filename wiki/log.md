@@ -690,3 +690,13 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 证据强度提示：全文无量化效果声明，属单作者经验陈述，引用需谨慎。
 
 - 收官处理记录（人工，2026-10-10）：8 新页+千问AI平台 merge 页三源合并修复+全库复验零损伤；落地两件——cli录制回放生成 页加能力边界矛盾注记（BOSS 写操作案例 vs record 只读边界，倾向"愿景先行"定性待仓库核验，review-c57b2266）+新建比较页 [[comparisons/浏览器自动化路线对比]]（review-9f1efad3/a13e4470 合并立项：轴一 API优先vs沙盘推演 供给侧/消费侧分野+轴二 实时泛化vs预建专用 工具化成熟度阶梯）；悬置 2（OpenCLI 仓库与作者身份核实×2，review-e2659fb7/76a72442）；复活 26 条照例重 resolve
+
+
+## [2026-10-10] ingest | [202604130830]深度解析OpenClaw在PromptContextHarness三个维度中的设计哲学与实践
+
+- 入库飞樰发表于千问AI平台的 OpenClaw 源码拆解长文（9/9 完结，2026-04-13），为 wiki 中 OpenClaw Prompt/Context/Harness 设计细节最完整的一手来源：`buildAgentSystemPrompt()` 23 模块组装矩阵、PromptMode 三级、9 文件工作区、心跳体系、Context 三支柱（Skills 渐进披露/compaction.ts 自适应分块+三层摘要降级/工具结果头尾修剪/KV Cache 时间窗/双层记忆+时间衰减公式）、Harness（7 Hook 完整清单、三层沙箱纵深防御+四防、Human-in-the-Loop 最终控制权、早期单薄→近期加强演进评价、形态不可复刻论）
+- 新增来源页 1 篇；新增概念页 20 篇：Prompt 维度 7 篇（promptmode三级模式、openclaw系统提示词23模块、openclaw工作区md文件族、text大于brain落盘原则、心跳机制heartbeat、heartbeat-vs-cron选型、prompt极简主义）、Context 维度 9 篇（context-engineering三支柱、context-window三段构成、compaction双触发模式、自适应分块压缩、摘要分层降级策略、工具结果头尾修剪、kv-cache时间窗优化、openclaw双层记忆系统、记忆时间衰减）、Harness 维度 4 篇（openclaw三层沙箱纵深防御、harness与workflow主导权之辨、agent裸奔四问题、harness四强制约束）
+- 既有概念获一手证据互证：prompt-context-harness三阶段（What & How / How Better / How Controlled 精炼定位）、全生命周期hook机制（OpenClaw 7 Hook 清单，与 HermesAgent 文构成同术语跨框架双源）、上下文压缩策略（summarizeInStages 代码级证实，并为 vivo 文"分阶段压缩"提供佐证）、记忆写入双路径、memory-flush机制、混合召回、markdown多层记忆体系、Evergreen免衰减（"保持常青"字面级互证，此前层级归属张力解除）、验证门禁化（强制测试器同构）、agent-control-plane（三层沙箱+OS 最小权限强证据）、human-in-the-loop（"最终控制权"新语境，与狼人杀语境跨域同名待消歧）、harness-engineering（术语溯源：Anthropic 2025-11 / OpenAI 2026-02）、claude-code（写操作必经人工确认直接互证）
+- 与 sources/[202604151800]（OpenClaw 长期记忆优秀管线）全要素互证，为最强 comparison 候选；References [1]-[5] URL 已全部兑现入来源页
+
+- 收官处理记录（人工，2026-10-10）：21 新页 sources 单源重写+全库复验零损伤；**归因警示证据升级**（本篇源码级证实 OpenClaw 原生有双层记忆/时间衰减/compaction 双触发 summarizeInStages——三剑「无自动压缩/沉淀」批评被显著削弱，对比页限定语升级为「批评部分成立：机制存在但效果不确定，与 Hermes 可量化自进化确有代差；Skill 只能手写两条仍待核」）+新建比较页 [[comparisons/openclaw两篇解析对比]]（app 口径最强候选落地：三维度篇全景 vs 长期记忆篇纵深，机制存在但效果不确定=插件生态价值空间）；复活 28 条照例重 resolve；本篇零新待审

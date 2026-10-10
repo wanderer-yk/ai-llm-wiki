@@ -303,7 +303,29 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604130830]深度解析OpenClaw在PromptContextHarness三个维度中的设计哲学与实践]] — [202604130830]深度解析OpenClaw在PromptContextHarness三个维度中的设计哲学与实践
+- [[concepts/promptmode三级模式]] — promptmode三级模式
+- [[concepts/openclaw系统提示词23模块]] — openclaw系统提示词23模块
+- [[concepts/openclaw工作区md文件族]] — openclaw工作区md文件族
+- [[concepts/text大于brain落盘原则]] — text大于brain落盘原则
+- [[concepts/心跳机制heartbeat]] — 心跳机制heartbeat
+- [[concepts/heartbeat-vs-cron选型]] — heartbeat-vs-cron选型
+- [[concepts/prompt极简主义]] — prompt极简主义
+- [[concepts/context-engineering三支柱]] — context-engineering三支柱
+- [[concepts/context-window三段构成]] — context-window三段构成
+- [[concepts/compaction双触发模式]] — compaction双触发模式
+- [[concepts/自适应分块压缩]] — 自适应分块压缩
+- [[concepts/摘要分层降级策略]] — 摘要分层降级策略
+- [[concepts/工具结果头尾修剪]] — 工具结果头尾修剪
+- [[concepts/kv-cache时间窗优化]] — kv-cache时间窗优化
+- [[concepts/openclaw双层记忆系统]] — openclaw双层记忆系统
+- [[concepts/记忆时间衰减]] — 记忆时间衰减
+- [[concepts/openclaw三层沙箱纵深防御]] — openclaw三层沙箱纵深防御
+- [[concepts/harness与workflow主导权之辨]] — harness与workflow主导权之辨
+- [[concepts/agent裸奔四问题]] — agent裸奔四问题
+- [[concepts/harness四强制约束]] — harness四强制约束
 - [[sources/[202604140830]浏览器自动化从GUI到OpenCLI]] — [202604140830]浏览器自动化从GUI到OpenCLI
 - [[entities/opencli]] — opencli
 - [[entities/明径]] — 明径
@@ -483,25 +505,4 @@ updated: 2026-06-23
 - [[concepts/防止llm偷懒4种武器]] — 防止llm偷懒4种武器
 - [[concepts/教学三种有效方式]] — 教学三种有效方式
 - [[concepts/安全边界三原则]] — 安全边界三原则
-- [[concepts/skill知识三层架构]] — skill知识三层架构
-- [[concepts/skilltoken预算]] — skilltoken预算
-- [[comparisons/skill设计模式五加一模式对比]] — skill设计模式五加一模式对比
-- [[sources/[202604280830]你不知道的Agent原理架构与工程实践]] — [202604280830]你不知道的Agent原理架构与工程实践
-- [[entities/侑夕]] — 侑夕
-- [[entities/千问AI平台]] — 千问AI平台
-- [[entities/ChatGPT]] — ChatGPT
-- [[concepts/workflow与agent控制权分界]] — workflow与agent控制权分界
-- [[concepts/五种常见控制模式]] — 五种常见控制模式
-- [[concepts/harness四要素]] — harness四要素
-- [[sources/[202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱]] — [202604231830]从可观测到可理解用UModel构建Agent原生的代码知识图谱
-- [[entities/阿里云云原生可观测团队]] — 阿里云云原生可观测团队
-- [[entities/sources/如何用UModel构建一个会成长的个人Wiki]] — 如何用UModel构建一个会成长的个人Wiki
-- [[concepts/代码理解的五种范式]] — 代码理解的五种范式
-- [[concepts/UModel六阶段构建流水线]] — UModel六阶段构建流水线
-- [[concepts/两步查询模式]] — 两步查询模式
-- [[concepts/意图化子命令设计]] — 意图化子命令设计
-- [[concepts/Agent交互层CLI+Skill]] — Agent交互层CLI+Skill
-- [[concepts/token预算优化输出格式]] — token预算优化输出格式
-- [[concepts/AST确定性提取+LLM语义增强分层置信度]] — AST确定性提取+LLM语义增强分层置信度
-- [[concepts/Entity+Log+Link三元组建模]] — Entity+Log+Link三元组建模
-- [[comparisons/浏览器自动化路线对比]] — 浏览器自动化路线对比
+- [[comparisons/openclaw两篇解析对比]] — openclaw两篇解析对比
