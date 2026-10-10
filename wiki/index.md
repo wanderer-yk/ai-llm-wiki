@@ -293,7 +293,45 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践]] — [202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践
+- [[concepts/内外双驱记忆架构]] — 内外双驱记忆架构
+- [[concepts/SQLite全量对话持久化]] — SQLite全量对话持久化
+- [[concepts/即时上下文注入]] — 即时上下文注入
+- [[concepts/记忆资产跨系统迁移]] — 记忆资产跨系统迁移
+- [[concepts/全生命周期hook机制]] — 全生命周期hook机制
+- [[concepts/结构化错误分类自愈体系]] — 结构化错误分类自愈体系
+- [[concepts/受控子Agent机制]] — 受控子Agent机制
+- [[concepts/Agent发展三阶段]] — Agent发展三阶段
+- [[concepts/插件化生态扩展]] — 插件化生态扩展
+- [[concepts/多层安全护栏]] — 多层安全护栏
+- [[comparisons/hermes-agent-vs-openclaw-vs-claude-code]] — hermes-agent-vs-openclaw-vs-claude-code
+- [[entities/hermes-agent]] — hermes-agent
+- [[entities/nous-research]] — nous-research
+- [[entities/飞樰]] — 飞樰
+- [[concepts/内外双路径自进化]] — 内外双路径自进化
+- [[concepts/动态skill生成]] — 动态skill生成
+- [[concepts/后台审查agent]] — 后台审查agent
+- [[concepts/外挂式进化vs权重内化]] — 外挂式进化vs权重内化
+- [[concepts/research-ready训练闭环]] — research-ready训练闭环
+- [[concepts/agent轨迹]] — agent轨迹
+- [[concepts/sharegpt格式]] — sharegpt格式
+- [[concepts/轨迹头尾保护压缩]] — 轨迹头尾保护压缩
+- [[concepts/grpo算法]] — grpo算法
+- [[concepts/批量数据生成]] — 批量数据生成
+- [[concepts/opd机制]] — opd机制
+- [[concepts/rl-cli标准化训练四阶段]] — rl-cli标准化训练四阶段
+- [[concepts/多维度组合奖励]] — 多维度组合奖励
+- [[concepts/奖励函数设计黄金法则]] — 奖励函数设计黄金法则
+- [[concepts/toolcontext真实验证]] — toolcontext真实验证
+- [[concepts/rl知识蒸馏降本论]] — rl知识蒸馏降本论
+- [[concepts/用户数据不直接训练论]] — 用户数据不直接训练论
+- [[concepts/模型异构工具引导]] — 模型异构工具引导
+- [[concepts/生态兼容配置迁移]] — 生态兼容配置迁移
+- [[concepts/比例阈值压缩]] — 比例阈值压缩
+- [[concepts/双压缩范式对比]] — 双压缩范式对比
 - [[sources/[202604270830]工作流的Skill怎么写从7个顶级Skill中提炼的模式与最佳实践]] — [202604270830]工作流的Skill怎么写从7个顶级Skill中提炼的模式与最佳实践
 - [[entities/青斧]] — 青斧
 - [[entities/openai-skills]] — openai-skills
@@ -458,39 +496,3 @@ updated: 2026-06-23
 - [[concepts/mcp内置工具同构论]] — mcp内置工具同构论
 - [[concepts/mcp-instructions落地缺位]] — mcp-instructions落地缺位
 - [[concepts/skill提示词注入本质]] — skill提示词注入本质
-- [[concepts/skill列表token预算]] — skill列表token预算
-- [[concepts/skill强制触发指令]] — skill强制触发指令
-- [[concepts/skill双执行模式]] — skill双执行模式
-- [[concepts/skill触发可靠性痛点]] — skill触发可靠性痛点
-- [[concepts/rules与skills等价论]] — rules与skills等价论
-- [[concepts/skills真正价值三场景]] — skills真正价值三场景
-- [[concepts/skill嵌套编排]] — skill嵌套编排
-- [[concepts/触发质量决定论]] — 触发质量决定论
-- [[concepts/skill流程非代码化]] — skill流程非代码化
-- [[concepts/skill质量等式]] — skill质量等式
-- [[concepts/提示词工程统一论]] — 提示词工程统一论
-- [[concepts/rules-skills-mcp选型指南]] — rules-skills-mcp选型指南
-- [[comparisons/mcp与bash对比]] — mcp与bash对比
-- [[sources/[202604081800]HarnessEngineering让CodingAgent可靠完成长程任务]] — [202604081800]HarnessEngineering让CodingAgent可靠完成长程任务
-- [[concepts/harness边界移动论]] — harness边界移动论
-- [[concepts/harness基础设施论]] — harness基础设施论
-- [[concepts/skill-for-skill元技能自举]] — skill-for-skill元技能自举
-- [[concepts/分块token预算推导]] — 分块token预算推导
-- [[concepts/批判性evaluator校验]] — 批判性evaluator校验
-- [[concepts/任务粒度80%检验标准]] — 任务粒度80%检验标准
-- [[concepts/file-as-progress状态持久化]] — file-as-progress状态持久化
-- [[entities/long-term-task-orchestration]] — long-term-task-orchestration
-- [[concepts/长程任务三特征]] — 长程任务三特征
-- [[concepts/效果速度成本三关注点]] — 效果速度成本三关注点
-- [[concepts/完成真实性]] — 完成真实性
-- [[concepts/长程任务三困难]] — 长程任务三困难
-- [[concepts/上下文焦虑]] — 上下文焦虑
-- [[concepts/长程任务四原则]] — 长程任务四原则
-- [[concepts/任务边界三模式]] — 任务边界三模式
-- [[concepts/错误最小范围解决]] — 错误最小范围解决
-- [[concepts/双轨校验]] — 双轨校验
-- [[concepts/跨模型评估]] — 跨模型评估
-- [[concepts/自我说服效应]] — 自我说服效应
-- [[concepts/局部失败容忍与妥协分级]] — 局部失败容忍与妥协分级
-- [[concepts/agent-teams最后选项论]] — agent-teams最后选项论
-- [[concepts/任务粒度三因素]] — 任务粒度三因素

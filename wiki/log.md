@@ -632,3 +632,7 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 与既有 [[skill渐进式披露]]、[[token预算优化输出格式]]、[[human-in-the-loop]]、[[agent权限边界清单]]、[[file-as-progress状态持久化]]、[[验证门禁化]]、[[reflection模式]] 等持续互证，无矛盾。
 
 - 收官处理记录（人工，2026-10-10）：31 新页 sources 单源重写+全库复验零损伤；本篇零新待审；复活 3 条（千问首篇）按原裁决重 resolve，OpenClaw 双文对比页条目被 sweep 自动消（建页即消第 4 次实证）；登记待合并核实：obra-superpowers 与既有 superpowers插件 疑同一项目；app 段标题本篇未带方括号源 ID（与既往格式差异，补记锚定用）
+
+## [2026-10-10] ingest | [202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践.html
+
+- 收官处理记录（人工，2026-10-10）：36 新页 sources 单源重写+全库复验零损伤；生成撞限一次 checkpoint 自愈；回写三件——harness-engineering 补 Hermes"五位一体"定性（第四个独立创作者版本，三方对比页待扩四方）、上下文压缩策略补第三种触发机制（50% 比例阈值+轨迹头尾保护+压缩器模型选择维度）、追踪页 +3 行（4 万 Star 可核验/Claude Mythos 营销式声明/OpenClaw-RL 热度声明+论文出处待查注）；矛盾对悬置（Hermes 内部两处口径：子Agent 嵌套单层 vs MAX_DEPTH=2、记忆服务名 Hunter/Honcho 误写——待 nousresearch/hermes-agent 仓库源码裁决，review-fb8f8ef8/43c94c95）；悬置：仓库深研补实现级细节（review-bd413305）+OpenClaw-RL 论文出处（review-12d0e5f1）；复活 3 条（千问首篇）照例重 resolve
