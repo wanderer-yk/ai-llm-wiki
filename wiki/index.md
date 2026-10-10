@@ -297,7 +297,32 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202604220830]AI实践基于SpringAI从0到1构建AIAgent]] — [202604220830]AI实践基于SpringAI从0到1构建AIAgent
+- [[entities/觖弦]] — 觖弦
+- [[entities/spring-ai]] — spring-ai
+- [[entities/aiagentdemo]] — aiagentdemo
+- [[entities/GLM-4]] — GLM-4
+- [[concepts/harness工程三部曲演进论]] — harness工程三部曲演进论
+- [[concepts/LLM问答黑箱论]] — LLM问答黑箱论
+- [[concepts/function-calling大地基论]] — function-calling大地基论
+- [[concepts/上下文窗口四要素]] — 上下文窗口四要素
+- [[concepts/工具定义最终论]] — 工具定义最终论
+- [[concepts/三层上下文压缩]] — 三层上下文压缩
+- [[concepts/SubAgent记忆隔离]] — SubAgent记忆隔离
+- [[concepts/SubAgent生命周期工具化]] — SubAgent生命周期工具化
+- [[concepts/RRF排名融合算法]] — RRF排名融合算法
+- [[concepts/查询改写召回路]] — 查询改写召回路
+- [[concepts/意图识别前置门控]] — 意图识别前置门控
+- [[concepts/可插拔工具注册机制]] — 可插拔工具注册机制
+- [[concepts/两类八种文档分块策略]] — 两类八种文档分块策略
+- [[concepts/MCP运行时动态管理]] — MCP运行时动态管理
+- [[concepts/MCP持久化与自动恢复]] — MCP持久化与自动恢复
+- [[concepts/MCP双规范版本锚定]] — MCP双规范版本锚定
+- [[concepts/RAG工具化双路径]] — RAG工具化双路径
+- [[concepts/RAG能力MCP服务化]] — RAG能力MCP服务化
+- [[comparisons/command-vs-skill]] — command-vs-skill
 - [[sources/[202604230830]深入源码HermesAgent如何实现SelfImproving]] — [202604230830]深入源码HermesAgent如何实现SelfImproving
 - [[concepts/skill创建透明度]] — skill创建透明度
 - [[concepts/团队治理写操作二次确认]] — 团队治理写操作二次确认
@@ -474,27 +499,4 @@ updated: 2026-06-23
 - [[concepts/mailbox消息通道]] — mailbox消息通道
 - [[concepts/工程结构优先论]] — 工程结构优先论
 - [[sources/[202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合]] — [202604271800]柚漫剧AI全流程提效拆解从单点提效到工程融合
-- [[concepts/需求准出自动拦截]] — 需求准出自动拦截
-- [[concepts/测试左移ai助力]] — 测试左移ai助力
-- [[concepts/figma+图像对比前置]] — figma+图像对比前置
-- [[concepts/知识算法自主进化与能力skill化]] — 知识算法自主进化与能力skill化
-- [[concepts/角色概念模糊]] — 角色概念模糊
-- [[entities/柚漫剧团队]] — 柚漫剧团队
-- [[entities/柚漫剧APP]] — 柚漫剧APP
-- [[entities/Zulu]] — Zulu
-- [[entities/F2C]] — F2C
-- [[entities/AICR]] — AICR
-- [[entities/AISA]] — AISA
-- [[entities/AI-Checker茶茬]] — AI-Checker茶茬
-- [[entities/AIQA]] — AIQA
-- [[concepts/ai做前置整理人做深度分析]] — ai做前置整理人做深度分析
-- [[concepts/需求质量协作者定位]] — 需求质量协作者定位
-- [[concepts/需求范式共创]] — 需求范式共创
-- [[concepts/思路比结果更重要]] — 思路比结果更重要
-- [[concepts/设计师作为需求架构师]] — 设计师作为需求架构师
-- [[concepts/prompt组件模板]] — prompt组件模板
-- [[concepts/prompt友好需求模板]] — prompt友好需求模板
-- [[concepts/毛坯房精装房分工]] — 毛坯房精装房分工
-- [[concepts/design-json唯一设计源]] — design-json唯一设计源
-- [[concepts/设计即代码]] — 设计即代码
-- [[concepts/无需走查的代码集成]] — 无需走查的代码集成
+- [[queries/上下文终局三方押注追踪]] — 上下文终局三方押注追踪

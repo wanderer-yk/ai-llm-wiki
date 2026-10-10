@@ -640,3 +640,15 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 ## [2026-10-10] ingest | [202604230830]深入源码HermesAgent如何实现SelfImproving.html
 
 - 收官处理记录（人工，2026-10-10）：23 新页 sources 单源重写+全库复验零损伤；生成撞限两次 checkpoint 自愈（续跑收敛能力再次验证）；落地三件——hermes-agent 实体页+后台审查agent 页源码级回写（fork 细节/attention budget 理由/安全机制/v0.6.0 生态）、对比页扩 5 维度+**单方定性归因警示**（对 OpenClaw 批评无第三方佐证，引用须带限定——review-7a2e021f 立案）、追踪页 +4 行（榜单无口径/示意案例/厂商自述/竞品单方定性，分级标注）；悬置 4：RDSClaw 身份（review-1177461a）+展望特性源码核验（review-db74f8db）+OpenClaw 批评独立核验（review-7a2e021f）+v0.6.0 细节（review-31b987ae），均待外部检索；复活 9 条照例重 resolve
+
+
+## [2026-10-10] ingest | AI实践｜基于 Spring AI 从0到1构建 AI Agent
+
+- 新增来源页：[202604220830]AI实践基于SpringAI从0到1构建AIAgent（觖弦，千问AI平台公众号，2026-04-22），六章正文 + 结尾感言结构，全部结构化数据（配置、代码、参数表、REST 端点）已逐字存档
+- 新增实体页 5 个：觖弦、spring-ai、千问AI平台、aiagentdemo、GLM-4
+- 新增概念页 16 个：harness工程三部曲演进论、LLM问答黑箱论、function-calling大地基论、上下文窗口四要素、工具定义最终论、三层上下文压缩、SubAgent记忆隔离、SubAgent生命周期工具化、RRF排名融合算法、查询改写召回路、意图识别前置门控、可插拔工具注册机制、两类八种文档分块策略、MCP运行时动态管理、MCP持久化与自动恢复、MCP双规范版本锚定、RAG工具化双路径、RAG能力MCP服务化
+- 新增比较页 1 个：command-vs-skill（六维度对比 + 文件格式对照）
+- 关键跨源发现：Harness Engineering 概念第 5 次出现且首次获得「Prompt→Context→Harness 演进链」表述，与爱奇艺 [[harness-engineering]] 独立趋同；MCP 双协议回退与京东 [[多协议mcp-server框架]] 构成 Client/Server 两侧互补；分块参数 500/50 与有赞 600/100 构成对照样本
+- 待核事项：`ChatMemory.forSubAgent()` 与各 Splitter/Retriever 归属、IdeaLab 平台本体、千问AI平台与阿里正式关系、`mcp-servers.json` 格式等，已记录于来源页开放问题清单
+
+- 收官处理记录（人工，2026-10-10）：24 新页+千问AI平台 merge 页双源合并修复+全库复验零损伤；落地两件——harness-engineering 页加"命题统一：五次出现谱系"节（review-7c03df82 裁决：synthesis 不另立，主页即谱系锚点）+新建查询页 [[queries/上下文终局三方押注追踪]]（review-2b26eb97/9d0836be 合并立项：工具定义派/记忆派/知识库派三方对立押注长期追踪，含越线信号——记忆与知识库均在被工具化，"一切皆 Tool"若成立则工具定义派以吞并方式胜出）；悬置 2：aiagentdemo 仓库源码核查（review-3a63dba3）+千问AI平台归属核实（review-3bedded8），均待外部检索；复活 15 条照例重 resolve

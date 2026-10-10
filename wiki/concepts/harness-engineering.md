@@ -104,3 +104,7 @@ sources: ["[202605141200]别让AI瞎猜了用HarnessEngineering终结无限返�
 
 - Nous Research《Hermes Agent》（[[飞樰]] 转述）将 Harness 定性为**五位一体**：监控、自愈、隔离、扩展与安全的一体化综合管控体系——与爱奇艺职责四要素、ConardLi 六核心、百度缰绳论并列第四个独立创作者版本，方法论语族见 [[comparisons/三方Harness定义对比]]（待扩为四方）。
 - 配套机制：[[全生命周期hook机制]]（on_pre_compress 等钩子）、[[结构化错误分类自愈体系]]（14 类错误 Recovery Strategy）、[[多层安全护栏]]。
+
+## 命题统一：五次出现谱系（2026-10-10）
+
+Harness Engineering 概念在 wiki 已五次出现（review-7c03df82 收敛裁决）：爱奇艺五要素（本源）、ConardLi 六核心、百度缰绳/基础设施、Hermes 五位一体、觖弦 Prompt→Context→Harness 演进链（[[harness工程三部曲演进论]]）。**统一命题**：「Harness = 决定上下文窗口中放什么的工程化体系」——爱奇艺回答"放哪些工程要素"，觖弦回答"放的内容如何随范式演进"。逐版对照见 [[comparisons/三方Harness定义对比]]；独立 synthesis 页**不另立**（本页即谱系锚点，避免同内容多处维护）。
