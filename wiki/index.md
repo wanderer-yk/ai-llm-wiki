@@ -310,7 +310,38 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂]] — [202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂
+- [[entities/雨清]] — 雨清
+- [[entities/智空间]] — 智空间
+- [[entities/智空间团队]] — 智空间团队
+- [[entities/助手市场]] — 助手市场
+- [[concepts/ai助手工厂]] — ai助手工厂
+- [[concepts/四大高频场景抽象]] — 四大高频场景抽象
+- [[concepts/智空间分层解耦架构]] — 智空间分层解耦架构
+- [[concepts/复杂指令场景方案]] — 复杂指令场景方案
+- [[concepts/IntentResult模型]] — IntentResult模型
+- [[concepts/FSWW工具召回算法]] — FSWW工具召回算法
+- [[concepts/逆向推理正向执行]] — 逆向推理正向执行
+- [[concepts/四重安全校验]] — 四重安全校验
+- [[concepts/知识问答场景方案]] — 知识问答场景方案
+- [[concepts/图文嵌入模式]] — 图文嵌入模式
+- [[concepts/文生成图召回]] — 文生成图召回
+- [[concepts/动态知识筛选机制]] — 动态知识筛选机制
+- [[concepts/问题排查场景方案]] — 问题排查场景方案
+- [[concepts/意图路由]] — 意图路由
+- [[concepts/ReAct推理模块]] — ReAct推理模块
+- [[concepts/ReAct双引擎场景适配]] — ReAct双引擎场景适配
+- [[concepts/常规极简场景方案]] — 常规极简场景方案
+- [[concepts/prompt插拔架构]] — prompt插拔架构
+- [[concepts/意图识别双层prompt结构]] — 意图识别双层prompt结构
+- [[concepts/三步法配置助手]] — 三步法配置助手
+- [[concepts/专家经验沉淀论]] — 专家经验沉淀论
+- [[concepts/排查助手定制三问]] — 排查助手定制三问
+- [[concepts/场景抽象三步法]] — 场景抽象三步法
+- [[concepts/配置化到自动化]] — 配置化到自动化
+- [[concepts/智能化与基建并行]] — 智能化与基建并行
 - [[sources/[202603260830]深入理解OpenClaw技术架构与实现原理下]] — [202603260830]深入理解OpenClaw技术架构与实现原理下
 - [[concepts/openclaw配置管理架构]] — openclaw配置管理架构
 - [[sources/[202603190830]深入理解OpenClaw技术架构与实现原理上]] — [202603190830]深入理解OpenClaw技术架构与实现原理上
@@ -481,36 +512,3 @@ updated: 2026-06-23
 - [[concepts/memory与skill职责边界]] — memory与skill职责边界
 - [[concepts/skill自动创建触发条件]] — skill自动创建触发条件
 - [[concepts/skill局部patch修补]] — skill局部patch修补
-- [[concepts/skill轻量索引按需加载]] — skill轻量索引按需加载
-- [[concepts/双计数器nudge触发]] — 双计数器nudge触发
-- [[concepts/领域知识护城河论]] — 领域知识护城河论
-- [[concepts/三会话自进化实证案例]] — 三会话自进化实证案例
-- [[concepts/记忆内容威胁模式扫描]] — 记忆内容威胁模式扫描
-- [[concepts/skill安全扫描统一门禁]] — skill安全扫描统一门禁
-- [[concepts/组织级自进化]] — 组织级自进化
-- [[concepts/密钥托管凭证隔离]] — 密钥托管凭证隔离
-- [[concepts/skill生命周期元数据]] — skill生命周期元数据
-- [[concepts/skill组合成工作流]] — skill组合成工作流
-- [[sources/[202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践]] — [202604240830]深度解析HermesAgent如何实现自进化及其PromptContextHarness的设计实践
-- [[concepts/内外双驱记忆架构]] — 内外双驱记忆架构
-- [[concepts/SQLite全量对话持久化]] — SQLite全量对话持久化
-- [[concepts/即时上下文注入]] — 即时上下文注入
-- [[concepts/记忆资产跨系统迁移]] — 记忆资产跨系统迁移
-- [[concepts/全生命周期hook机制]] — 全生命周期hook机制
-- [[concepts/结构化错误分类自愈体系]] — 结构化错误分类自愈体系
-- [[concepts/受控子Agent机制]] — 受控子Agent机制
-- [[concepts/Agent发展三阶段]] — Agent发展三阶段
-- [[concepts/插件化生态扩展]] — 插件化生态扩展
-- [[concepts/多层安全护栏]] — 多层安全护栏
-- [[comparisons/hermes-agent-vs-openclaw-vs-claude-code]] — hermes-agent-vs-openclaw-vs-claude-code
-- [[entities/hermes-agent]] — hermes-agent
-- [[entities/nous-research]] — nous-research
-- [[entities/飞樰]] — 飞樰
-- [[concepts/内外双路径自进化]] — 内外双路径自进化
-- [[concepts/动态skill生成]] — 动态skill生成
-- [[concepts/后台审查agent]] — 后台审查agent
-- [[concepts/外挂式进化vs权重内化]] — 外挂式进化vs权重内化
-- [[concepts/research-ready训练闭环]] — research-ready训练闭环
-- [[concepts/openclaw自进化机制]] — openclaw自进化机制
-- [[concepts/openclaw八层路由优先级链]] — openclaw八层路由优先级链
-- [[concepts/openclaw-nodes分布式设备管理架构]] — openclaw-nodes分布式设备管理架构
