@@ -315,7 +315,12 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202602240830]AIAgent系列什么是ReActAgent]] — [202602240830]AIAgent系列什么是ReActAgent
+- [[concepts/react-agent]] — react-agent
+- [[concepts/react五要素]] — react五要素
+- [[concepts/思考内化论]] — 思考内化论
 - [[sources/[202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-下]] — [202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-下
 - [[entities/阳萌]] — 阳萌
 - [[concepts/分而治之与暴力美学]] — 分而治之与暴力美学
@@ -512,7 +517,3 @@ updated: 2026-06-23
 - [[concepts/LLM-CRUD记忆整合]] — LLM-CRUD记忆整合
 - [[concepts/双提取器分流]] — 双提取器分流
 - [[concepts/Evergreen免衰减]] — Evergreen免衰减
-- [[concepts/混合召回]] — 混合召回
-- [[concepts/记忆注入不可信标记]] — 记忆注入不可信标记
-- [[concepts/多通道记忆统一管理]] — 多通道记忆统一管理
-- [[concepts/Dreaming三阶段演进]] — Dreaming三阶段演进
