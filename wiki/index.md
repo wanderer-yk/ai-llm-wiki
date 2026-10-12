@@ -308,7 +308,11 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202603260830]深入理解OpenClaw技术架构与实现原理下]] — [202603260830]深入理解OpenClaw技术架构与实现原理下
+- [[concepts/openclaw配置管理架构]] — openclaw配置管理架构
 - [[sources/[202603190830]深入理解OpenClaw技术架构与实现原理上]] — [202603190830]深入理解OpenClaw技术架构与实现原理上
 - [[concepts/gateway协议与安全机制]] — gateway协议与安全机制
 - [[concepts/openclaw-channel架构]] — openclaw-channel架构
@@ -507,5 +511,6 @@ updated: 2026-06-23
 - [[concepts/后台审查agent]] — 后台审查agent
 - [[concepts/外挂式进化vs权重内化]] — 外挂式进化vs权重内化
 - [[concepts/research-ready训练闭环]] — research-ready训练闭环
-- [[concepts/agent轨迹]] — agent轨迹
-- [[concepts/sharegpt格式]] — sharegpt格式
+- [[concepts/openclaw自进化机制]] — openclaw自进化机制
+- [[concepts/openclaw八层路由优先级链]] — openclaw八层路由优先级链
+- [[concepts/openclaw-nodes分布式设备管理架构]] — openclaw-nodes分布式设备管理架构
