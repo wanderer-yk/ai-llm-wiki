@@ -311,7 +311,26 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202603040830]让问题不过夜交易领域问诊Agent实践]] — [202603040830]让问题不过夜交易领域问诊Agent实践
+- [[entities/顺乾]] — 顺乾
+- [[entities/idealab]] — idealab
+- [[entities/问诊小助手]] — 问诊小助手
+- [[concepts/两类能力形态抽象]] — 两类能力形态抽象
+- [[concepts/问诊agent四层架构]] — 问诊agent四层架构
+- [[concepts/问诊agent结构化输出五要素]] — 问诊agent结构化输出五要素
+- [[concepts/小域专精原则]] — 小域专精原则
+- [[concepts/agent构建演进三阶段]] — agent构建演进三阶段
+- [[concepts/sop-doc可召回排查文档]] — sop-doc可召回排查文档
+- [[concepts/提示词爆炸]] — 提示词爆炸
+- [[concepts/手册执行者模式]] — 手册执行者模式
+- [[concepts/双层召回知识体系]] — 双层召回知识体系
+- [[concepts/q-score质量评分机制]] — q-score质量评分机制
+- [[concepts/评分agent坏样本聚焦]] — 评分agent坏样本聚焦
+- [[concepts/反馈回灌闭环]] — 反馈回灌闭环
+- [[concepts/ai-native知识组织方式]] — ai-native知识组织方式
+- [[queries/知识固化vs模型泛化]] — 知识固化vs模型泛化
 - [[sources/[202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂]] — [202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂
 - [[entities/雨清]] — 雨清
 - [[entities/智空间]] — 智空间
@@ -494,21 +513,4 @@ updated: 2026-06-23
 - [[concepts/可插拔工具注册机制]] — 可插拔工具注册机制
 - [[concepts/两类八种文档分块策略]] — 两类八种文档分块策略
 - [[concepts/MCP运行时动态管理]] — MCP运行时动态管理
-- [[concepts/MCP持久化与自动恢复]] — MCP持久化与自动恢复
-- [[concepts/MCP双规范版本锚定]] — MCP双规范版本锚定
-- [[concepts/RAG工具化双路径]] — RAG工具化双路径
-- [[concepts/RAG能力MCP服务化]] — RAG能力MCP服务化
-- [[comparisons/command-vs-skill]] — command-vs-skill
-- [[sources/[202604230830]深入源码HermesAgent如何实现SelfImproving]] — [202604230830]深入源码HermesAgent如何实现SelfImproving
-- [[concepts/skill创建透明度]] — skill创建透明度
-- [[concepts/团队治理写操作二次确认]] — 团队治理写操作二次确认
-- [[concepts/用得越久越好用]] — 用得越久越好用
-- [[entities/RDSHermes]] — RDSHermes
-- [[entities/三剑]] — 三剑
-- [[concepts/memory-skill-nudge三子系统自进化闭环]] — memory-skill-nudge三子系统自进化闭环
-- [[concepts/memory容量上限倒逼压缩]] — memory容量上限倒逼压缩
-- [[concepts/快照冻结与前缀缓存]] — 快照冻结与前缀缓存
-- [[concepts/声明式事实记忆]] — 声明式事实记忆
-- [[concepts/memory与skill职责边界]] — memory与skill职责边界
-- [[concepts/skill自动创建触发条件]] — skill自动创建触发条件
-- [[concepts/skill局部patch修补]] — skill局部patch修补
+- [[comparisons/问题排查诊断方法论对比]] — 问题排查诊断方法论对比
