@@ -1,0 +1,1168 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>业务逻辑的坍塌（下）</title></head><body>
+<p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                1957 年，感知机
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           1957 年，弗兰克·罗森布拉特受人脑神经元工作原理的启发，提出了感知机（Perceptron），是一种模拟生物神经元的简化模型。
+          </span>
+         </span>
+        </p>
+        <blockquote>
+         <p style="margin-bottom: 24px;line-height: 1.75em;">
+          <span leaf="">
+           <span style="font-size: 15px;color: rgb(136, 136, 136);" textstyle="">
+            感知机是生物神经细胞的简单抽象。神经细胞结构大致可分为：树突、突触、细胞体及轴突。单个神经细胞可被视为一种只有两种状态的机器——激活时为“是”，而未活动时为“否”。神经细胞的状态取决于从其它的神经细胞收到的输入信号量，及突触的强度（抑制或加强）。当信号量总和超过了某个阈值时，细胞体就会激动，产生电脉冲。电脉冲沿着轴突并通过突触传递到其它神经元。为了模拟神经细胞行为，与之对应的感知机基础概念被提出，如权量（突触）、偏置（阈值）及激活函数（细胞体）。 ——节选 Wikipedia
+           </span>
+          </span>
+         </p>
+        </blockquote>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           感知器有 m 个输入，分别用 x₁, x₂, ..., xₘ 表示，最终输出为 o（一种简单的激活函数），表示感知器是否激活，其中每个输入 xᵢ 通过一个连接与感知器相连，该连接强度由权重 wᵢ 表示，权重越高表示对输出影响越大。同时，还需要最终和一个阈值 b 相加。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075391" data-ratio="0.16546762589928057" data-s="300,640" data-type="png" data-w="417" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1zThsCicibjvD1yS7VJ4Mso0pTTcorm6JshbRurZyVzytCU58oibUomCgcAFLrrNp8nOgGfRZslB23qNFMBWXB1wtz4CahVunibTicI/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           在下图中，为表述方便，加了一个特殊的输入神经元，称为偏置神经元，它总是输出值 1，用 x₀ 表示，其连接权重用 w₀ 表示，最终公式被简化为：
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075392" data-ratio="0.30980392156862746" data-s="300,640" data-type="png" data-w="255" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1xSTWVyzcKqBm8KSCmfB5Apw1ibQPKLs65SBfsfY5icBolnMwMyGkj4uWv8551aibliarQmAXdS1cUqCH5Wt0sGkgYcibsZaOJ1NVPE/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075393" data-ratio="0.4116883116883117" data-s="300,640" data-type="png" data-w="770" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1wRULokaic7uHudvDe1tfSgicY9WFrqxLQeaPx66uhnBUolhvjaTf6micdQa3ANqut3hdt2zpcUq1xt7gzQdWwZmqVFBdqdMu0kHg/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;text-align: center;">
+         <em>
+          <span leaf="">
+           <span style="font-size: 14px;color: rgb(136, 136, 136);" textstyle="">
+            (图片来自 Perceptrons: The First Neural Network Model)
+           </span>
+          </span>
+         </em>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           感知机证明了简单的、模拟生物神经元的计算结构，通过多层的结构，能够模拟所有的逻辑运算以及处理复杂的分类任务。这使得 AI 的研究方向从早期的符号主义（基于规则和逻辑推理）开始转向联结主义（基于神经元连接和数值的矩阵计算）。
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           后来，研究者们又提出了多层感知机（MLP），即在输入层和输出层之间加入一个或多个隐藏层，比如为解决上述 XOR 问题，可以在中间加一层有 2 个神经元的隐藏层，包含两个神经元，上面是或门，权重是 [1,1]，偏置是 0.5，即 sum 之后大于等于 0.5 则输出 1，同理下面与非门。输入
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075394" data-ratio="0.7204301075268817" data-s="300,640" data-type="png" data-w="93" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1wezZyVF4ep1ae404qmJPe61DEOcgUgtuVGEsdew3EzfBhZbxE9ds68zOtdbdWgjOFjXOwJo4YT1VAQwMhzPQ4eAHkkkibwXfjU/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ，权重矩阵
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075395" data-ratio="0.38125" data-s="300,640" data-type="png" data-w="160" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1wVpf5y7LlGM3yxTxe3SAcggRZtllic3FANOl7icHYNftR0ibcO7Q1Ig7ficnWTzJbuLqcTp8545IVPCF7VsdOTLUsrwpmBtCKwov8/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           , [-1, -1]]，偏置矩阵
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075396" data-ratio="0.5517241379310345" data-s="300,640" data-type="png" data-w="116" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1zgiaTH8T2XCeEeO8r1kiadHE7U9hKAjIvfT2Z675G3ia2KOCWJg5NZgibdIh2JxN4iaSgzhSdm22FQQUJq417AEEjUPPkWpHrXr0Ck/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ，比如输入
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075397" data-ratio="0.6938775510204082" data-s="300,640" data-type="png" data-w="49" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1wBZdZ2IMke1JLbX1PKjxcurVianDVX2PQ4MWFAn9rNdwJic2CgdoIoJBEklcLuNozEbFe7ENfmsz2RQzhfNK7V79rEmwLeNZtL0/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ：
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1">
+         <li>
+          <strong>
+           <span leaf="">
+            <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+             隐藏层
+            </span>
+           </span>
+          </strong>
+         </li>
+         <ul class="list-paddingleft-1">
+          <li>
+           <section style="margin-bottom: 24px;line-height: 1.75em;">
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              或门 0(1)+0(1)=0，而 0 &lt; 0.5，输出 0
+             </span>
+            </span>
+           </section>
+          </li>
+          <li>
+           <section style="margin-bottom: 24px;line-height: 1.75em;">
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              与非门 0(-1)+0(-1)=0，而 0 &gt; -1.5，输出 1
+             </span>
+            </span>
+           </section>
+          </li>
+         </ul>
+         <li>
+          <strong>
+           <span leaf="">
+            <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+             输出层
+            </span>
+           </span>
+          </strong>
+         </li>
+         <ul class="list-paddingleft-1">
+          <li>
+           <section style="margin-bottom: 24px;line-height: 1.75em;">
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              与门 0(1)+1(1)=1，而 1 &lt; 1.5，最终输出 0
+             </span>
+            </span>
+           </section>
+          </li>
+         </ul>
+        </ul>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075398" data-ratio="0.2524698133918771" data-s="300,640" data-type="png" data-w="911" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1x0n9bh3NZhBAzGBBmHQatOZ7iaicicVvf9sr2iagVaAicWyDmTjTpzFhh4VJ1XbRaMpLy3fzmhAl462ATsKTicaykZBX9hOia8ysHxSY/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           神经网络结构（或者叫多层感知机结构）的复杂度，体现在中间隐藏层的个数、每一层神经元的个数以及不同神经元之间的连接形式。以今天 Transformer 中参数量最大的全连接神经网络 FFN 看，和上世纪 60 年代的多层感知机没有太大区别。
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           60 年后，又兜兜转转回到了起点
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ，那么中间变的是什么？是硬件
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           GPU
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           超强算力的爆发，是物理世界在数据世界投射后，留下的海量高质量学习样本
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           数据
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           。
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1" style="list-style-type: disc;">
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              深度
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              — 中间隐藏层的层数：从线性代数空间折叠视角看，矩阵的每一层计算是对原输入维度的一次折叠（如前面图中的绿色三维空间实体），输入是 2 维，加上输出，最终是在一个三维空间上。这里的关键是每一次 wx+b 后面的激活函数，这是引入非线性的关键。否则一直是在一个超平面上。
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              宽度
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              — 每一层神经元个数：是对上一层输入的一次特征提取，理论上，每一层神经元个数越多，特征提取越细，相当于把数据投影到更高维的空间，维数越高，寻找切分平面的自由度就越大；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              形式
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              — 神经元间连接形式：理论上，只要无限扩展神经网络的宽度和深度，就可以解决非常复杂的问题，比如后来的 Transformer FFN 也是这种全连接神经网络。而在 Transformer 出现之前，在硬件 GPU 算力还没到达一定程度时，这种全连接形式是不可落地的。中间几十年，很多贴着垂直业务场景的模型结构，比如 CNN（用图形的局部连接，提出了卷积的概念）和 RNN（处理时序，一层输出，作为下一层数输入，但是会有长距离遗忘问题）；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+        </ul>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           仅看上述通过 2 层网络解决 XOR 的例子，并不是很能够具象理解神经网络的层数以及每一层的个数对最终结果的影响。借助 TensorFlow Playground 以及可视化工具 GeoGebra，随机拖动或调整一些所谓超参数后，即便是一个仅有 2 层隐藏层的神经网络，也能产生复杂的空间折叠能力，解决复杂的分类问题。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100075399" data-ratio="0.5805555555555556" data-s="300,640" data-type="png" data-w="1080" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1zHvKS91p9ZfwWXgUuu3wyaslb3NKVKhQfsUDC8MVxtcYFJgyFicQNgTD31pHyR7ZvlfmB1uRRo5v6PYFJ7T2CJLAr56KLHRxFE/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100075401" data-ratio="0.47263948497854075" data-s="300,640" data-type="png" data-w="3728" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1w9UdXRribX0Uqgic9U9A888VznYH9PzTHibDV5Wa0DmdickuibuEicjWHRrlreG2zjh9gKxwugM4MhShiaiagt02IKDpBcibbu5hMx84Gs/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           理解了 MLP 这种通过简单单元组合，产生超强泛化能力的机制后，再看现代大模型，就能够直观感觉到：当数据足够多、算力足够强时，简单的结构堆叠也能涌现出惊人的智能。
+          </span>
+         </span>
+        </p>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="text-align: left;justify-content: flex-start;margin: 10px 0%;display: flex;flex-flow: row;box-sizing: border-box;">
+          <section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 0%;height: auto;line-height: 0;padding: 0px;box-sizing: border-box;">
+           <section style="text-align: right;box-sizing: border-box;">
+            <section style="display: inline-block;width: 18px;height: 18px;vertical-align: top;overflow: hidden;background-color: rgb(255, 129, 36);box-sizing: border-box;">
+             <svg style="float:left;line-height:0;width:0;vertical-align:top;" viewbox="0 0 1 1">
+             </svg>
+            </section>
+           </section>
+          </section>
+          <section style="display: inline-block;vertical-align: bottom;width: auto;min-width: 10%;max-width: 100%;flex: 0 0 auto;height: auto;align-self: flex-end;box-sizing: border-box;">
+           <section style="color: rgb(62, 62, 62);font-size: 15px;padding: 0px 4px;line-height: 1;text-align: justify;box-sizing: border-box;">
+            <p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                1969 年，异或问题
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           神经网络的非线性能力来自激活函数，如果没有激活函数，无论多少层网络，多层瞬间退化为单层（一个矩阵），依然只是一个线性变换，无法扭曲空间
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075402" data-ratio="0.09390862944162437" data-s="300,640" data-type="png" data-w="394" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1ycK8U7GsgrGLuia2IA4biawSTVPvFrESobLFh88QI8LCylCWibLib7CUJvIS3jLviapTYMgnbR0QDlBic16jrXj8wQnMbSmlooZDLhU/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           这也是 1969 年马文·闵斯基，在《Perceptrons》书中论证的以感知机为代表的神经网络系统局限性，关键是多层感知机不可被训练。
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1" style="list-style-type: disc;">
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              缺乏有效的学习算法
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：当时的方法只能训练网络的最后一层（输出层），无法将误差有效地分配和传播到前面的隐层神经元。这就是后来反向传播算法所解决的问题；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              理论分析极其困难
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：探讨了“群不变性”等问题，指出即使网络结构有能力表示某个函数，要分析其学习过程和行为也异常复杂；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+        </ul>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="text-align: left;justify-content: flex-start;margin: 10px 0%;display: flex;flex-flow: row;box-sizing: border-box;">
+          <section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 0%;height: auto;line-height: 0;padding: 0px;box-sizing: border-box;">
+           <section style="text-align: right;box-sizing: border-box;">
+            <section style="display: inline-block;width: 18px;height: 18px;vertical-align: top;overflow: hidden;background-color: rgb(255, 129, 36);box-sizing: border-box;">
+             <svg style="float:left;line-height:0;width:0;vertical-align:top;" viewbox="0 0 1 1">
+             </svg>
+            </section>
+           </section>
+          </section>
+          <section style="display: inline-block;vertical-align: bottom;width: auto;min-width: 10%;max-width: 100%;flex: 0 0 auto;height: auto;align-self: flex-end;box-sizing: border-box;">
+           <section style="color: rgb(62, 62, 62);font-size: 15px;padding: 0px 4px;line-height: 1;text-align: justify;box-sizing: border-box;">
+            <p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                1986 年，反向传播
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           杰弗里·辛顿等人在论文清晰地阐述了“反向传播”（Backpropagation）算法，实质上定义了一种基于计算图的、可自动微分的分布式梯度计算范式，定义了“正向计算损失、反向传播梯度、迭代更新参数基础训练循环。
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1" style="list-style-type: disc;">
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              计算图的构建与正向传播
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：将神经网络的前向推理计算过程 $z=Wx+b, o=\sigma(z)$ 建模为一个有向无环图，节点代表张量运算（操作符），边代表张量（数据）流动。这使得任何复杂的网络结构都能被表达为一个纯粹的数据流图；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              链式法则的工程化实现
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：反向传播本质是在这个计算图上，利用链式法则，从最终损失函数开始，逆向、逐层地分配误差并计算梯度，使得梯度能以与正向传播可比的计算复杂度 O(N) 被计算出来，而非暴力枚举；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              模块化与局部性
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：每个计算节点（如矩阵乘法、激活函数）只需定义自身的局部梯度，而整个系统的全局梯度通过节点间的局部梯度链式相乘得到。这种模块化原则，使得规模化运算成为可能；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+        </ul>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="text-align: left;justify-content: flex-start;margin: 10px 0%;display: flex;flex-flow: row;box-sizing: border-box;">
+          <section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 0%;height: auto;line-height: 0;padding: 0px;box-sizing: border-box;">
+           <section style="text-align: right;box-sizing: border-box;">
+            <section style="display: inline-block;width: 18px;height: 18px;vertical-align: top;overflow: hidden;background-color: rgb(255, 129, 36);box-sizing: border-box;">
+             <svg style="float:left;line-height:0;width:0;vertical-align:top;" viewbox="0 0 1 1">
+             </svg>
+            </section>
+           </section>
+          </section>
+          <section style="display: inline-block;vertical-align: bottom;width: auto;min-width: 10%;max-width: 100%;flex: 0 0 auto;height: auto;align-self: flex-end;box-sizing: border-box;">
+           <section style="color: rgb(62, 62, 62);font-size: 15px;padding: 0px 4px;line-height: 1;text-align: justify;box-sizing: border-box;">
+            <p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                1998 年，CNN
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           虽然理论可行，但是在很长一段由于算力和数据限制，神经网络并没有重大场景落地，直到杨立昆（Yann LeCun）等人提出 LeNet-5（常作为 CNN 代表），其革命性在于将领域知识（图像的空间局部性、平移不变性）以极其高效的方式，编码进神经网络结构本身，从而在算力和数据有限的年代，还能够实现重大突破。
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1" style="list-style-type: disc;">
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              从全连接到稀疏连接的转变
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：CNN 证明并非所有连接都是必要的，通过精心设计的、符合数据内在结构的稀疏连接，可以在性能、效率和泛化能力上取得全面优势；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              进入弱特征工程时代
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：标志着机器学习从人工设计特征 + 简单分类器，迈向原始数据 + 自动学习特征的时代；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              硬件友好的计算模式
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：卷积运算可以高度并行化，为深度学习与 GPU 算力结合，提供早期成功案例；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+        </ul>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="text-align: left;justify-content: flex-start;margin: 10px 0%;display: flex;flex-flow: row;box-sizing: border-box;">
+          <section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 0%;height: auto;line-height: 0;padding: 0px;box-sizing: border-box;">
+           <section style="text-align: right;box-sizing: border-box;">
+            <section style="display: inline-block;width: 18px;height: 18px;vertical-align: top;overflow: hidden;background-color: rgb(255, 129, 36);box-sizing: border-box;">
+             <svg style="float:left;line-height:0;width:0;vertical-align:top;" viewbox="0 0 1 1">
+             </svg>
+            </section>
+           </section>
+          </section>
+          <section style="display: inline-block;vertical-align: bottom;width: auto;min-width: 10%;max-width: 100%;flex: 0 0 auto;height: auto;align-self: flex-end;box-sizing: border-box;">
+           <section style="color: rgb(62, 62, 62);font-size: 15px;padding: 0px 4px;line-height: 1;text-align: justify;box-sizing: border-box;">
+            <p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                2012 年，AlexNet
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           2012 年，辛顿的学生亚历克斯·克里热夫斯基团队设计的 AlexNet，在 ImageNet 图像识别大赛中，以 Top-5 错误率 15.3%，远低于传统机器学习（手工特征+SVM）的 26.2% 的成绩一举夺冠。AlexNet 并非理论上的突破，而是一次成功的、规模化验证深度卷积网络威力的
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           工程实践
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           。它向业界清晰地证明：
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1" style="list-style-type: disc;">
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              深度与规模的激进扩展
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：AlexNet 的 8 层（5 卷积 + 3 全连接）是一个大胆尝试，它验证了反向传播算法在更深层次网络中也能发挥重要作用，能够从训练中学习到更丰富、更具判别力的层次化特征；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              GPU 并行计算示范
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：用两块 NVIDIA GTX 580 GPU 进行训练，将网络的一部分层分配给每块 GPU。这不仅解决了单卡显存不足的问题，更是深度学习与高性能计算紧密结合的里程碑；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;">
+           <strong>
+            <span leaf="">
+             <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+              ReLU 激活函数的关键应用
+             </span>
+             <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: normal;" textstyle="">
+              ：使用 ReLU 代替传统的 sigmoid/tanh，有效缓解深度网络中的梯度消失问题，使得误差能够传播到更深的层。这看似简单但影响深远的工程选择，大幅加快模型训练速度；
+             </span>
+            </span>
+           </strong>
+          </section>
+         </li>
+        </ul>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="text-align: left;justify-content: flex-start;margin: 10px 0%;display: flex;flex-flow: row;box-sizing: border-box;">
+          <section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 0%;height: auto;line-height: 0;padding: 0px;box-sizing: border-box;">
+           <section style="text-align: right;box-sizing: border-box;">
+            <section style="display: inline-block;width: 18px;height: 18px;vertical-align: top;overflow: hidden;background-color: rgb(255, 129, 36);box-sizing: border-box;">
+             <svg style="float:left;line-height:0;width:0;vertical-align:top;" viewbox="0 0 1 1">
+             </svg>
+            </section>
+           </section>
+          </section>
+          <section style="display: inline-block;vertical-align: bottom;width: auto;min-width: 10%;max-width: 100%;flex: 0 0 auto;height: auto;align-self: flex-end;box-sizing: border-box;">
+           <section style="color: rgb(62, 62, 62);font-size: 15px;padding: 0px 4px;line-height: 1;text-align: justify;box-sizing: border-box;">
+            <p style="white-space: normal;margin: 0px;padding: 0px;box-sizing: border-box;">
+             <span style="box-sizing: border-box;">
+              <strong style="box-sizing: border-box;">
+               <span leaf="">
+                2017 年，Transformer
+               </span>
+              </strong>
+             </span>
+            </p>
+           </section>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           Transform 在某种意义上，实现了工程上的标准化，即注意力层、前馈层、残差连接和层归一化，降低了新模型开发的复杂度，促进了开源生态的繁荣。Transformer 那篇经典论文中架构是 Encoder-Decoder，而现在 LLM 几乎一边倒地导向 Decoder-only 架构，即下图右边部分。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075405" data-ratio="0.7779220779220779" data-s="300,640" data-type="png" data-w="770" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1wibV3A1dQZMnyHzpZyVdEibmics1Ruiana0huTk9x1VgDiaqo2o8mvWDfEAdM0IQP8sGbvibZ9n7tmAWNuyKSia4G2jsrWC1xHycEPB8/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           以 Qwen2.5-7B 模型为例，其词表大小约 152000，Embedding 维度 4096，28 层。若给模型输入“
+          </span>
+          <span style="font-size: 15px;background-color: rgb(245, 245, 245);color: rgb(136, 136, 136);" textstyle="">
+           你作为一个科普达人，请用小学生可以理解的方式，介绍下 LLM 的主要原理？
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ”，其大致计算过程如下：
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <strong>
+          <span leaf="">
+           <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+            阶段一：Tokenization（分词）与 Embedding 映射，将 Prompt 映射成输入矩阵
+           </span>
+          </span>
+         </strong>
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           Qwen 的分词器会将这句话切成一个个 Token，且通常中文 1 ~ 2 个字是一个 Token。假设分词结果为：[
+          </span>
+          <span style="font-size: 15px;background-color: rgb(245, 245, 245);color: rgb(136, 136, 136);" textstyle="">
+           "你", "作为一个", "科普", "达人", "，", "请用", "小学生", "可以", "理解", "的", "方式", "，", "介绍", "下", "LLM", "的", "主要", "原理", "？"
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ]，合计 20 个 Token。 而 Embedding 维度为 4096，相当于每个 Token 会用一个 4096 维向量表示。这里的分词器和 Embedding 往往会成对出现，在预训练完成后得到。 到这里，会得到一个输入矩阵 X=[20×4096]，20 表示句子长度即分词后的 Token 数，4096 代表每个 Token 的特征数。理论上 Embedding 维度数越高，那么能够拟合的细节越好，但也意味着后续计算量会急剧上升。加入位置编码后，然后送入注意力计算阶段。
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <strong>
+          <span leaf="">
+           <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+            阶段二：预填充（Pre-fill）和注意力计算，藏在多头注意力里面的 KV Cache 工程优化
+           </span>
+          </span>
+         </strong>
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           模型在训练阶段，得到一组权重矩阵即
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075406" data-ratio="0.20689655172413793" data-s="300,640" data-type="png" data-w="145" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1zn36HqbmZjGIWbfOSYekV2Z6MYy77VPyel9Gkb5zvp46XJqS4KZXeYoh8yFCnkSxgTGGkyqgrsdjlVvdLYhpB0tFHgr2O84ew/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           ，然后分别和前面的输入 X 相乘，最终得到 QKV 矩阵，而这些矩阵依然是 [20×4096]。此时，模型会把其中 K 和 V 放入显存用于后续推理时加速计算过程（Q 作为 Token 的查询，用完即结束，而 K 和 V 在后续每次蹦出新 Token 而需要重新计算时，可以避免前序这些 Token 重新和
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075407" data-ratio="0.7111111111111111" data-s="300,640" data-type="png" data-w="45" src="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1x5uiamGO1TodXrjA256rxPq0KcWQW6CzEENwgnatekYnCobiaBeplyQlO7mpwehDZUDnWfb1re0qO7eyibmia88tQxtvS7FIukE5U/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           和
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075408" data-ratio="0.7317073170731707" data-s="300,640" data-type="png" data-w="41" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1xHQ4Y5QDqKiav5mia3nm39poN59OiaaVegMdCDOAtDP5Io163zph5hHGV2ciaBNMGrWosL3qibVnZwCTcP7iccHTAbiaSVmuPZ8gpiaAs/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           相乘）。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075409" data-ratio="0.6944444444444444" data-s="300,640" data-type="png" data-w="144" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1zJ4JzNmGrVG0vQFaWLr8O9RiaQAWYX4FQicYHYwtqKOw6I6dAXZwv6ichvOmoKVPMueicZBRhAEmrCfmJODAJIQKGoW44pwibuzDCE/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           然后进入注意力计算阶段，在 [20×20] 内部，每个 Token 的 Q 去和包括自己在内的其他 Token 的 K 相乘（计算相关性）后除上
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075410" data-ratio="0.8297872340425532" data-s="300,640" data-type="png" data-w="47" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1y5w25Qd9PYcfuAKd6aPV68tvRx1XF41RGvMdj3Fzlkl0vHyY37theVetavdbwfl5kvZhiar5icvNdQYY18rGaL2yibgRnJ5icRFtY/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           缩放（防止梯度消失，使得进入 Softmax 计算的数值保持在可控范围），然后进行 softmax 计算（将相关性得分归一化为概率分布）后和 V 再相乘（用计算出的概率权重去提取 V 矩阵中携带的信息），最终得到的依然是一个 [20×4096] 矩阵。和最初输入阶段 [20×4096] 矩阵不同的是，这时已经掺杂了和前序 Token 间关系。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075411" data-ratio="0.171875" data-s="300,640" data-type="png" data-w="384" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1zf7Y6cLwazcGsYicqP4mBJfia4Ljv9I0tHlNDGqCR9H4yV9r0vSHyjLjZDf0WgD5tGhAlFYP9vyqrWnglJ7AvlRWiajGiaugboPvU/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           Attention 阶段通过 Softmax 引入非线性，用于计算 Token 间的相关性权重，而后面 FFN 阶段则通过激活函数（比如 SwiGLU）进一步增加模型的非线性表达能力。 然后进行残差连接 Add（将输入叠加到输出，解决深层网络梯度消失的问题）和归一化 Norm（将数据拉回到标准分布范围，防止随着层数加深，数值爆炸或消失，保障数值分布的稳定性）处理后，进入 FFN 阶段。Qwen2.5-7B 中 FFN 有 2 层，第一层把原来的 4096 升维至 18944（4 倍于 4096，不同模型这里不同），然后再降维至 4096。更高的维度，意味着把数据投影到更高维的空间，寻找切分平面的自由度就越大。
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <strong>
+          <span leaf="">
+           <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+            阶段三：生成首个 Token，从 4096 维的 Embedding 中映射回词表中一个具体的 Token
+           </span>
+          </span>
+         </strong>
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           经过阶段二的 28 层循环，最终输出的还是 [20×4096] 矩阵。此时，模型只关心最后一行 x（对应“？”位置），因为它包含全部输入的上下文信息。这是一个 [1×4096] 向量，然后通过和
+          </span>
+          <img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100075412" data-ratio="0.18579234972677597" data-s="300,640" data-type="png" data-w="183" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1yjP4dyONrXp3rxMlSoNbTSYY1KkAAta7xYtPTP35ftNwoiaC44ibOknN4hXcrAGP6Azqz5ZHze8hUbC9fwDDvaXDBcK9d4Uicg74/640?wx_fmt=png&amp;from=appmsg" type="block"/>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           （也在模型训练阶段所得，如果简单一点，可以直接是在阶段一中 Token 到 Embedding 映射矩阵的转置）相乘（将特征向量映射回词表空间），并经过 softmax 计算（得到下一个 Token 的预测概率）后，最终得到针对该词表的一个概率分布。
+          </span>
+         </span>
+        </p>
+        <section nodeleaf="" style="text-align: center;">
+         <img class="rich_pages wxw-img" data-aistatus="1" data-croporisrc="https://mmbiz.qpic.cn/mmbiz_png/j7RlD5l5q1xyLuuMuoTFWPiahdp6mUsibm34tzpsfYYDbLgr1VJ602NMkraZakcc4rYYzPXiaAt6xliaTZlHgAJnqUKDTUSzrWFhuDfHHKzbf2k/0?wx_fmt=png&amp;from=appmsg" data-cropx2="363" data-cropy1="7" data-cropy2="79" data-imgfileid="100075413" data-ratio="0.20110192837465565" data-s="300,640" data-type="png" data-w="363" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/j7RlD5l5q1zV8xtCCcklwK2pR7oUKyoica0j9w2USmJ7tB28QTar6DPKLn0qBVzTN84uLAW8kG9P8hop7BiawGwOd1iaXguo9306HqZrOqq4ibs/640?wx_fmt=jpeg" style="width:363px;height:72px;" type="block"/>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           最后根据不同采样方法，比如参考 Temperature 设置，仲裁处下一个 Token，即完成一次推理。如此往复，不断蹦出下一个 Token。
+          </span>
+         </span>
+        </p>
+        <section data-pm-slice="0 0 []" style="box-sizing: border-box;font-style: normal;font-weight: 400;text-align: justify;font-size: 16px;color: rgb(62, 62, 62);">
+         <section style="margin-top: 10px;margin-bottom: 10px;text-align: center;box-sizing: border-box;">
+          <section style="padding: 3px;display: inline-block;border-bottom: 5px solid rgb(255, 129, 36);color: rgb(255, 129, 36);font-size: 17px;box-sizing: border-box;">
+           <p style="margin: 0px;padding: 0px;box-sizing: border-box;">
+            <span leaf="">
+             九、一些后话
+            </span>
+           </p>
+          </section>
+         </section>
+        </section>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           借用阳萌论述的观点，如果对解决问题的方法进行足够抽象，会发现只有两种解题思路：
+          </span>
+         </span>
+        </p>
+        <ul class="list-paddingleft-1">
+         <li>
+          <section style="margin-bottom: 24px;line-height: 1.75em;">
+           <span leaf="">
+            <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+             一种是把大问题，拆成一个个已知问题，然后通过严谨的数据符号、规则去解决，所谓分而治之。这其中一个比较难的点在于：大多数事务不是绝对 0 或 1 表达，存在很多微观联系，而纯粹的借助数据符号进行表达，会因为要么没有捕捉到这些微观细节而被忽略，要么会因为表达式过于复杂而无法落地。最终，很容易把一个问题解决精度达到 50% 或 80%，但是再想往上就很难。
+            </span>
+           </span>
+          </section>
+         </li>
+         <li>
+          <section style="margin-bottom: 24px;line-height: 1.75em;">
+           <span leaf="">
+            <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+             一种则是今天 LLM 的解题思路，不再需要对细分之后的问题进行精确求解，直接通过海量参数以及算力逼近原问题的解决，所谓
+            </span>
+            <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+             暴力美学
+            </span>
+            <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+             。
+            </span>
+           </span>
+          </section>
+         </li>
+        </ul>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           了解到一些监管机构为规避商家跑路风险，比如健身房充卡，牵头搭建了一个担保平台。用户向该平台充值，而商家定期从里面提取，且还能够获取到一些相关补贴。有利益的地方，很难避免地会出现灰产，比如一些商家会通过刷单方式骗取补贴。正常情况下，为解决这个问题，需要招聘业务风控、数据分析、前端以及后端开发等，而借助 LLM，即便不做任何 Context 管理，仅是把该商家一段时间内订单，以及对应买家数据（包括征信等）一并组成一个大 Prompt 提交给 LLM，也能发现问题，而且效果还不错。远远谈不上用了什么高深的技术架构，但是它
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           实实在在解决了一个痛点问题
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           。AI 正在潜移默化地影响着我们的生活，用那些看着并不不高级的方式。
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           AI 突破性应用，本质上是一场业务流程的重新定义。这也决定了这种创新，
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           很难从下而上在叶子团队产生
+          </span>
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           。现有组织架构是已有产品形态，运行 N 多年后逐步沉淀下来的，分工已经趋于细化，而 AI 的创新大概率是要突破现有产品形态。以电商场景举个直观例子，商品、优惠、交易、库存职责拆到了 4 个团队，甚至因为中台/平台还会涉及更多团队，每个团队的职责是仅是整个业务流程的一部分。在这种情况下，是很难进行 AI 场景尝试的，比如优惠即便再拥抱 AI，也还是优惠，而优惠不是目的，是原有体系中，为促成交易的一种方法（举例未必合适）。不改变大的业务流程，所在问题域依然被限定在一个确定输入和输出的空间。后来才知道，这原来就是大名鼎鼎的康威定律。
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           在文章的结尾，忍不住分享一段李沐 Transformer 论文逐段精读 视频下方一条评论。
+          </span>
+         </span>
+        </p>
+        <blockquote>
+         <p style="margin-bottom: 24px;line-height: 1.75em;">
+          <span leaf="">
+           <span style="font-size: 15px;color: rgb(136, 136, 136);" textstyle="">
+            Transformer 听起来也不复杂（很多听起来高深算法甚至觉得理解起来并不复杂）。有时候甚至觉得人类怎么才走到这里？不过不就是这样：我相信那种聪明的人很多，这样的人可能解决这种难题是很快就搞定的。但是现实中，能有机会坐到那个位置，动用资源，能免于饥荒、灾祸、糊口、疾病、收入、家庭琐事，以至于还有心情，有着内心追求去做点努力，还要付出大量的金钱获得结果，可能迎接他的还是大量的失败，他必须耐心到最后，还需要幸运，最后能得到结果这样的人是少数。Transformer 的出现也是一个随机幸运。而且一定是出现在资源大量溢出的国家。徘徊在糊口附近的国家，人思维受限的国家，无法产生这样的东西。即使回过头来看起来很简单。
+           </span>
+          </span>
+         </p>
+        </blockquote>
+        <p style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           这是一个令人兴奋，又焦虑的时代。
+          </span>
+         </span>
+        </p>
+        <h2 style="margin-bottom: 24px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);font-weight: bold;" textstyle="">
+           参考资料
+          </span>
+         </span>
+        </h2>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [1]
+          </span>
+          <a class="normal_text_link" data-itemshowtype="0" data-linktype="2" href="https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247558315&amp;idx=1&amp;sn=836e95d31ae6e6927b0fa829a7bfcc3d&amp;scene=21#wechat_redirect" linktype="text" style="color: rgb(62, 62, 62);" target="_blank" textvalue="当我们谈论 AI 推理的 KV Cache，我们在说什么？">
+           <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+            当我们谈论 AI 推理的 KV Cache，我们在说什么？
+           </span>
+          </a>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [2]
+          </span>
+          <a class="normal_text_link" data-itemshowtype="0" data-linktype="2" href="https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247558457&amp;idx=1&amp;sn=088df2d9371481bb54961b09688c6796&amp;scene=21#wechat_redirect" linktype="text" style="color: rgb(62, 62, 62);" target="_blank" textvalue="深入解析 Function Calling、MCP 和 Skills 的本质差异与最佳实践 - AI Agent 系列 3">
+           <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+            深入解析 Function Calling、MCP 和 Skills 的本质差异与最佳实践 - AI Agent 系列 3
+           </span>
+          </a>
+         </span>
+        </p>
+        <p data-pm-slice="2 2 []" style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [3] 如何破解云安全基本问题 ：
+          </span>
+         </span>
+         <span leaf="">
+          <br/>
+         </span>
+        </p>
+        <p data-pm-slice="2 2 []" style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           https://news.sciencenet.cn/sbhtmlnews/2010/12/240196.html
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="" style="line-height: 1.75em;">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [4]
+          </span>
+         </span>
+         <span data-pm-slice='1 1 ["para",{"tagName":"p","attributes":{"style":"margin-bottom: 8px; line-height: 1.75em;"},"namespaceURI":"http://www.w3.org/1999/xhtml"}]' leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           揭秘 NVIDIA Blackwell Ultra：推动 AI 工厂时代的芯片动力 ：
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           https://developer.nvidia.cn/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [5]
+          </span>
+         </span>
+         <span data-pm-slice='1 1 ["para",{"tagName":"p","attributes":{"style":"margin-bottom: 8px; line-height: 1.75em;"},"namespaceURI":"http://www.w3.org/1999/xhtml"}]' leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           Effective context engineering for AI agents ：
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [6]
+          </span>
+         </span>
+         <span data-pm-slice='1 1 ["para",{"tagName":"p","attributes":{"style":"margin-bottom: 8px; line-height: 1.75em;"},"namespaceURI":"http://www.w3.org/1999/xhtml"}]' leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           LangChain Component Architecture ：
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           https://docs.langchain.com/oss/python/langchain/component-architecture#core-component-ecosystem
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           [7]
+          </span>
+         </span>
+         <span data-pm-slice='1 1 ["para",{"tagName":"p","attributes":{"style":"margin-bottom: 24px; line-height: 1.75em;"},"namespaceURI":"http://www.w3.org/1999/xhtml"}]' leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           What is LangChain：
+          </span>
+         </span>
+        </p>
+        <p style="margin-bottom: 8px;line-height: 1.75em;">
+         <span leaf="">
+          <span style="font-size: 15px;color: rgb(62, 62, 62);" textstyle="">
+           https://cloud.google.com/use-cases/langchain?hl=en
+          </span>
+         </span>
+        </p>
+        <p style="display: none;">
+         <mp-style-type data-value="3">
+         </mp-style-type>
+        </p>
+       </div>
+      </div>
+      <div class="article-tag__error-tips" id="js_tags_preview_toast" style="display: none;">
+       预览时标签不可点
+      </div>
+      <div id="content_bottom_area">
+      </div>
+      <div id="font_pannel_area">
+      </div>
+      <div class="rich_media_tool_area" id="js_temp_bottom_area">
+       <div class="rich_media_tool__wrp">
+        <div class="rich_media_tool">
+         <div class="rich_media_info weui-flex rich_media_bottom">
+          <span class="mp_dislike_btn mp_dislike_btn_skeleton" id="js_dislike_btn_skeleton">
+           <span aria-hidden="true" class="mp_dislike_btn__icon">
+           </span>
+           <span class="mp_dislike_btn__text">
+            不喜欢
+           </span>
+          </span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+    </div>
+    <div class="rich_media_area_extra">
+     <div class="rich_media_area_extra_inner">
+      <div id="page_bottom_area">
+      </div>
+     </div>
+    </div>
+    <div class="qr_code_pc_outer" id="js_pc_qr_code" style="display:none;">
+     <div class="qr_code_pc_inner">
+      <div class="qr_code_pc">
+       <p>
+        微信扫一扫
+        <br/>
+        关注该公众号
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="js_related_news_flow_area">
+  </div>
+  <div class="wx_network_msg_wrp" id="js_network_msg_wrp">
+  </div>
+  <div id="js_ad_control">
+  </div>
+  <div id="audio_panel_area">
+  </div>
+  <div id="js_profile_card_modal">
+  </div>
+  <div class="comment_primary_emotion_panel_wrp" id="js_emotion_panel_pc" style="display: none">
+   <div class="comment_primary_emotion_panel">
+    <ul class="comment_primary_emotion_list_pc" id="js_emotion_list_pc">
+    </ul>
+   </div>
+  </div>
+  <div class="weui-dialog__wrp" id="js_alert_panel" style="display:none;">
+   <div class="weui-mask">
+   </div>
+   <div class="weui-dialog">
+    <div class="weui-dialog__bd" id="js_alert_content">
+    </div>
+    <div class="weui-dialog__ft">
+     <a class="weui-dialog__btn weui-dialog__btn_default" id="js_alert_confirm" role="button" tabindex="0">
+      知道了
+     </a>
+    </div>
+   </div>
+  </div>
+  <style>
+   .weui-dialog_link{-webkit-transform:translateY(-75%);transform:translateY(-75%)}
+  </style>
+  <div class="weui-desktop-popover weui-desktop-popover_pos-up-center weui-desktop-popover_img-text weapp_code_popover" id="js_pc_weapp_code" style="display: none;">
+   <div class="weui-desktop-popover__inner">
+    <div class="weui-desktop-popover__desc">
+     微信扫一扫
+     <br/>
+     使用小程序
+     <span id="js_pc_weapp_code_des">
+     </span>
+    </div>
+   </div>
+  </div>
+  <div aria-labelledby="js_minipro_dialog_head" aria-modal="true" class="outer_dialog" id="js_minipro_dialog" role="dialog" style="display:none;" tabindex="0">
+   <div class="weui-mask">
+   </div>
+   <div class="weui-dialog weui-dialog_link">
+    <div class="weui-dialog__hd">
+     <strong class="weui-dialog__title" id="js_minipro_dialog_head" tabindex="0">
+     </strong>
+    </div>
+    <div class="weui-dialog__bd" id="js_minipro_dialog_body">
+    </div>
+    <div class="weui-dialog__ft">
+     <a class="weui-dialog__btn weui-dialog__btn_default" id="js_minipro_dialog_cancel" role="button" tabindex="0">
+      取消
+     </a>
+     <a class="weui-dialog__btn weui-dialog__btn_primary" id="js_minipro_dialog_ok" role="button" tabindex="0">
+      允许
+     </a>
+    </div>
+   </div>
+  </div>
+  <div aria-labelledby="js_link_dialog_body" aria-modal="true" class="outer_dialog" id="js_link_dialog" role="dialog" style="display:none;" tabindex="0">
+   <div class="weui-mask">
+   </div>
+   <div class="weui-dialog weui-dialog_link">
+    <div class="weui-dialog__hd">
+     <strong class="weui-dialog__title" id="js_link_dialog_head" tabindex="0">
+     </strong>
+    </div>
+    <div class="weui-dialog__bd" id="js_link_dialog_body" tabindex="0">
+    </div>
+    <div class="weui-dialog__ft">
+     <a class="weui-dialog__btn weui-dialog__btn_default" id="js_link_dialog_cancel" role="button" tabindex="0">
+      取消
+     </a>
+     <a class="weui-dialog__btn weui-dialog__btn_primary" id="js_link_dialog_ok" role="button" tabindex="0">
+      允许
+     </a>
+    </div>
+   </div>
+  </div>
+  <div aria-labelledby="js_product_dialog_body" aria-modal="true" class="outer_dialog" id="js_product_dialog" role="dialog" style="display:none;" tabindex="0">
+   <div class="weui-mask">
+   </div>
+   <div class="weui-dialog weui-dialog_link">
+    <div class="weui-dialog__hd">
+     <strong class="weui-dialog__title" id="js_product_dialog_head" tabindex="0">
+     </strong>
+    </div>
+    <div class="weui-dialog__bd" id="js_product_dialog_body" tabindex="0">
+    </div>
+    <div class="weui-dialog__ft">
+     <a class="weui-dialog__btn weui-dialog__btn_default" id="js_product_dialog_cancel" role="button" tabindex="0">
+      取消
+     </a>
+     <a class="weui-dialog__btn weui-dialog__btn_primary" id="js_product_dialog_ok" role="button" tabindex="0">
+      允许
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="analyze_btn_wrap" id="js_analyze_btn" style="display:none">
+   <button class="close-button">
+    ×
+   </button>
+   <button class="go-button wx_tap_card js_wx_tap_highlight">
+    分析
+   </button>
+  </div>
+  <div class="weui-dialog__wrp jump_wx_qrcode_dialog" id="js_jump_wx_qrcode_dialog" role="dialog" style="display:none;">
+   <div class="weui-mask js_dialog_mask">
+   </div>
+   <div class="weui-dialog">
+    <div class="weui-dialog__hd">
+     <i class="weui-icon-close-thin js_dialog_close">
+     </i>
+     <div class="qrcode-con">
+      <div class="jump_author_avatar_con">
+       <img alt="作者头像" class="jump_author_avatar" src="http://mmbiz.qpic.cn/sz_mmbiz_png/j7RlD5l5q1xjdLh9QRmxeic5Wdtf6ia3GOeIicQHa7ZibLgBpft6LHpTmOicOtc6v6msdWBGuKHwypE5icOYLvbmCzXAGmgiaIVicv7kWl1QTAzqkyQ/0?wx_fmt=png"/>
+      </div>
+     </div>
+    </div>
+    <div class="weui-dialog__bd">
+     <p class="jump_wx_qrcode_desc">
+      微信扫一扫可打开此内容，
+      <br/>
+      使用完整服务
+     </p>
+    </div>
+   </div>
+  </div>
+  <div id="unlogin_bottom_bar" style="display:none;">
+  </div>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_colon" style="display:none">
+   ：
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma0" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma1" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma2" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma3" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma4" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma5" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma6" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma7" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma8" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma9" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comma10" style="display:none">
+   ，
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_period" style="display:none">
+   。
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_space" style="display:none">
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_type_video" style="display:none">
+   视频
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_type_weapp" style="display:none">
+   小程序
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_zan_btn_txt" style="display:none">
+   赞
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_zan_btn_tips" style="display:none">
+   ，轻点两下取消赞
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_like_btn_txt" style="display:none">
+   在看
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_like_btn_tips" style="display:none">
+   ，轻点两下取消在看
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_share_btn_txt" style="display:none">
+   分享
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_comment_btn_txt" style="display:none">
+   留言
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_collect_btn_txt" style="display:none">
+   收藏
+  </span>
+  <span aria-hidden="true" class="weui-a11y_ref" id="js_a11y_op_ting_heard" style="display:none">
+   听过
+  </span>
+ </body>
+</html>
+
+</body></html>

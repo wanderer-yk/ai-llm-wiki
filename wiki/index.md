@@ -313,7 +313,44 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-下]] — [202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-下
+- [[entities/阳萌]] — 阳萌
+- [[concepts/分而治之与暴力美学]] — 分而治之与暴力美学
+- [[concepts/业务流程重定义论]] — 业务流程重定义论
+- [[concepts/llm推理三阶段]] — llm推理三阶段
+- [[queries/规模化与脚手架孰为ai进步主因]] — 规模化与脚手架孰为ai进步主因
+- [[sources/[202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-上]] — [202603240830]业务逻辑的坍塌当应用层只剩下胶水代码在AIAgent时代我们该构建什么-上
+- [[entities/韩春]] — 韩春
+- [[entities/langchain]] — langchain
+- [[concepts/agent胶水层]] — agent胶水层
+- [[concepts/llm不确定性物理不可消除]] — llm不确定性物理不可消除
+- [[concepts/状态管理反转]] — 状态管理反转
+- [[concepts/业务知识内化]] — 业务知识内化
+- [[concepts/上下文状态管理三法]] — 上下文状态管理三法
+- [[concepts/推理成本博弈论]] — 推理成本博弈论
+- [[concepts/agent开发经验主义]] — agent开发经验主义
+- [[concepts/agent系统模块六要素]] — agent系统模块六要素
+- [[concepts/llm输出格式异构性]] — llm输出格式异构性
+- [[concepts/agent编排四等式]] — agent编排四等式
+- [[concepts/langchain语义标准化]] — langchain语义标准化
+- [[concepts/即时响应到异步交付]] — 即时响应到异步交付
+- [[concepts/llm天然工程约束]] — llm天然工程约束
+- [[concepts/llm适用三类问题]] — llm适用三类问题
+- [[concepts/ai能力边界定义]] — ai能力边界定义
+- [[concepts/概率级联故障]] — 概率级联故障
+- [[concepts/瑞士奶酪模型]] — 瑞士奶酪模型
+- [[concepts/闭环负反馈控制]] — 闭环负反馈控制
+- [[concepts/observation语义空间受限]] — observation语义空间受限
+- [[concepts/必要多样性定律]] — 必要多样性定律
+- [[concepts/真实世界负反馈]] — 真实世界负反馈
+- [[concepts/确定性输入输出空间定制论]] — 确定性输入输出空间定制论
+- [[concepts/java声量缺失论]] — java声量缺失论
+- [[concepts/ai系统圣杯数据局部性]] — ai系统圣杯数据局部性
+- [[concepts/显存墙与算力墙]] — 显存墙与算力墙
+- [[concepts/Transformer历史阶段性]] — Transformer历史阶段性
 - [[sources/[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践]] — [202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践
 - [[entities/沈询]] — 沈询
 - [[entities/lynxe菱科斯原-jmanus]] — lynxe菱科斯原-jmanus
@@ -479,38 +516,3 @@ updated: 2026-06-23
 - [[concepts/记忆注入不可信标记]] — 记忆注入不可信标记
 - [[concepts/多通道记忆统一管理]] — 多通道记忆统一管理
 - [[concepts/Dreaming三阶段演进]] — Dreaming三阶段演进
-- [[concepts/Deep-Sleep六维评分与晋升门控]] — Deep-Sleep六维评分与晋升门控
-- [[concepts/light-sleep摄取与去重]] — light-sleep摄取与去重
-- [[concepts/REM睡眠主题反射与候选真理]] — REM睡眠主题反射与候选真理
-- [[concepts/记忆写入双路径]] — 记忆写入双路径
-- [[concepts/memory-flush机制]] — memory-flush机制
-- [[concepts/默认晋升方式]] — 默认晋升方式
-- [[concepts/markdown多层记忆体系]] — markdown多层记忆体系
-- [[concepts/LLM弱约束记忆决策]] — LLM弱约束记忆决策
-- [[concepts/记忆召回与反馈环]] — 记忆召回与反馈环
-- [[concepts/梦境日记叙事生成]] — 梦境日记叙事生成
-- [[concepts/双提取方式]] — 双提取方式
-- [[comparisons/个人记忆vs自进化记忆对比]] — 个人记忆vs自进化记忆对比
-- [[sources/[202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践]] — [202604200830]深度解析ClaudeCode在PromptContextHarness的设计与实践
-- [[concepts/prompt-context-harness三阶段]] — prompt-context-harness三阶段
-- [[concepts/system-prompt动态组装机制]] — system-prompt动态组装机制
-- [[concepts/system-prompt优先级链]] — system-prompt优先级链
-- [[concepts/cacheScope分级缓存]] — cacheScope分级缓存
-- [[concepts/system-reminder注入机制]] — system-reminder注入机制
-- [[concepts/claude-md四路径分层]] — claude-md四路径分层
-- [[concepts/内外双版本提示词]] — 内外双版本提示词
-- [[concepts/函数结果清理机制]] — 函数结果清理机制
-- [[concepts/microcompact工具白名单]] — microcompact工具白名单
-- [[concepts/autocompact水位线机制]] — autocompact水位线机制
-- [[concepts/九段式结构化摘要模板]] — 九段式结构化摘要模板
-- [[concepts/memdir结构化记忆系统]] — memdir结构化记忆系统
-- [[concepts/harness三层次定位]] — harness三层次定位
-- [[concepts/六大系统内置AgentTool]] — 六大系统内置AgentTool
-- [[concepts/verification-agent五大设计哲学]] — verification-agent五大设计哲学
-- [[concepts/fork-sub-agent机制]] — fork-sub-agent机制
-- [[sources/[202604220830]AI实践基于SpringAI从0到1构建AIAgent]] — [202604220830]AI实践基于SpringAI从0到1构建AIAgent
-- [[entities/觖弦]] — 觖弦
-- [[entities/spring-ai]] — spring-ai
-- [[entities/aiagentdemo]] — aiagentdemo
-- [[entities/GLM-4]] — GLM-4
-- [[concepts/harness工程三部曲演进论]] — harness工程三部曲演进论
