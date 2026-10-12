@@ -312,7 +312,21 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践]] — [202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践
+- [[entities/沈询]] — 沈询
+- [[entities/lynxe菱科斯原-jmanus]] — lynxe菱科斯原-jmanus
+- [[concepts/一切都是函数]] — 一切都是函数
+- [[concepts/function-calling桥梁论]] — function-calling桥梁论
+- [[concepts/mcp薄协议转换层]] — mcp薄协议转换层
+- [[concepts/任务流程定义困难问题]] — 任务流程定义困难问题
+- [[concepts/skills-sub-agent包装论]] — skills-sub-agent包装论
+- [[concepts/skills四阶段运行流程]] — skills四阶段运行流程
+- [[concepts/mcp与skills竞争关系论]] — mcp与skills竞争关系论
+- [[concepts/skills两大未解问题]] — skills两大未解问题
+- [[comparisons/function-calling-mcp-skills本质差异对比]] — function-calling-mcp-skills本质差异对比
+- [[queries/skills与mcp是互补还是竞争]] — skills与mcp是互补还是竞争
 - [[sources/[202603040830]让问题不过夜交易领域问诊Agent实践]] — [202603040830]让问题不过夜交易领域问诊Agent实践
 - [[entities/顺乾]] — 顺乾
 - [[entities/idealab]] — idealab
@@ -500,17 +514,3 @@ updated: 2026-06-23
 - [[entities/aiagentdemo]] — aiagentdemo
 - [[entities/GLM-4]] — GLM-4
 - [[concepts/harness工程三部曲演进论]] — harness工程三部曲演进论
-- [[concepts/LLM问答黑箱论]] — LLM问答黑箱论
-- [[concepts/function-calling大地基论]] — function-calling大地基论
-- [[concepts/上下文窗口四要素]] — 上下文窗口四要素
-- [[concepts/工具定义最终论]] — 工具定义最终论
-- [[concepts/三层上下文压缩]] — 三层上下文压缩
-- [[concepts/SubAgent记忆隔离]] — SubAgent记忆隔离
-- [[concepts/SubAgent生命周期工具化]] — SubAgent生命周期工具化
-- [[concepts/RRF排名融合算法]] — RRF排名融合算法
-- [[concepts/查询改写召回路]] — 查询改写召回路
-- [[concepts/意图识别前置门控]] — 意图识别前置门控
-- [[concepts/可插拔工具注册机制]] — 可插拔工具注册机制
-- [[concepts/两类八种文档分块策略]] — 两类八种文档分块策略
-- [[concepts/MCP运行时动态管理]] — MCP运行时动态管理
-- [[comparisons/问题排查诊断方法论对比]] — 问题排查诊断方法论对比

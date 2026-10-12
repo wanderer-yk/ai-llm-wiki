@@ -4,8 +4,8 @@ title: MCP (Model Context Protocol)
 tags: [协议, 工具接入, 标准化, agent]
 related: [responses-api, a2a, 三大武器库, agent三层商用架构]
 created: 2026-06-12
-updated: 2026-10-10
-sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层.html"]
+updated: 2026-10-12
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层.html", "[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践.html"]
 ---
 # MCP (Model Context Protocol)
 
@@ -27,3 +27,8 @@ Agent 以标准方式接入工具、资源和外部系统的协议。MCP 工具�
 
 - **翻译收敛**：MCP 工具经四映射翻译为内部统一工具对象（描述/参数/执行/结果协议），消费侧保持内部对象稳定——[[mcp翻译收敛]]；
 - **auth tool 注入**：鉴权以工具形式注入而非独立通道，与飞书三场景（得物篇）互补——服务端鉴权与客户端 auth tool 两侧。
+
+## 协议定位补充（沈询篇，2026-02）
+
+- **Linux 基金会捐赠**：MCP 已捐赠 Linux 基金会，中立治理地位确立；
+- **薄转换层定位**：MCP 本质是 JSON-RPC 薄转换层，不做智能只做标准化搬运——与 [[mcp翻译收敛]]（消费侧四映射）互证，见 [[mcp薄协议转换层]]。
