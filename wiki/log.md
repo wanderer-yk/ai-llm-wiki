@@ -836,3 +836,15 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 记录证据缺口：4 张图片不可提取（RAG 差异表/产品对比表等，Zep/Memos 细节缺失）；AutoContextMemory 6 种压缩策略完整清单需外链文章；O-MEM 论文（arXiv 2511.13593）角色待查；作者隶属未证实
 
 - 收官处理记录（人工，2026-10-13）：**零 merge 回填+交叉引用单向新形态**——log 声称「与既有页面建立交叉引用」列 12 页但 git status 零既有页变更，核实为**新页→旧页单向引用**（12 目标页全实存零悬空，措辞略夸大非虚报）；sources 腐蚀修复 20 新页全单源；15 条待审=系列二 6 条复活（第 2 次）+阿里商旅 6 条复活（resolve 后重扫再复活第 1 次实证——**已 resolve 条目随任何新源入队反复重建为常态定案**）+本篇新案 3 条：追踪页 +2 行（「80-90% 通用场景」「Mem0 事实标准」均自报无口径）、autocontextmemory/mem0/reme 三实体页加 Java 语法待查证标注（源文代码 Java 语法 vs 官方 Python 教程文档语言矛盾）、O-MEM 论文（arXiv 2511.13593）阅读建页与 Java SDK 查证悬置待外部检索放行；证据缺口登记：4 张图不可提取（RAG 差异表/产品对比表）、作者隶属未证实；全库 sources 复验零残留
+
+
+## [2026-10-13] ingest | 从 ReAct 到 Ralph Loop：AI Agent 的持续迭代范式
+
+- 新增来源页：[[sources/[202601270830]从ReAct到RalphLoopAIAgent的持续迭代范式]] — 丹坤，微信公众号「千问AI平台」（2026-01-27），10/10 chunks 收录完成，全文以参考资料收尾
+- 新增实体：[[丹坤]]、[[deepagents]]、[[kimi-cli]]、[[ralph-loop-agent]]、[[agents-md]]
+- 新增概念：[[ralph-loop]]（含场景适用边界双清单）、[[机器可验证完成条件]]、[[stop-hook拦截机制]]、[[循环控制外部化]]、[[llm自我评估不可靠]]、[[上下文腐烂]]、[[状态外置持久化]]、[[观察掩码]]（已标注证据薄弱）、[[ai编程四阶段演进]]、[[hitl到afk渐进路径]]、[[docker沙箱隔离]]、[[ralph成本控制]]、[[ralph替代循环]]、[[代码库模式大于指令]]、[[软件质量分级定义]]、[[反馈循环护栏]]、[[小步迭代]]、[[高风险优先任务排序]]
+- 关联既有页：[[agent-loop]]（结论显式确认正交关系）、[[react-agent]]、[[plan-and-execute模式]]、[[vibe-coding]]、[[task-driven对goal-driven]]、[[human-in-the-loop]]、[[任务隔离]]、[[验证门禁化]]、[[闭环负反馈控制]]、[[reflection模式]]、[[llm不确定性物理不可消除]]、[[ssot单文档策略]]、[[sdd留痕进化论]]、[[知识复利效应]]、[[text大于brain落盘原则]]、[[文件轮询架构]]、[[追加式上下文]]、[[上下文压缩策略]]、[[上下文缩减卸载隔离三分法]]、[[openclaw上下文压缩流水线]]、[[原子化变更原则]]、[[openclaw三层沙箱纵深防御]]、[[agent-control-plane]]、[[agent可观测性六维度]]、[[24h打工人]]、[[coding-agent四特征]]、[[pre-pr机制]]、[[业务diff等价物]]、[[结果产物化]]、[[openclaw工作区md文件族]]、[[ai友好研发规范]]、[[零排期渐进式重构]]、[[sonar]]、[[六步智能提示词生成法]]、[[claude-code]]、[[codex]]、[[langchain]]、[[千问AI平台]]
+- 结构化数据完整保留：ralph.sh 两个变体、prd.json、ralph-loop-agent JS API 示例与 ASCII 架构图、反馈循环/任务优先级提示词模板、any 类型案例、迭代次数表、成本三级估算、✅/❌ 场景双清单、7 条参考 URL
+- 未决问题记录：观察掩码"研究表明"出处缺失、vercel-labs/ralph-loop-agent 与 Vercel 官方关系、6 张图片不可提取、丹坤与语雀作者 byf02188425 是否同一人、aihero.dev 与本文技巧章节的内容来源关系、覆盖率 > 80% 既为推荐条件又可被游戏化的双重性
+
+- 收官处理记录（人工，2026-10-13）：sources 腐蚀修复 24 页（23 新页单源+上下文腐烂 双源 merge 回填——Ralph Loop「刷新上下文」路线 vs Deep Research 工程化手段对比节，回填质量好）；log 无待办无追踪页声明（诚实形态第 2 篇）；38 个关联既有页引用全验证实存零悬空；22 条待审=系列二复活×6（第 3 次）+阿里商旅复活×6（第 2 次）+记忆系统复活×3（第 1 次）+本篇新案 7 条（5 组去重：aihero.dev 溯源收录×2/观察掩码原始研究×2/kimi-cli loop_control 字段/ralph-loop-agent Vercel 归属/AFK 推文核实）——新案 7 条全为「待外部检索放行」类悬置，页内证据薄弱标注与 log 未决问题已在位，全 resolve 清零；悬置池累计：O-MEM 论文/Java SDK 查证/MaxKB 竞品/aihero.dev 原文/观察掩码研究/kimi-cli 字段/Vercel 归属/AFK 推文/丹坤=byf02188425 身份；全库 sources 复验零残留
