@@ -321,7 +321,31 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202601130830]AI工程vs传统工程道法术中的变与不变]] — [202601130830]AI工程vs传统工程道法术中的变与不变
+- [[entities/小枫]] — 小枫
+- [[entities/淘天集团搜索技术团队]] — 淘天集团搜索技术团队
+- [[entities/千问AI平台]] — 千问AI平台
+- [[entities/淘宝问问]] — 淘宝问问
+- [[entities/AI万能搜]] — AI万能搜
+- [[entities/xLangchain]] — xLangchain
+- [[concepts/道法术分析框架]] — 道法术分析框架
+- [[concepts/ai工程架构升级论]] — ai工程架构升级论
+- [[concepts/确定性骨架概率性肌肉]] — 确定性骨架概率性肌肉
+- [[concepts/确定性vs概率性范式转移]] — 确定性vs概率性范式转移
+- [[concepts/波动性即设计约束]] — 波动性即设计约束
+- [[concepts/模型-数据-工程闭环]] — 模型-数据-工程闭环
+- [[concepts/务实演进业务先行]] — 务实演进业务先行
+- [[concepts/高配置化可插拔插件体系]] — 高配置化可插拔插件体系
+- [[concepts/能力抽象对象迁移]] — 能力抽象对象迁移
+- [[concepts/可控的不确定性边界]] — 可控的不确定性边界
+- [[concepts/预编排sop模式]] — 预编排sop模式
+- [[concepts/多级意图路由漏斗]] — 多级意图路由漏斗
+- [[concepts/三大高价值上下文模块]] — 三大高价值上下文模块
+- [[concepts/评估体系多维度量]] — 评估体系多维度量
+- [[concepts/轨迹可视化调试范式]] — 轨迹可视化调试范式
+- [[concepts/AI工程建设五建议]] — AI工程建设五建议
 - [[comparisons/assistantagent-vs-openclaw工程架构四轴对比]] — assistantagent-vs-openclaw工程架构四轴对比
 - [[sources/[202601150830]阿里AssistantAgent开源助力开发者快速构建答疑诊断智能助手]] — [202601150830]阿里AssistantAgent开源助力开发者快速构建答疑诊断智能助手
 - [[entities/assistantagent阿里-assistant-agent]] — assistantagent阿里-assistant-agent
@@ -499,27 +523,3 @@ updated: 2026-06-23
 - [[sources/[202603260830]深入理解OpenClaw技术架构与实现原理下]] — [202603260830]深入理解OpenClaw技术架构与实现原理下
 - [[concepts/openclaw配置管理架构]] — openclaw配置管理架构
 - [[sources/[202603190830]深入理解OpenClaw技术架构与实现原理上]] — [202603190830]深入理解OpenClaw技术架构与实现原理上
-- [[concepts/gateway协议与安全机制]] — gateway协议与安全机制
-- [[concepts/openclaw-channel架构]] — openclaw-channel架构
-- [[concepts/openclaw上下文压缩流水线]] — openclaw上下文压缩流水线
-- [[concepts/openclaw上下文剪枝]] — openclaw上下文剪枝
-- [[concepts/工具结果上下文守卫]] — 工具结果上下文守卫
-- [[concepts/openclaw上下文窗口守卫]] — openclaw上下文窗口守卫
-- [[concepts/openclaw运行时上下文注入]] — openclaw运行时上下文注入
-- [[concepts/openclaw-subagent架构]] — openclaw-subagent架构
-- [[concepts/subagent通告机制]] — subagent通告机制
-- [[concepts/subagent设计哲学]] — subagent设计哲学
-- [[entities/踏天]] — 踏天
-- [[entities/clawhub]] — clawhub
-- [[concepts/local-first多端联动架构]] — local-first多端联动架构
-- [[concepts/gateway单一控制平面]] — gateway单一控制平面
-- [[concepts/openclaw推理循环四层分工]] — openclaw推理循环四层分工
-- [[concepts/openclaw定时任务系统]] — openclaw定时任务系统
-- [[concepts/openclaw工具系统六层架构]] — openclaw工具系统六层架构
-- [[concepts/七步工具策略管道]] — 七步工具策略管道
-- [[sources/[202603271800]Tair短期记忆架构实践淘宝闪购AIAgent的秒级响应记忆系统]] — [202603271800]Tair短期记忆架构实践淘宝闪购AIAgent的秒级响应记忆系统
-- [[entities/tair]] — tair
-- [[entities/淘宝闪购]] — 淘宝闪购
-- [[concepts/agent短期记忆]] — agent短期记忆
-- [[concepts/little定律并发放大]] — little定律并发放大
-- [[concepts/模型记忆与业务上下文记忆分离]] — 模型记忆与业务上下文记忆分离
