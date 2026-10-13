@@ -317,7 +317,18 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202602140830]准确率提升至90阿里商旅基于AgentScope构建多智能体差旅助手最佳实践]] — [202602140830]准确率提升至90阿里商旅基于AgentScope构建多智能体差旅助手最佳实践
+- [[entities/阿里商旅]] — 阿里商旅
+- [[entities/aligo]] — aligo
+- [[entities/涂南]] — 涂南
+- [[entities/MaxKB]] — MaxKB
+- [[concepts/多智能体自进化]] — 多智能体自进化
+- [[concepts/工程确定性与ai灵活性平衡]] — 工程确定性与ai灵活性平衡
+- [[concepts/观测评测闭环]] — 观测评测闭环
+- [[concepts/aligo企业级知识库]] — aligo企业级知识库
+- [[concepts/动态prompt生成机制]] — 动态prompt生成机制
 - [[sources/[202602250830]AIAgent系列深入了解智能体工作流核心Agentvs传统编程vsWorkflow的本质区别]] — [202602250830]AIAgent系列深入了解智能体工作流核心Agentvs传统编程vsWorkflow的本质区别
 - [[concepts/决策权三分法]] — 决策权三分法
 - [[concepts/编程与工作流同源替代论]] — 编程与工作流同源替代论
@@ -508,13 +519,3 @@ updated: 2026-06-23
 - [[concepts/skill能力声明对象]] — skill能力声明对象
 - [[concepts/plugin能力组合包]] — plugin能力组合包
 - [[concepts/复杂度安放位置论]] — 复杂度安放位置论
-- [[concepts/三主干链路]] — 三主干链路
-- [[concepts/每种复杂度只在一个地方爆炸]] — 每种复杂度只在一个地方爆炸
-- [[concepts/运行泥球反模式]] — 运行泥球反模式
-- [[concepts/五条带走结论]] — 五条带走结论
-- [[concepts/组织接入交付链路论]] — 组织接入交付链路论
-- [[concepts/复杂度承接之问]] — 复杂度承接之问
-- [[sources/[202604151800]OpenClaw长期记忆优秀管线与玄学效果]] — [202604151800]OpenClaw长期记忆优秀管线与玄学效果
-- [[entities/RDSClaw]] — RDSClaw
-- [[entities/LoCoMo10]] — LoCoMo10
-- [[entities/城决]] — 城决
