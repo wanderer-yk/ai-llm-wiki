@@ -848,3 +848,15 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 未决问题记录：观察掩码"研究表明"出处缺失、vercel-labs/ralph-loop-agent 与 Vercel 官方关系、6 张图片不可提取、丹坤与语雀作者 byf02188425 是否同一人、aihero.dev 与本文技巧章节的内容来源关系、覆盖率 > 80% 既为推荐条件又可被游戏化的双重性
 
 - 收官处理记录（人工，2026-10-13）：sources 腐蚀修复 24 页（23 新页单源+上下文腐烂 双源 merge 回填——Ralph Loop「刷新上下文」路线 vs Deep Research 工程化手段对比节，回填质量好）；log 无待办无追踪页声明（诚实形态第 2 篇）；38 个关联既有页引用全验证实存零悬空；22 条待审=系列二复活×6（第 3 次）+阿里商旅复活×6（第 2 次）+记忆系统复活×3（第 1 次）+本篇新案 7 条（5 组去重：aihero.dev 溯源收录×2/观察掩码原始研究×2/kimi-cli loop_control 字段/ralph-loop-agent Vercel 归属/AFK 推文核实）——新案 7 条全为「待外部检索放行」类悬置，页内证据薄弱标注与 log 未决问题已在位，全 resolve 清零；悬置池累计：O-MEM 论文/Java SDK 查证/MaxKB 竞品/aihero.dev 原文/观察掩码研究/kimi-cli 字段/Vercel 归属/AFK 推文/丹坤=byf02188425 身份；全库 sources 复验零残留
+
+
+## 2026-10-13 ingest | 阿里 Assistant Agent 开源：助力开发者快速构建答疑诊断智能助手
+
+- 新增来源页：[202601150830]阿里AssistantAgent开源助力开发者快速构建答疑诊断智能助手（残风、栀七，千问AI平台公众号，2026-01-15，转载自阿里语雀官方项目文档）
+- 新增实体页：AssistantAgent（阿里 Assistant Agent）、Spring AI Alibaba、GraalVM
+- 新增概念页：评估图、PromptBuilder条件化动态组装、code-as-action、CodeactTool工具体系、回复渠道路由、多数据源统一检索、经验学习与快速响应、学习模块四通道提取、触发器三类型与自我调度
+- 关键发现：Code-as-Action 为框架内核（`spring.ai.alibaba.codeact` 命名空间 + 特性列表 + 学习模块 + CodeactTool 四重互证）；七大 extension 模块全部 SPI 式扩展（`SearchProvider`/`ReplyChannelDefinition`/`CodeactTool` 三 SPI 面）；"熟悉场景跳过 LLM 推理"精化为需显式 `fastIntentConfig`（opt-in）；知识检索默认仅 Mock + 知识库开启（top-k 5 / timeout 5000ms），生产需 SearchProvider SPI；回复渠道开箱仅 `IDE_TEXT` 演示渠道
+- 证据缺口记录：GraalVM 沙箱执行细节全文文字未披露（待外部验证）；"整体工作原理"/"对比传统方案"为不可提取图片；`ReplyChannelDefinition`/`CodeactTool` 接口签名、`fastIntentConfig` 配置格式、检索聚合排序策略未披露
+- 比较候选挂起：Assistant Agent Trigger vs [[openclaw定时任务系统]]、CodeactTool vs [[openclaw工具系统六层架构]]、Reply Channel vs [[openclaw-channel架构]]、GraalVM 沙箱 vs [[docker沙箱隔离]]
+
+- 收官处理记录（人工，2026-10-13）：sources 腐蚀修复 13 页（12 新页全单源）；log 挂起 4 组比较候选（AssistantAgent vs OpenClaw 四轴）——按双轴合并对比页惯例**建一篇综合对比页消化**（comparisons/assistantagent-vs-openclaw工程架构四轴对比：触发器 vs CronService/CodeactTool 五类 vs 六层架构/回复渠道 SPI+IDE_TEXT vs ChannelPlugin 十平台/GraalVM 运行时级 vs Docker 系统级，结论=Spring 生态+SPI 扩展面 vs 连接运维纵深，证据强度不对称已标注），index 手动追加；26 条待审=前三篇旧案复活×22（反复重建常态第 3 轮）+新案 4 条（比较页立项×2 已消化/官方仓库补证×2 悬置待外部检索放行）全 resolve；spring-ai-alibaba 实体页新建（与既有 spring-ai-alibaba-studio 分立，前者框架体系后者工具，合理）；全库 sources 复验零残留

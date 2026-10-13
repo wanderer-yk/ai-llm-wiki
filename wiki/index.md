@@ -320,7 +320,22 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[comparisons/assistantagent-vs-openclaw工程架构四轴对比]] — assistantagent-vs-openclaw工程架构四轴对比
+- [[sources/[202601150830]阿里AssistantAgent开源助力开发者快速构建答疑诊断智能助手]] — [202601150830]阿里AssistantAgent开源助力开发者快速构建答疑诊断智能助手
+- [[entities/assistantagent阿里-assistant-agent]] — assistantagent阿里-assistant-agent
+- [[entities/spring-ai-alibaba]] — spring-ai-alibaba
+- [[entities/GraalVM]] — GraalVM
+- [[concepts/评估图]] — 评估图
+- [[concepts/PromptBuilder条件化动态组装]] — PromptBuilder条件化动态组装
+- [[concepts/代码即行动code-as-action]] — 代码即行动code-as-action
+- [[concepts/CodeactTool工具体系]] — CodeactTool工具体系
+- [[concepts/回复渠道路由]] — 回复渠道路由
+- [[concepts/多数据源统一检索]] — 多数据源统一检索
+- [[concepts/经验学习与快速响应]] — 经验学习与快速响应
+- [[concepts/学习模块四通道提取]] — 学习模块四通道提取
+- [[concepts/触发器三类型与自我调度]] — 触发器三类型与自我调度
 - [[sources/[202601270830]从ReAct到RalphLoopAIAgent的持续迭代范式]] — [202601270830]从ReAct到RalphLoopAIAgent的持续迭代范式
 - [[entities/丹坤]] — 丹坤
 - [[entities/deepagents]] — deepagents
@@ -508,16 +523,3 @@ updated: 2026-06-23
 - [[concepts/agent短期记忆]] — agent短期记忆
 - [[concepts/little定律并发放大]] — little定律并发放大
 - [[concepts/模型记忆与业务上下文记忆分离]] — 模型记忆与业务上下文记忆分离
-- [[concepts/会话级分布式锁]] — 会话级分布式锁
-- [[concepts/tair无感扩缩容]] — tair无感扩缩容
-- [[concepts/弹性突发带宽]] — 弹性突发带宽
-- [[sources/[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系]] — [202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系
-- [[entities/DuckDB]] — DuckDB
-- [[entities/皓跃]] — 皓跃
-- [[entities/千问AI平台]] — 千问AI平台
-- [[entities/阿里云]] — 阿里云
-- [[concepts/全链路可观测体系]] — 全链路可观测体系
-- [[concepts/可观测三目标]] — 可观测三目标
-- [[concepts/四层观测架构]] — 四层观测架构
-- [[concepts/Trace数据模型]] — Trace数据模型
-- [[concepts/异步非阻塞观测写入]] — 异步非阻塞观测写入
