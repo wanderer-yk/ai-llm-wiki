@@ -322,7 +322,14 @@ updated: 2026-06-23
 
 
 
+
 ## Recently Updated
+- [[sources/[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点]] — [202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点
+- [[entities/奕寰]] — 奕寰
+- [[concepts/agent设计模式对跖点]] — agent设计模式对跖点
+- [[concepts/hitl通用工具设计]] — hitl通用工具设计
+- [[concepts/工具树按需加载]] — 工具树按需加载
+- [[concepts/工厂模式自适应agent生成]] — 工厂模式自适应agent生成
 - [[sources/[202601130830]AI工程vs传统工程道法术中的变与不变]] — [202601130830]AI工程vs传统工程道法术中的变与不变
 - [[entities/小枫]] — 小枫
 - [[entities/淘天集团搜索技术团队]] — 淘天集团搜索技术团队
@@ -517,9 +524,3 @@ updated: 2026-06-23
 - [[concepts/三步法配置助手]] — 三步法配置助手
 - [[concepts/专家经验沉淀论]] — 专家经验沉淀论
 - [[concepts/排查助手定制三问]] — 排查助手定制三问
-- [[concepts/场景抽象三步法]] — 场景抽象三步法
-- [[concepts/配置化到自动化]] — 配置化到自动化
-- [[concepts/智能化与基建并行]] — 智能化与基建并行
-- [[sources/[202603260830]深入理解OpenClaw技术架构与实现原理下]] — [202603260830]深入理解OpenClaw技术架构与实现原理下
-- [[concepts/openclaw配置管理架构]] — openclaw配置管理架构
-- [[sources/[202603190830]深入理解OpenClaw技术架构与实现原理上]] — [202603190830]深入理解OpenClaw技术架构与实现原理上

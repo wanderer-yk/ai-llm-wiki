@@ -5,7 +5,7 @@ tags: ["ReAct", "Agent", "LLM推理", "持续思考", "agent范式", "推理", "
 related: ["agentscope", "ai狼人杀", "多智能体消息机制", "agent-loop", "react五要素", "思考内化论", "plan-and-execute模式", "reflection模式", "workflow优先于agent", "codeact架构", "lynxe菱科斯原-jmanus", "沈询", "ReAct推理模块"]
 created: 2026-06-12
 updated: 2026-10-12
-sources: ["[202601082000]什么我的狼人杀水平还不如AI.html", "[202602240830]AIAgent系列什么是ReActAgent.html"]
+sources: ["[202601082000]什么我的狼人杀水平还不如AI.html", "[202602240830]AIAgent系列什么是ReActAgent.html", "[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点.html"]
 ---
 # ReActAgent
 
@@ -88,3 +88,7 @@ ReAct 轮次推进的工程本质：**提示词跨轮次固定不变，仅历史
 ## 其他应用场景
 
 除 [[ai狼人杀]] 外，在 [[智空间]] 的助手工厂架构中，ReAct 推理模块被用于 [[意图路由]] 场景（见 [[ReAct推理模块]]、[[ReAct双引擎场景适配]]）。
+
+## HITL 引入的对跖视角（奕寰，2026-01）
+
+在 ReactAgent 中引入 [[human-in-the-loop|HITL]] 有两条路线：提示词驱动的"伪协同"（意图不明即停、工具描述内要求补参——用户参与滞后且依赖上下文记忆完整性）与**工具化真协同**（HITL 作为普通工具进入工具列表，模型规划时显式调用，Redis 轮询挂起等待人工输入，见 [[hitl通用工具设计]]）。作者进一步把 ReactAgent 的各机制与经典设计模式一一映射（HITL↔Hook/拦截/切面、流程编排↔数据结构图、MCP↔防腐层适配器、记忆↔多级缓存），见 [[agent设计模式对跖点]]。

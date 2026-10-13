@@ -5,7 +5,7 @@ tags: ["微信公众号", "阿里系", "发布平台", "技术媒体", "agent工
 related: ["侑夕", "觖弦", "aiagentdemo", "qwen", "明径", "opencli", "api优先浏览器自动化", "软件竞争可调用性", "harness四要素", "皓跃", "阿里云", "RDSClaw", "百炼", "openclaw", "沈询", "lynxe", "lynxe菱科斯原-jmanus", "顺乾", "idealab", "问诊小助手", "sources/[202602240830", "淘天集团搜索技术团队", "小枫", "淘宝问问"]
 created: 2026-10-09
 updated: 2026-10-13
-sources: ["[202601130830]AI工程vs传统工程道法术中的变与不变.html", "[202602240830]AIAgent系列什么是ReActAgent.html", "[202602250830]AIAgent系列深入了解智能体工作流核心Agentvs传统编程vsWorkflow的本质区别.html", "[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践.html", "[202603040830]让问题不过夜交易领域问诊Agent实践.html", "[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系.html", "[202604140830]浏览器自动化从GUI到OpenCLI.html", "[202604220830]AI实践基于SpringAI从0到1构建AIAgent.html", "[202604280830]你不知道的Agent原理架构与工程实践.html"]
+sources: ["[202601130830]AI工程vs传统工程道法术中的变与不变.html", "[202602240830]AIAgent系列什么是ReActAgent.html", "[202602250830]AIAgent系列深入了解智能体工作流核心Agentvs传统编程vsWorkflow的本质区别.html", "[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践.html", "[202603040830]让问题不过夜交易领域问诊Agent实践.html", "[202604011800]OpenClawObservability基于DuckDB构建OpenClaw的全链路可观测体系.html", "[202604140830]浏览器自动化从GUI到OpenCLI.html", "[202604220830]AI实践基于SpringAI从0到1构建AIAgent.html", "[202604280830]你不知道的Agent原理架构与工程实践.html", "[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点.html"]
 ---
 
 # 千问AI平台
@@ -79,3 +79,4 @@ sources: ["[202601130830]AI工程vs传统工程道法术中的变与不变.html"
 - [[沈询]]《AI Agent 系列》第 1–3 篇之外的其他篇目是否同样发布于该号，待核实。
 - QoderWork 与阿里 Qoder IDE 的关系待确认（OpenCLI 一文中作为配合工具出现，未展开）。
 - 账号 IP 属地浙江，而《Agent vs 传统编程 vs Workflow》一文页面显示 IP 属地黑龙江，两者差异的原因待核实。
+- [202601080830] 从HITL实践出发看Agent与设计模式的对跖点（奕寰，2026-01-08）。

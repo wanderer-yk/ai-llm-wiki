@@ -4,8 +4,8 @@ title: MCP (Model Context Protocol)
 tags: [协议, 工具接入, 标准化, agent]
 related: [responses-api, a2a, 三大武器库, agent三层商用架构]
 created: 2026-06-12
-updated: 2026-10-12
-sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层.html", "[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践.html"]
+updated: 2026-10-13
+sources: ["[202605071734]十年老技术开发的AIAgent探索之路.html", "[202601261830]AI编程实践从ClaudeCode实践到团队协作的优化思考得物技术.html", "[202604151800]读完ClaudeCode源码才发现SkillsMCPRules的区别远没有你想的那么大.html", "[202604150830]ClaudeCode源码拆解从启动到多Agent扩展层.html", "[202602260830]AIAgent系列深入解析FunctionCallingMCP和Skills的本质差异与最佳实践.html", "[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点.html"]
 ---
 # MCP (Model Context Protocol)
 
@@ -32,3 +32,7 @@ Agent 以标准方式接入工具、资源和外部系统的协议。MCP 工具�
 
 - **Linux 基金会捐赠**：MCP 已捐赠 Linux 基金会，中立治理地位确立；
 - **薄转换层定位**：MCP 本质是 JSON-RPC 薄转换层，不做智能只做标准化搬运——与 [[mcp翻译收敛]]（消费侧四映射）互证，见 [[mcp薄协议转换层]]。
+
+## 防腐层/适配器模式视角（奕寰，2026-01）
+
+从工程设计模式看，MCP 理念契合**防腐层与适配器模式**：OpenAI FunctionCall 先发但缺标准调用协议与客户端，调用方需 if-else 判断 RPC/HTTP 调用姿势；MCP 屏蔽调用差异（作者戏称 Anthropic 以此"偷了家"）。这一正向历史叙事与沈询 [[mcp与skills竞争关系论]]（竞争视角）、[[mcp薄协议转换层]]（协议视角）互为补充。

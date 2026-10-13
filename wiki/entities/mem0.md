@@ -5,7 +5,7 @@ tags: [memory, long-term-memory, open-source, agentscope]
 related: [reme, agentscope, 长期记忆record-retrieve双向机制, 长期记忆六大核心组件, 参数化记忆与外部记忆增强对比, 向量检索rag, rag技术瓶颈]
 created: 2026-10-13
 updated: 2026-10-13
-sources: ["[202601300830]AIAgent记忆系统从短期到长期的技术架构与实践.html"]
+sources: ["[202601300830]AIAgent记忆系统从短期到长期的技术架构与实践.html", "[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点.html"]
 ---
 # Mem0
 
@@ -48,3 +48,7 @@ ReActAgent agent = ReActAgent.builder()
 
 - 与 [[reme]]（AgentScope 官方实现、深度集成、服务化部署）构成"第三方标准件 vs 官方深度集成"的对照。
 - 属于"外部记忆增强"路线（当前主流），与参数化记忆路线的对比见 [[参数化记忆与外部记忆增强对比]]。
+
+## 多级缓存类比（奕寰篇，2026-01）
+
+[[奕寰]] 从工程设计模式视角把记忆方案类比**多级缓存**：Mem0 = 云端库 + 本地缓存归纳压缩；Mem0-MCP = 本地内存短期记忆；Spring AI 记忆 = 数据库 + 本地内存多级缓存。与 [[记忆会话边界二分]]（会话级/跨会话级）的分层互为印证。

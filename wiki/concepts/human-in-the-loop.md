@@ -4,8 +4,8 @@ title: Human in the Loop
 tags: [人机交互, UserAgent, 异步等待, SSE]
 related: [agentscope, ai狼人杀]
 created: 2026-06-12
-updated: 2026-06-12
-sources: ["[202601082000]什么我的狼人杀水平还不如AI.html"]
+updated: 2026-10-13
+sources: ["[202601082000]什么我的狼人杀水平还不如AI.html", "[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点.html"]
 ---
 # Human in the Loop
 
@@ -48,3 +48,7 @@ GameEventEmitter 采用双轨架构：`playerSink` 按 EventVisibility 过滤后
 - 可选择任意角色加入（预言家、狼人或随机角色）
 - 无需凑齐人数即可开局
 - SSE 实时展示 AI 对局过程，前端按事件类型（player_speak / phase_change / game_end）分别渲染
+
+## 奕寰的工程化实践（2026-01）
+
+Agent 基础平台从业者 [[奕寰]] 批判常见的两种"伪人机协同"（系统提示词触发追问、工具描述里要求补充参数）——用户只在 Agent 主导完毕后才有参与权，且多轮追问本质是上下文记忆，压缩处理可能造成语义失真。其通用工具化方案（详见 [[hitl通用工具设计]]）：把 HITL 做成一个普通工具（Redis 轮询挂起 7 步流程 + 超时判断），由模型在规划时显式调用，人参与点前置到任务流内部。作者并指出工程中 Hook/拦截/切面（SpringBoot AOP）等解耦手段是 HITL 的工程基础——[[spring-ai-alibaba]] 即以 Hook 提供 HITL 能力；HITL→AFK 的演进路径另见 [[hitl到afk渐进路径]]。
