@@ -883,3 +883,9 @@ sources: ["[202604231830]从可观测到可理解用UModel构建Agent原生的�
 - 待办：更新既有页 [[human-in-the-loop]]、[[react-agent]]、[[mcp]]、[[spring-ai-alibaba]]、[[mem0]]、[[dify]]、[[千问AI平台]] 以纳入本文新证据
 
 - 收官处理记录（人工，2026-10-13）：**log 七页待办全落地**——human-in-the-loop 补奕寰工程化实践节（伪人机协同批判+Redis 轮询挂起工具化+Hook/AOP 工程基础）、react-agent 补 HITL 引入对跖视角节、mcp 补防腐层/适配器视角（FunctionCall 被「偷家」叙事与沈询竞争论互补）、spring-ai-alibaba 补 Hook 提供 HITL 证据（截图佐证 API 待补证）、mem0 补多级缓存类比、dify 补定性张力并列节（本文「最可靠」可控性视角 vs 有赞生产瓶颈工程实践视角，语境不同不裁决）、千问AI平台 补发布记录——七页全挂本篇 source；责任链映射核实已在 agent设计模式对跖点页（react-agent 挂链接承接，零重复）；sources 腐蚀修复 5 新页全单源；31 条待审=五篇旧案全量复活×26+新案 5（Dify 张力 contradiction 已并列/七页合并已落地/奕寰身份与截图缺失悬置×2——奕寰与柳遵飞音近无证据不可合并）全 resolve；全库复验零残留
+
+## [2026-10-13] ingest | [202605120830]AgentSkill规范构建与设计模式.html
+
+- （app 段为空壳，以下为人工补记，2026-10-13）新增来源页 [202605120830]AgentSkill规范构建与设计模式（珂罗，2026-05-12，737KB 本公众号第二大文，ingest 52 分钟 retry=1 自愈）；新增概念 28（skill 规范族：开放标准/格式规范/目录结构/渐进式加载/模型驱动触发 + 构建方法论：开发六阶段/skill不是prompt/简洁性原则/自由度分级/膨胀风险 + 评测路线：像做机器学习一样做prompt工程/三agent评估链/评测数据管道/触发测试集/grader自我批评 + TDD 路线：像做tdd一样做skill/双claude迭代/合理化借口反驳 + 设计模式五种/四类型/vibe-engineering 等）；新增实体 3（珂罗/writing-skills/淘宝平台事业部客户运营部）；新建对比页 2（skill-creator vs writing-skills 方法论对比——ML式评测路线 vs TDD式路线，附单一来源诚实声明；五种设计模式 vs 四类型分类法）；merge 回填 2（Skill-Creator 三版演进表+设计哲学节、anthropic 相关扩展）；sources 腐蚀修复 36 页（34 新页单源+2 回填页双源）
+- 收官处理记录（人工，2026-10-13）：**空壳 log 段第 4 次复发**（仅标题无正文，零声明零待办形态）——本篇无追踪页声明无待办，人工验收替代；零新待审（34 新页产出却零立案，与空壳 log 同源推测 review 生成轮未跑，下轮入队可能补立案）+六篇旧案复活×29 全 resolve；全库 sources 复验零残留
+

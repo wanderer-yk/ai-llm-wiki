@@ -323,7 +323,45 @@ updated: 2026-06-23
 
 
 
+
+
 ## Recently Updated
+- [[sources/[202605120830]AgentSkill规范构建与设计模式]] — [202605120830]AgentSkill规范构建与设计模式
+- [[concepts/skill-creator六大局限]] — skill-creator六大局限
+- [[concepts/skill膨胀风险]] — skill膨胀风险
+- [[concepts/vibe-engineering]] — vibe-engineering
+- [[comparisons/skill-creator-与-writing-skills-方法论对比]] — skill-creator-与-writing-skills-方法论对比
+- [[comparisons/skill五种设计模式-vs-skill四类型分类法]] — skill五种设计模式-vs-skill四类型分类法
+- [[entities/珂罗]] — 珂罗
+- [[entities/淘宝平台事业部客户运营部]] — 淘宝平台事业部客户运营部
+- [[entities/anthropic]] — anthropic
+- [[entities/skill-creator]] — skill-creator
+- [[entities/writing-skills]] — writing-skills
+- [[concepts/skill生态知识体系]] — skill生态知识体系
+- [[concepts/skill不是prompt]] — skill不是prompt
+- [[concepts/skill开放标准]] — skill开放标准
+- [[concepts/skillmd格式规范]] — skillmd格式规范
+- [[concepts/skill目录结构]] — skill目录结构
+- [[concepts/skill渐进式加载机制]] — skill渐进式加载机制
+- [[concepts/模型驱动触发逻辑]] — 模型驱动触发逻辑
+- [[concepts/操作型skill触发失效]] — 操作型skill触发失效
+- [[concepts/触发测试集]] — 触发测试集
+- [[concepts/description只写触发条件]] — description只写触发条件
+- [[concepts/像做机器学习一样做prompt工程]] — 像做机器学习一样做prompt工程
+- [[concepts/像做tdd一样做skill]] — 像做tdd一样做skill
+- [[concepts/双claude迭代开发模式]] — 双claude迭代开发模式
+- [[concepts/skill五种设计模式]] — skill五种设计模式
+- [[concepts/skill四类型分类法]] — skill四类型分类法
+- [[concepts/合理化借口反驳]] — 合理化借口反驳
+- [[concepts/skill自由度分级]] — skill自由度分级
+- [[concepts/skill简洁性原则]] — skill简洁性原则
+- [[concepts/skill工作流与反馈循环模式]] — skill工作流与反馈循环模式
+- [[concepts/skill开发六阶段生命周期]] — skill开发六阶段生命周期
+- [[concepts/skill评测数据管道]] — skill评测数据管道
+- [[concepts/skill-creator三agent评估链]] — skill-creator三agent评估链
+- [[concepts/grader自我批评机制]] — grader自我批评机制
+- [[concepts/skill打包分发]] — skill打包分发
+- [[concepts/评估任务模型降配]] — 评估任务模型降配
 - [[sources/[202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点]] — [202601080830]从HITLHumanInTheLoop实践出发看Agent与设计模式的对跖点
 - [[entities/奕寰]] — 奕寰
 - [[concepts/agent设计模式对跖点]] — agent设计模式对跖点
@@ -488,39 +526,3 @@ updated: 2026-06-23
 - [[concepts/问诊agent结构化输出五要素]] — 问诊agent结构化输出五要素
 - [[concepts/小域专精原则]] — 小域专精原则
 - [[concepts/agent构建演进三阶段]] — agent构建演进三阶段
-- [[concepts/sop-doc可召回排查文档]] — sop-doc可召回排查文档
-- [[concepts/提示词爆炸]] — 提示词爆炸
-- [[concepts/手册执行者模式]] — 手册执行者模式
-- [[concepts/双层召回知识体系]] — 双层召回知识体系
-- [[concepts/q-score质量评分机制]] — q-score质量评分机制
-- [[concepts/评分agent坏样本聚焦]] — 评分agent坏样本聚焦
-- [[concepts/反馈回灌闭环]] — 反馈回灌闭环
-- [[concepts/ai-native知识组织方式]] — ai-native知识组织方式
-- [[queries/知识固化vs模型泛化]] — 知识固化vs模型泛化
-- [[sources/[202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂]] — [202603230830]拒绝重复造轮子抽象80工作场景打造可复用的AI助手工厂
-- [[entities/雨清]] — 雨清
-- [[entities/智空间]] — 智空间
-- [[entities/智空间团队]] — 智空间团队
-- [[entities/助手市场]] — 助手市场
-- [[concepts/ai助手工厂]] — ai助手工厂
-- [[concepts/四大高频场景抽象]] — 四大高频场景抽象
-- [[concepts/智空间分层解耦架构]] — 智空间分层解耦架构
-- [[concepts/复杂指令场景方案]] — 复杂指令场景方案
-- [[concepts/IntentResult模型]] — IntentResult模型
-- [[concepts/FSWW工具召回算法]] — FSWW工具召回算法
-- [[concepts/逆向推理正向执行]] — 逆向推理正向执行
-- [[concepts/四重安全校验]] — 四重安全校验
-- [[concepts/知识问答场景方案]] — 知识问答场景方案
-- [[concepts/图文嵌入模式]] — 图文嵌入模式
-- [[concepts/文生成图召回]] — 文生成图召回
-- [[concepts/动态知识筛选机制]] — 动态知识筛选机制
-- [[concepts/问题排查场景方案]] — 问题排查场景方案
-- [[concepts/意图路由]] — 意图路由
-- [[concepts/ReAct推理模块]] — ReAct推理模块
-- [[concepts/ReAct双引擎场景适配]] — ReAct双引擎场景适配
-- [[concepts/常规极简场景方案]] — 常规极简场景方案
-- [[concepts/prompt插拔架构]] — prompt插拔架构
-- [[concepts/意图识别双层prompt结构]] — 意图识别双层prompt结构
-- [[concepts/三步法配置助手]] — 三步法配置助手
-- [[concepts/专家经验沉淀论]] — 专家经验沉淀论
-- [[concepts/排查助手定制三问]] — 排查助手定制三问
